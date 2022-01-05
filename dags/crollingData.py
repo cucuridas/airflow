@@ -8,9 +8,13 @@ from selenium.webdriver.common.keys import Keys
 import json
 
 
+defluat_param = {"url": "https://www.naver.com","selector_position":"body"} 
+
 dag = DAG('crolling_TEXT_WF', description='Crolling_WF for text data',
           schedule_interval='0 12 * * *',
-          start_date=datetime(2017, 3, 20), catchup=False)
+          start_date=datetime(2017, 3, 20), catchup=False,
+          params=defluat_param
+          )
 
 
 def crollingText(**kwargs):
@@ -41,7 +45,6 @@ exec_extract = PythonOperator(
         task_id = 'CrollingText',
         python_callable = crollingText,
         provide_context=True,
-        #op_kwargs={'url': 'https://www.naver.com','selector_position':'body'},
         dag = dag
         )
 

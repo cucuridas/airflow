@@ -2,6 +2,9 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 import nltk
+from module.module_redis import dags_redis
+from module.module_extraction import Keyword_extraction
+
 
 
 defluat_param  = {"result_data" : "NLTK is a leading platform for building Python programs to work with human language data. python python programs human hu to with platform"}
@@ -32,10 +35,16 @@ def Finde_keyworkd(**kwargs):
                 except: keywords[word] = 1
 
         #Keywords에서 가장 많이 언급된 Key 값을 추출-> 함수명 keyword_extraction       
-        from module.module_extraction import Keyword_extraction
-
-        return_dic = {'keyword':Keyword_extraction(keywords),'Text_data':kwargs['params'].get('result_data')}
         
+        return_dic = {'keyword':Keyword_extraction(keywords),'Text_data':kwargs['params'].get('result_data')}
+
+        #module_redis에서 redis 클래스를 통해 저장 
+        r=dags_redis()
+
+        r.redis_set("ex_data",return_dic)
+        #value = r.redis_get("ex_data")
+       
+       
         return return_dic
 
 

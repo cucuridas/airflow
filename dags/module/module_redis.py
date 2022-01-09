@@ -1,7 +1,5 @@
 import redis
 import json
-from module.module_logging import print_logger
-
 
 class dags_redis:
         #객체 생성과 함께 Connection정보를 반환

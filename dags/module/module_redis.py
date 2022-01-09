@@ -1,5 +1,7 @@
 import redis
 import json
+from module.module_logging import print_logger
+
 
 class dags_redis:
         #객체 생성과 함께 Connection정보를 반환
@@ -15,17 +17,29 @@ class dags_redis:
         #jsonData : json Data로 변화하게 될 데이터 (Dic type으로....)
         def redis_set(self,key,jsonData):
                 jsonDataDict = json.dumps(jsonData, ensure_ascii=False).encode('utf-8')
+                self.con.set(key,jsonDataDict)
+                return 
+        
+        
+        def redis_saddd(self,key,jsonData):
+                jsonDataDict = json.dumps(jsonData, ensure_ascii=False).encode('utf-8')
                 self.con.sadd(key,jsonDataDict)
-                return print("redis 서버 메모리 저장 완료")
+                return 
         
         
         #해당 태그에 몇개의 데이터가 있는지 조회
-        def redis_C_get(self,key):
+        def redis_smember_count(self,key):
                 value = self.con.scard(name=key)
                 return value
                 
         #해당 태그의 데이터 조회
-        def redis_D_get(self,key):
-                value = self.con.smembers(key)
+        def redis_smember_list(self,key):
+                value = self.con.smembers(key).decode('utf-8')
                 return value
+
+        def redis_get(self,key):
+                value = self.con.get(key).decode('utf-8')
+                return value
+
+
         

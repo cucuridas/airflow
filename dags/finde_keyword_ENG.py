@@ -6,15 +6,18 @@ from module.module_redis import dags_redis
 from module.module_extraction import Keyword_extraction
 
 
-
+#redis의 tag를 기준으로 데이터를 가져와야함
 defluat_param  = {"result_data" : "NLTK is a leading platform for building Python programs to work with human language data. python python programs human hu to with platform"}
 
 
-dag = DAG('Finde_keyword_WF_ENG', description='Finde keyword workflow',
-          schedule_interval='0 12 * * *',
-          start_date=datetime(2017, 3, 20), catchup=False,
-          params = defluat_param
-          )
+dag = DAG(
+        dag_id='Finde_keyword_WF_ENG',
+        description='Finde keyword workflow',
+        schedule_interval='0 12 * * *',
+        start_date=datetime(2017, 3, 20), catchup=False,
+        params = defluat_param,
+        tags=["keyword"]
+        )
 
 
 
@@ -43,15 +46,15 @@ def Finde_keyworkd(**kwargs):
 
         r.redis_set("ex_data",return_dic)
         #value = r.redis_get("ex_data")
+        
        
-       
-        return return_dic
+        return 
 
 
 
 
 exec_extract = PythonOperator(
-        task_id = 'Finde_keyworkd_ENG',
+        task_id = 'Finde_keyword_ENG',
         python_callable = Finde_keyworkd,
         provide_context=True,
         dag = dag

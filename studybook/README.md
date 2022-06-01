@@ -59,9 +59,3 @@ Metadata Database: DAGS, DAG의 실행, task, 변수 및 연결과 관련된 모
 4. excuter가 정의되어진 task(operator)의 내용을 파악하여 worker에게 전달
 
 
-
-
-
-```python
-
-```

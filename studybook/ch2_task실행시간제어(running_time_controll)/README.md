@@ -137,13 +137,3 @@ with DAG(
 
 <img width="538" alt="image" src="https://user-images.githubusercontent.com/65060314/171396777-65a74595-9513-4c1e-ac31-b91de2d31575.png">
 
-
-
-```python
-
-```
-
-
-```python
-
-```

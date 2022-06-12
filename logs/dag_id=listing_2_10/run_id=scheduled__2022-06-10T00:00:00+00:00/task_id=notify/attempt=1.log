@@ -1,0 +1,28 @@
+[2022-06-12 09:56:24,893] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.notify scheduled__2022-06-10T00:00:00+00:00 [queued]>
+[2022-06-12 09:56:24,902] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.notify scheduled__2022-06-10T00:00:00+00:00 [queued]>
+[2022-06-12 09:56:24,903] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:56:24,904] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-12 09:56:24,905] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:56:24,913] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): notify> on 2022-06-10 00:00:00+00:00
+[2022-06-12 09:56:24,919] {standard_task_runner.py:52} INFO - Started process 206 to run task
+[2022-06-12 09:56:24,922] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_2_10', 'notify', 'scheduled__2022-06-10T00:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/listing_2_10.py', '--cfg-path', '/tmp/tmpr9dca0y0', '--error-file', '/tmp/tmppmvtvff0']
+[2022-06-12 09:56:24,923] {standard_task_runner.py:80} INFO - Job 41: Subtask notify
+[2022-06-12 09:56:24,962] {task_command.py:369} INFO - Running <TaskInstance: listing_2_10.notify scheduled__2022-06-10T00:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-12 09:56:25,014] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_2_10
+AIRFLOW_CTX_TASK_ID=notify
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-10T00:00:00+00:00
+[2022-06-12 09:56:25,017] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-06-12 09:56:25,019] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "There are now $(ls /tmp/images/ | wc -l) images."']
+[2022-06-12 09:56:25,028] {subprocess.py:85} INFO - Output:
+[2022-06-12 09:56:25,035] {subprocess.py:92} INFO - There are now 8 images.
+[2022-06-12 09:56:25,036] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-06-12 09:56:25,075] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=listing_2_10, task_id=notify, execution_date=20220610T000000, start_date=20220612T095624, end_date=20220612T095625
+[2022-06-12 09:56:25,137] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-12 09:56:25,170] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

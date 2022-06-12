@@ -1,0 +1,7 @@
+[2022-06-07 00:43:05,299] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/concurrency_test.py
+[2022-06-07 00:43:05,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/concurrency_test.py for tasks to queue
+[2022-06-07 00:43:05,303] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,303] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/concurrency_test.py
+[2022-06-07 00:43:05,323] {processor.py:651} INFO - DAG(s) dict_keys(['concurrency_test']) retrieved from /opt/airflow/dags/concurrency_test.py
+[2022-06-07 00:43:05,374] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,374] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-07 00:43:05,406] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,406] {dag.py:2919} INFO - Setting next_dagrun for concurrency_test to 2022-06-06T00:00:00+00:00, run_after=2022-06-07T00:00:00+00:00
+[2022-06-07 00:43:05,421] {processor.py:161} INFO - Processing /opt/airflow/dags/concurrency_test.py took 0.126 seconds

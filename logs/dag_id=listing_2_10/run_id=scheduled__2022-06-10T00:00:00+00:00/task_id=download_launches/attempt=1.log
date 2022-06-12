@@ -1,0 +1,31 @@
+[2022-06-12 09:55:30,671] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.download_launches scheduled__2022-06-10T00:00:00+00:00 [queued]>
+[2022-06-12 09:55:30,687] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.download_launches scheduled__2022-06-10T00:00:00+00:00 [queued]>
+[2022-06-12 09:55:30,699] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:55:30,703] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-12 09:55:30,708] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:55:30,736] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): download_launches> on 2022-06-10 00:00:00+00:00
+[2022-06-12 09:55:30,744] {standard_task_runner.py:52} INFO - Started process 115 to run task
+[2022-06-12 09:55:30,750] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_2_10', 'download_launches', 'scheduled__2022-06-10T00:00:00+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/listing_2_10.py', '--cfg-path', '/tmp/tmp0pb95ome', '--error-file', '/tmp/tmpkpfpo9y7']
+[2022-06-12 09:55:30,758] {standard_task_runner.py:80} INFO - Job 23: Subtask download_launches
+[2022-06-12 09:55:30,859] {task_command.py:369} INFO - Running <TaskInstance: listing_2_10.download_launches scheduled__2022-06-10T00:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-12 09:55:31,054] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_2_10
+AIRFLOW_CTX_TASK_ID=download_launches
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-10T00:00:00+00:00
+[2022-06-12 09:55:31,059] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-06-12 09:55:31,062] {subprocess.py:74} INFO - Running command: ['bash', '-c', "curl -o /tmp/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'"]
+[2022-06-12 09:55:31,103] {subprocess.py:85} INFO - Output:
+[2022-06-12 09:55:31,128] {subprocess.py:92} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2022-06-12 09:55:31,146] {subprocess.py:92} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2022-06-12 09:55:31,718] {subprocess.py:92} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+[2022-06-12 09:55:32,014] {subprocess.py:92} INFO - 100 24823  100 24823    0     0  27519      0 --:--:-- --:--:-- --:--:-- 27519
+[2022-06-12 09:55:32,033] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-06-12 09:55:32,149] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=listing_2_10, task_id=download_launches, execution_date=20220610T000000, start_date=20220612T095530, end_date=20220612T095532
+[2022-06-12 09:55:32,249] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-12 09:55:32,477] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

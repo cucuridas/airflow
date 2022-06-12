@@ -1,0 +1,7 @@
+[2022-06-07 00:43:05,458] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-07 00:43:05,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-07 00:43:05,463] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,463] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-07 00:43:05,484] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-07 00:43:05,517] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,517] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-07 00:43:05,540] {logging_mixin.py:115} INFO - [2022-06-07 00:43:05,539] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-07T00:40:00+00:00, run_after=2022-06-07T00:42:00+00:00
+[2022-06-07 00:43:05,552] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.099 seconds

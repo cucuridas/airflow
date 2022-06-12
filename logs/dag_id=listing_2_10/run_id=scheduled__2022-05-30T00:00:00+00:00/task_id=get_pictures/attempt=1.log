@@ -1,0 +1,33 @@
+[2022-06-12 09:55:31,966] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.get_pictures scheduled__2022-05-30T00:00:00+00:00 [queued]>
+[2022-06-12 09:55:32,026] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_10.get_pictures scheduled__2022-05-30T00:00:00+00:00 [queued]>
+[2022-06-12 09:55:32,038] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:55:32,042] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-12 09:55:32,054] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 09:55:32,123] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_pictures> on 2022-05-30 00:00:00+00:00
+[2022-06-12 09:55:32,132] {standard_task_runner.py:52} INFO - Started process 132 to run task
+[2022-06-12 09:55:32,147] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_2_10', 'get_pictures', 'scheduled__2022-05-30T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/listing_2_10.py', '--cfg-path', '/tmp/tmp9ujziqel', '--error-file', '/tmp/tmpka8oaf_y']
+[2022-06-12 09:55:32,154] {standard_task_runner.py:80} INFO - Job 26: Subtask get_pictures
+[2022-06-12 09:55:32,421] {task_command.py:369} INFO - Running <TaskInstance: listing_2_10.get_pictures scheduled__2022-05-30T00:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-12 09:55:32,564] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_2_10
+AIRFLOW_CTX_TASK_ID=get_pictures
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-30T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-30T00:00:00+00:00
+[2022-06-12 09:55:33,868] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/astra2520rocke_image_20220608181903.jpeg to /tmp/images/astra2520rocke_image_20220608181903.jpeg
+[2022-06-12 09:55:36,145] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/nuri_image_20211020165148.jpg to /tmp/images/nuri_image_20211020165148.jpg
+[2022-06-12 09:57:12,444] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20220520120044.png to /tmp/images/falcon2520925_image_20220520120044.png
+[2022-06-12 09:57:15,338] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg to /tmp/images/falcon_9_block__image_20210506060831.jpg
+[2022-06-12 09:57:19,865] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg to /tmp/images/falcon_9_block__image_20210506060831.jpg
+[2022-06-12 09:57:23,203] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/ariane_5_eca25_image_20200220090552.jpeg to /tmp/images/ariane_5_eca25_image_20200220090552.jpeg
+[2022-06-12 09:57:26,351] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/electron_image_20190705175640.jpeg to /tmp/images/electron_image_20190705175640.jpeg
+[2022-06-12 09:57:28,327] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/falcon2520925_image_20210922155026.jpeg to /tmp/images/falcon2520925_image_20210922155026.jpeg
+[2022-06-12 09:57:31,501] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/falcon_9_block__image_20210506060831.jpg to /tmp/images/falcon_9_block__image_20210506060831.jpg
+[2022-06-12 09:57:35,506] {logging_mixin.py:115} INFO - Downloaded https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launcher_images/atlas2520v2520541_image_20190224012314.jpeg to /tmp/images/atlas2520v2520541_image_20190224012314.jpeg
+[2022-06-12 09:57:35,513] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-12 09:57:35,536] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=listing_2_10, task_id=get_pictures, execution_date=20220530T000000, start_date=20220612T095531, end_date=20220612T095735
+[2022-06-12 09:57:35,588] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-12 09:57:35,615] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

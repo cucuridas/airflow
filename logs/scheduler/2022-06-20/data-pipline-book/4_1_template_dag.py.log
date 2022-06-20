@@ -1,0 +1,113 @@
+[2022-06-20 01:32:33,895] {processor.py:153} INFO - Started process (PID=1436) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:33,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:32:33,898] {logging_mixin.py:115} INFO - [2022-06-20 01:32:33,898] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:33,931] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_01']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:34,177] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,177] {manager.py:508} INFO - Created Permission View: can delete on DAG:listing_4_01
+[2022-06-20 01:32:34,192] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,192] {manager.py:508} INFO - Created Permission View: can read on DAG:listing_4_01
+[2022-06-20 01:32:34,202] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,202] {manager.py:508} INFO - Created Permission View: can edit on DAG:listing_4_01
+[2022-06-20 01:32:34,204] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,204] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:32:34,214] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,214] {dag.py:2390} INFO - Creating ORM DAG for listing_4_01
+[2022-06-20 01:32:34,231] {logging_mixin.py:115} INFO - [2022-06-20 01:32:34,231] {dag.py:2919} INFO - Setting next_dagrun for listing_4_01 to 2022-06-17T00:00:00+00:00, run_after=2022-06-17T01:00:00+00:00
+[2022-06-20 01:32:34,258] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.365 seconds
+[2022-06-20 01:32:42,859] {processor.py:153} INFO - Started process (PID=1455) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:42,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:32:42,863] {logging_mixin.py:115} INFO - [2022-06-20 01:32:42,863] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:42,886] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:32:43,025] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,025] {manager.py:508} INFO - Created Permission View: can delete on DAG:4_1_template_dag
+[2022-06-20 01:32:43,032] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,032] {manager.py:508} INFO - Created Permission View: can read on DAG:4_1_template_dag
+[2022-06-20 01:32:43,038] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,038] {manager.py:508} INFO - Created Permission View: can edit on DAG:4_1_template_dag
+[2022-06-20 01:32:43,039] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:32:43,047] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,047] {dag.py:2390} INFO - Creating ORM DAG for 4_1_template_dag
+[2022-06-20 01:32:43,082] {logging_mixin.py:115} INFO - [2022-06-20 01:32:43,081] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-17T00:00:00+00:00, run_after=2022-06-17T01:00:00+00:00
+[2022-06-20 01:32:43,110] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.255 seconds
+[2022-06-20 01:33:00,219] {processor.py:153} INFO - Started process (PID=1515) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:00,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:33:00,222] {logging_mixin.py:115} INFO - [2022-06-20 01:33:00,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:00,239] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:00,249] {logging_mixin.py:115} INFO - [2022-06-20 01:33:00,249] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:33:00,270] {logging_mixin.py:115} INFO - [2022-06-20 01:33:00,270] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-17T00:00:00+00:00, run_after=2022-06-17T01:00:00+00:00
+[2022-06-20 01:33:00,286] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.070 seconds
+[2022-06-20 01:33:38,097] {processor.py:153} INFO - Started process (PID=36) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:38,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:33:38,105] {logging_mixin.py:115} INFO - [2022-06-20 01:33:38,105] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:38,135] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:33:38,182] {logging_mixin.py:115} INFO - [2022-06-20 01:33:38,182] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:33:38,223] {logging_mixin.py:115} INFO - [2022-06-20 01:33:38,222] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-17T00:00:00+00:00, run_after=2022-06-17T01:00:00+00:00
+[2022-06-20 01:33:38,253] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.160 seconds
+[2022-06-20 01:34:08,796] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:08,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:34:08,800] {logging_mixin.py:115} INFO - [2022-06-20 01:34:08,799] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:08,814] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:08,837] {logging_mixin.py:115} INFO - [2022-06-20 01:34:08,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:34:08,856] {logging_mixin.py:115} INFO - [2022-06-20 01:34:08,856] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-17T00:00:00+00:00, run_after=2022-06-17T01:00:00+00:00
+[2022-06-20 01:34:08,866] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.073 seconds
+[2022-06-20 01:34:39,754] {processor.py:153} INFO - Started process (PID=253) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:39,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:34:39,761] {logging_mixin.py:115} INFO - [2022-06-20 01:34:39,760] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:39,801] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:34:39,856] {logging_mixin.py:115} INFO - [2022-06-20 01:34:39,855] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:34:39,892] {logging_mixin.py:115} INFO - [2022-06-20 01:34:39,892] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-18T22:00:00+00:00, run_after=2022-06-18T23:00:00+00:00
+[2022-06-20 01:34:39,918] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.168 seconds
+[2022-06-20 01:35:10,855] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:10,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:35:10,860] {logging_mixin.py:115} INFO - [2022-06-20 01:35:10,860] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:10,891] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:10,945] {logging_mixin.py:115} INFO - [2022-06-20 01:35:10,945] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:35:10,981] {logging_mixin.py:115} INFO - [2022-06-20 01:35:10,981] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:35:11,000] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.156 seconds
+[2022-06-20 01:35:41,471] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:41,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:35:41,475] {logging_mixin.py:115} INFO - [2022-06-20 01:35:41,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:41,498] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:35:41,535] {logging_mixin.py:115} INFO - [2022-06-20 01:35:41,535] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:35:41,559] {logging_mixin.py:115} INFO - [2022-06-20 01:35:41,558] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:35:41,578] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.111 seconds
+[2022-06-20 01:36:11,952] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:11,955] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:36:11,957] {logging_mixin.py:115} INFO - [2022-06-20 01:36:11,957] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:11,970] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:11,990] {logging_mixin.py:115} INFO - [2022-06-20 01:36:11,990] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:36:12,003] {logging_mixin.py:115} INFO - [2022-06-20 01:36:12,003] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:36:12,011] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.064 seconds
+[2022-06-20 01:36:42,813] {processor.py:153} INFO - Started process (PID=544) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:42,816] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:36:42,818] {logging_mixin.py:115} INFO - [2022-06-20 01:36:42,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:42,829] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:36:42,854] {logging_mixin.py:115} INFO - [2022-06-20 01:36:42,854] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:36:42,869] {logging_mixin.py:115} INFO - [2022-06-20 01:36:42,869] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:36:42,878] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.070 seconds
+[2022-06-20 01:37:13,533] {processor.py:153} INFO - Started process (PID=619) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:13,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:37:13,545] {logging_mixin.py:115} INFO - [2022-06-20 01:37:13,545] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:13,616] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:13,711] {logging_mixin.py:115} INFO - [2022-06-20 01:37:13,711] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:37:13,781] {logging_mixin.py:115} INFO - [2022-06-20 01:37:13,781] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:37:13,812] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.283 seconds
+[2022-06-20 01:37:44,257] {processor.py:153} INFO - Started process (PID=694) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:44,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:37:44,265] {logging_mixin.py:115} INFO - [2022-06-20 01:37:44,265] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:44,277] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:37:44,296] {logging_mixin.py:115} INFO - [2022-06-20 01:37:44,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:37:44,311] {logging_mixin.py:115} INFO - [2022-06-20 01:37:44,311] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:37:44,320] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.067 seconds
+[2022-06-20 01:38:14,489] {processor.py:153} INFO - Started process (PID=770) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:14,491] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:38:14,494] {logging_mixin.py:115} INFO - [2022-06-20 01:38:14,494] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:14,506] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:14,531] {logging_mixin.py:115} INFO - [2022-06-20 01:38:14,531] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:38:14,548] {logging_mixin.py:115} INFO - [2022-06-20 01:38:14,548] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:38:14,558] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.073 seconds
+[2022-06-20 01:38:44,872] {processor.py:153} INFO - Started process (PID=835) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:44,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:38:44,876] {logging_mixin.py:115} INFO - [2022-06-20 01:38:44,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:44,888] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:38:44,911] {logging_mixin.py:115} INFO - [2022-06-20 01:38:44,911] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:38:44,928] {logging_mixin.py:115} INFO - [2022-06-20 01:38:44,928] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:38:44,938] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.068 seconds
+[2022-06-20 01:39:15,287] {processor.py:153} INFO - Started process (PID=934) to work on /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:39:15,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/data-pipline-book/4_1_template_dag.py for tasks to queue
+[2022-06-20 01:39:15,292] {logging_mixin.py:115} INFO - [2022-06-20 01:39:15,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:39:15,306] {processor.py:651} INFO - DAG(s) dict_keys(['4_1_template_dag']) retrieved from /opt/airflow/dags/data-pipline-book/4_1_template_dag.py
+[2022-06-20 01:39:15,334] {logging_mixin.py:115} INFO - [2022-06-20 01:39:15,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:39:15,350] {logging_mixin.py:115} INFO - [2022-06-20 01:39:15,350] {dag.py:2919} INFO - Setting next_dagrun for 4_1_template_dag to 2022-06-20T01:00:00+00:00, run_after=2022-06-20T02:00:00+00:00
+[2022-06-20 01:39:15,359] {processor.py:161} INFO - Processing /opt/airflow/dags/data-pipline-book/4_1_template_dag.py took 0.090 seconds

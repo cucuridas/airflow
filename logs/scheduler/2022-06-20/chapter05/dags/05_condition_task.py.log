@@ -1,0 +1,214 @@
+[2022-06-20 01:50:24,921] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:24,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:50:24,926] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,926] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:24,951] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:25,080] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,080] {manager.py:508} INFO - Created Permission View: can read on DAG:05_condition_function
+[2022-06-20 01:50:25,087] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,087] {manager.py:508} INFO - Created Permission View: can edit on DAG:05_condition_function
+[2022-06-20 01:50:25,093] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,093] {manager.py:508} INFO - Created Permission View: can delete on DAG:05_condition_function
+[2022-06-20 01:50:25,093] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,093] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:25,099] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,099] {dag.py:2390} INFO - Creating ORM DAG for 05_condition_function
+[2022-06-20 01:50:25,106] {logging_mixin.py:115} INFO - [2022-06-20 01:50:25,106] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:25,118] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.201 seconds
+[2022-06-20 01:50:55,181] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:55,183] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:50:55,184] {logging_mixin.py:115} INFO - [2022-06-20 01:50:55,184] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:55,206] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:50:55,234] {logging_mixin.py:115} INFO - [2022-06-20 01:50:55,234] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:55,262] {logging_mixin.py:115} INFO - [2022-06-20 01:50:55,261] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:55,370] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.192 seconds
+[2022-06-20 01:51:26,222] {processor.py:153} INFO - Started process (PID=286) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:26,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:51:26,226] {logging_mixin.py:115} INFO - [2022-06-20 01:51:26,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:26,241] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:26,262] {logging_mixin.py:115} INFO - [2022-06-20 01:51:26,262] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:26,280] {logging_mixin.py:115} INFO - [2022-06-20 01:51:26,280] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:26,378] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.158 seconds
+[2022-06-20 01:51:57,395] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:57,398] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:51:57,400] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:57,411] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:51:57,434] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,434] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:57,450] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,450] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:57,553] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.161 seconds
+[2022-06-20 01:52:27,937] {processor.py:153} INFO - Started process (PID=454) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:27,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:52:27,939] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,939] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:27,954] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:27,974] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,974] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:27,991] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,991] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:28,150] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.216 seconds
+[2022-06-20 01:52:58,308] {processor.py:153} INFO - Started process (PID=543) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:58,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:52:58,310] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:58,322] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:52:58,342] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,342] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:58,357] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,357] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:58,446] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.140 seconds
+[2022-06-20 01:53:28,971] {processor.py:153} INFO - Started process (PID=632) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:28,973] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:53:28,975] {logging_mixin.py:115} INFO - [2022-06-20 01:53:28,975] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:28,989] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:29,020] {logging_mixin.py:115} INFO - [2022-06-20 01:53:29,020] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:29,067] {logging_mixin.py:115} INFO - [2022-06-20 01:53:29,067] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:29,169] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.201 seconds
+[2022-06-20 01:53:59,531] {processor.py:153} INFO - Started process (PID=721) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:59,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:53:59,535] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,535] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:59,550] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:53:59,575] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,575] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:59,593] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,592] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:59,687] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.159 seconds
+[2022-06-20 01:54:29,934] {processor.py:153} INFO - Started process (PID=809) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:54:29,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:54:29,937] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,937] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:54:29,946] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:54:29,964] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,964] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:29,978] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,978] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:30,056] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.124 seconds
+[2022-06-20 01:55:00,775] {processor.py:153} INFO - Started process (PID=897) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:00,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:55:00,782] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,782] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:00,799] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:00,822] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,822] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:00,839] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,839] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:00,928] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.155 seconds
+[2022-06-20 01:55:31,168] {processor.py:153} INFO - Started process (PID=979) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:31,170] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:55:31,171] {logging_mixin.py:115} INFO - [2022-06-20 01:55:31,171] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:31,182] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:55:31,205] {logging_mixin.py:115} INFO - [2022-06-20 01:55:31,205] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:31,299] {logging_mixin.py:115} INFO - [2022-06-20 01:55:31,299] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:31,307] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.141 seconds
+[2022-06-20 01:56:01,659] {processor.py:153} INFO - Started process (PID=1068) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:01,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:56:01,664] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,664] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:01,681] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:01,713] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,712] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:01,859] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,859] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:01,871] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.215 seconds
+[2022-06-20 01:56:32,247] {processor.py:153} INFO - Started process (PID=1158) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:32,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:56:32,249] {logging_mixin.py:115} INFO - [2022-06-20 01:56:32,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:32,261] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:56:32,282] {logging_mixin.py:115} INFO - [2022-06-20 01:56:32,282] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:32,382] {logging_mixin.py:115} INFO - [2022-06-20 01:56:32,382] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:32,395] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.150 seconds
+[2022-06-20 01:57:03,246] {processor.py:153} INFO - Started process (PID=1246) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:03,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:57:03,250] {logging_mixin.py:115} INFO - [2022-06-20 01:57:03,250] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:03,261] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:03,282] {logging_mixin.py:115} INFO - [2022-06-20 01:57:03,282] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:03,404] {logging_mixin.py:115} INFO - [2022-06-20 01:57:03,404] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:03,419] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.177 seconds
+[2022-06-20 01:57:34,103] {processor.py:153} INFO - Started process (PID=1335) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:34,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:57:34,106] {logging_mixin.py:115} INFO - [2022-06-20 01:57:34,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:34,118] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:57:34,139] {logging_mixin.py:115} INFO - [2022-06-20 01:57:34,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:34,246] {logging_mixin.py:115} INFO - [2022-06-20 01:57:34,245] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:34,254] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.155 seconds
+[2022-06-20 01:58:04,979] {processor.py:153} INFO - Started process (PID=1424) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:04,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:58:04,982] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,982] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:04,997] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:05,019] {logging_mixin.py:115} INFO - [2022-06-20 01:58:05,018] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:05,140] {logging_mixin.py:115} INFO - [2022-06-20 01:58:05,140] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:05,149] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.173 seconds
+[2022-06-20 01:58:36,001] {processor.py:153} INFO - Started process (PID=1503) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:36,004] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:58:36,005] {logging_mixin.py:115} INFO - [2022-06-20 01:58:36,005] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:36,017] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:58:36,043] {logging_mixin.py:115} INFO - [2022-06-20 01:58:36,043] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:36,144] {logging_mixin.py:115} INFO - [2022-06-20 01:58:36,144] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:36,159] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.160 seconds
+[2022-06-20 01:59:06,488] {processor.py:153} INFO - Started process (PID=1592) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:06,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:59:06,492] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:06,501] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:06,522] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,522] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:06,619] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,619] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:06,627] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.141 seconds
+[2022-06-20 01:59:37,043] {processor.py:153} INFO - Started process (PID=1681) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:37,045] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 01:59:37,046] {logging_mixin.py:115} INFO - [2022-06-20 01:59:37,046] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:37,057] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 01:59:37,075] {logging_mixin.py:115} INFO - [2022-06-20 01:59:37,075] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:37,162] {logging_mixin.py:115} INFO - [2022-06-20 01:59:37,162] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:37,171] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.130 seconds
+[2022-06-20 02:00:07,668] {processor.py:153} INFO - Started process (PID=1768) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:07,670] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:00:07,671] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,671] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:07,681] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:07,706] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,706] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:07,793] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,793] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:07,804] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.138 seconds
+[2022-06-20 02:00:38,676] {processor.py:153} INFO - Started process (PID=1858) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:38,678] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:00:38,680] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,680] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:38,690] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:00:38,710] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,709] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:38,794] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,794] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:38,802] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.128 seconds
+[2022-06-20 02:01:09,157] {processor.py:153} INFO - Started process (PID=1946) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:09,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:01:09,161] {logging_mixin.py:115} INFO - [2022-06-20 02:01:09,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:09,172] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:09,194] {logging_mixin.py:115} INFO - [2022-06-20 02:01:09,194] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:09,284] {logging_mixin.py:115} INFO - [2022-06-20 02:01:09,284] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:09,293] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.138 seconds
+[2022-06-20 02:01:39,817] {processor.py:153} INFO - Started process (PID=2024) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:39,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:01:39,821] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,821] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:39,835] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:01:39,857] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,856] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:39,943] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,943] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:39,952] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.137 seconds
+[2022-06-20 02:02:10,366] {processor.py:153} INFO - Started process (PID=2113) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:10,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:02:10,369] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:10,380] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:10,401] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,401] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:10,493] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,493] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:10,503] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.140 seconds
+[2022-06-20 02:02:41,176] {processor.py:153} INFO - Started process (PID=2202) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:41,178] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:02:41,179] {logging_mixin.py:115} INFO - [2022-06-20 02:02:41,179] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:41,189] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:02:41,208] {logging_mixin.py:115} INFO - [2022-06-20 02:02:41,208] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:41,293] {logging_mixin.py:115} INFO - [2022-06-20 02:02:41,293] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:41,300] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.126 seconds
+[2022-06-20 02:03:11,635] {processor.py:153} INFO - Started process (PID=2291) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:11,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:03:11,639] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:11,649] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:11,671] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,671] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:11,760] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,760] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:11,768] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.135 seconds
+[2022-06-20 02:03:42,212] {processor.py:153} INFO - Started process (PID=2380) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:42,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:03:42,215] {logging_mixin.py:115} INFO - [2022-06-20 02:03:42,215] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:42,226] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:03:42,245] {logging_mixin.py:115} INFO - [2022-06-20 02:03:42,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:42,329] {logging_mixin.py:115} INFO - [2022-06-20 02:03:42,329] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:42,337] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.127 seconds
+[2022-06-20 02:04:12,993] {processor.py:153} INFO - Started process (PID=2470) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:12,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:04:12,996] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,996] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:13,007] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:13,027] {logging_mixin.py:115} INFO - [2022-06-20 02:04:13,027] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:13,110] {logging_mixin.py:115} INFO - [2022-06-20 02:04:13,110] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:13,117] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.126 seconds
+[2022-06-20 02:04:43,644] {processor.py:153} INFO - Started process (PID=2549) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:43,646] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:04:43,646] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:43,657] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:04:43,678] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,678] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:43,772] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,772] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:43,781] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.145 seconds
+[2022-06-20 02:05:14,694] {processor.py:153} INFO - Started process (PID=2640) to work on /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:05:14,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/05_condition_task.py for tasks to queue
+[2022-06-20 02:05:14,700] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:05:14,732] {processor.py:651} INFO - DAG(s) dict_keys(['05_condition_function']) retrieved from /opt/airflow/dags/chapter05/dags/05_condition_task.py
+[2022-06-20 02:05:14,763] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,763] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:14,873] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,873] {dag.py:2919} INFO - Setting next_dagrun for 05_condition_function to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:14,885] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/05_condition_task.py took 0.193 seconds

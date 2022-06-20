@@ -1,0 +1,220 @@
+[2022-06-20 01:50:24,511] {processor.py:153} INFO - Started process (PID=86) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:24,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:50:24,514] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,514] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:24,534] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:24,685] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,684] {manager.py:508} INFO - Created Permission View: can read on DAG:08_trigger_rules
+[2022-06-20 01:50:24,692] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,692] {manager.py:508} INFO - Created Permission View: can edit on DAG:08_trigger_rules
+[2022-06-20 01:50:24,698] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,698] {manager.py:508} INFO - Created Permission View: can delete on DAG:08_trigger_rules
+[2022-06-20 01:50:24,700] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,700] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:24,706] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,706] {dag.py:2390} INFO - Creating ORM DAG for 08_trigger_rules
+[2022-06-20 01:50:24,713] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,713] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:24,724] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.216 seconds
+[2022-06-20 01:50:54,894] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:54,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:50:54,897] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,896] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:54,909] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:50:54,931] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:54,951] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,951] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:55,060] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.168 seconds
+[2022-06-20 01:51:25,970] {processor.py:153} INFO - Started process (PID=283) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:25,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:51:25,974] {logging_mixin.py:115} INFO - [2022-06-20 01:51:25,974] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:25,993] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:26,018] {logging_mixin.py:115} INFO - [2022-06-20 01:51:26,018] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:26,040] {logging_mixin.py:115} INFO - [2022-06-20 01:51:26,039] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:26,152] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.185 seconds
+[2022-06-20 01:51:57,210] {processor.py:153} INFO - Started process (PID=362) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:57,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:51:57,214] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:57,224] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:51:57,244] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,244] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:57,261] {logging_mixin.py:115} INFO - [2022-06-20 01:51:57,261] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:57,354] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.146 seconds
+[2022-06-20 01:52:27,512] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:27,514] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:52:27,516] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,516] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:27,532] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:27,557] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,557] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:27,578] {logging_mixin.py:115} INFO - [2022-06-20 01:52:27,578] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:27,684] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.175 seconds
+[2022-06-20 01:52:58,105] {processor.py:153} INFO - Started process (PID=540) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:58,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:52:58,109] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:58,125] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:52:58,148] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,148] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:58,165] {logging_mixin.py:115} INFO - [2022-06-20 01:52:58,165] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:58,262] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.158 seconds
+[2022-06-20 01:53:28,746] {processor.py:153} INFO - Started process (PID=629) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:28,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:53:28,754] {logging_mixin.py:115} INFO - [2022-06-20 01:53:28,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:28,770] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:28,795] {logging_mixin.py:115} INFO - [2022-06-20 01:53:28,795] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:28,811] {logging_mixin.py:115} INFO - [2022-06-20 01:53:28,811] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:28,919] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.177 seconds
+[2022-06-20 01:53:59,223] {processor.py:153} INFO - Started process (PID=718) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:59,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:53:59,233] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:59,254] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:53:59,279] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,279] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:59,307] {logging_mixin.py:115} INFO - [2022-06-20 01:53:59,307] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:59,454] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.240 seconds
+[2022-06-20 01:54:29,525] {processor.py:153} INFO - Started process (PID=806) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:54:29,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:54:29,528] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,528] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:54:29,541] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:54:29,572] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,572] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:29,589] {logging_mixin.py:115} INFO - [2022-06-20 01:54:29,589] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:29,664] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.141 seconds
+[2022-06-20 01:55:00,456] {processor.py:153} INFO - Started process (PID=886) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:00,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:55:00,459] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,459] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:00,470] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:00,489] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,488] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:00,504] {logging_mixin.py:115} INFO - [2022-06-20 01:55:00,504] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:00,577] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.123 seconds
+[2022-06-20 01:55:30,950] {processor.py:153} INFO - Started process (PID=976) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:30,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:55:30,954] {logging_mixin.py:115} INFO - [2022-06-20 01:55:30,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:30,970] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:55:30,997] {logging_mixin.py:115} INFO - [2022-06-20 01:55:30,997] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:31,113] {logging_mixin.py:115} INFO - [2022-06-20 01:55:31,113] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:31,123] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.174 seconds
+[2022-06-20 01:56:01,240] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:01,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:56:01,244] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,244] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:01,259] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:01,291] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,291] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:01,414] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,413] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:01,429] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.192 seconds
+[2022-06-20 01:56:31,921] {processor.py:153} INFO - Started process (PID=1154) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:31,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:56:31,928] {logging_mixin.py:115} INFO - [2022-06-20 01:56:31,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:31,938] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:56:31,957] {logging_mixin.py:115} INFO - [2022-06-20 01:56:31,957] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:32,050] {logging_mixin.py:115} INFO - [2022-06-20 01:56:32,050] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:32,059] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.140 seconds
+[2022-06-20 01:57:02,922] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:02,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:57:02,929] {logging_mixin.py:115} INFO - [2022-06-20 01:57:02,929] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:02,950] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:02,993] {logging_mixin.py:115} INFO - [2022-06-20 01:57:02,992] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:03,129] {logging_mixin.py:115} INFO - [2022-06-20 01:57:03,129] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:03,139] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.221 seconds
+[2022-06-20 01:57:33,778] {processor.py:153} INFO - Started process (PID=1332) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:33,781] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:57:33,784] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:33,800] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:57:33,828] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,828] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:33,925] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,925] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:33,934] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.158 seconds
+[2022-06-20 01:58:04,752] {processor.py:153} INFO - Started process (PID=1421) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:04,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:58:04,755] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,755] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:04,766] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:04,789] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,789] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:04,889] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,889] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:04,901] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.151 seconds
+[2022-06-20 01:58:35,635] {processor.py:153} INFO - Started process (PID=1500) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:35,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:58:35,640] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,640] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:35,661] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:58:35,689] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,689] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:35,792] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,792] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:35,802] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.170 seconds
+[2022-06-20 01:59:06,287] {processor.py:153} INFO - Started process (PID=1589) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:06,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:59:06,290] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,290] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:06,300] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:06,322] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,322] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:06,418] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,418] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:06,427] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.142 seconds
+[2022-06-20 01:59:36,882] {processor.py:153} INFO - Started process (PID=1678) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:36,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 01:59:36,885] {logging_mixin.py:115} INFO - [2022-06-20 01:59:36,885] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:36,897] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 01:59:36,915] {logging_mixin.py:115} INFO - [2022-06-20 01:59:36,915] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:37,003] {logging_mixin.py:115} INFO - [2022-06-20 01:59:37,003] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:37,013] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.133 seconds
+[2022-06-20 02:00:07,380] {processor.py:153} INFO - Started process (PID=1765) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:07,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:00:07,382] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,382] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:07,391] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:07,407] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,407] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:07,495] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,495] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:07,501] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.124 seconds
+[2022-06-20 02:00:38,384] {processor.py:153} INFO - Started process (PID=1855) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:38,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:00:38,387] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,387] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:38,397] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:00:38,416] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,416] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:38,501] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,501] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:38,509] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.127 seconds
+[2022-06-20 02:01:08,741] {processor.py:153} INFO - Started process (PID=1943) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:08,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:01:08,746] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,746] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:08,762] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:08,787] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,787] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:08,902] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,902] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:08,917] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.179 seconds
+[2022-06-20 02:01:39,317] {processor.py:153} INFO - Started process (PID=2021) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:39,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:01:39,321] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,321] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:39,335] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:01:39,356] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,356] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:39,450] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,450] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:39,460] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.145 seconds
+[2022-06-20 02:02:10,166] {processor.py:153} INFO - Started process (PID=2110) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:10,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:02:10,169] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:10,180] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:10,201] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,201] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:10,296] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,296] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:10,305] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.140 seconds
+[2022-06-20 02:02:40,884] {processor.py:153} INFO - Started process (PID=2199) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:40,886] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:02:40,887] {logging_mixin.py:115} INFO - [2022-06-20 02:02:40,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:40,897] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:02:40,916] {logging_mixin.py:115} INFO - [2022-06-20 02:02:40,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:41,000] {logging_mixin.py:115} INFO - [2022-06-20 02:02:41,000] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:41,008] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.126 seconds
+[2022-06-20 02:03:11,459] {processor.py:153} INFO - Started process (PID=2288) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:11,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:03:11,464] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,464] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:11,476] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:11,497] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,497] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:11,591] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,591] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:11,600] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.142 seconds
+[2022-06-20 02:03:41,932] {processor.py:153} INFO - Started process (PID=2377) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:41,934] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:03:41,935] {logging_mixin.py:115} INFO - [2022-06-20 02:03:41,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:41,944] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:03:41,963] {logging_mixin.py:115} INFO - [2022-06-20 02:03:41,963] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:42,039] {logging_mixin.py:115} INFO - [2022-06-20 02:03:42,039] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:42,045] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.116 seconds
+[2022-06-20 02:04:12,696] {processor.py:153} INFO - Started process (PID=2467) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:12,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:04:12,699] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,699] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:12,708] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:12,729] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,729] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:12,813] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,813] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:12,820] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.126 seconds
+[2022-06-20 02:04:43,448] {processor.py:153} INFO - Started process (PID=2546) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:43,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:04:43,451] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:43,463] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:04:43,484] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,484] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:43,575] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,575] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:43,583] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.136 seconds
+[2022-06-20 02:05:14,304] {processor.py:153} INFO - Started process (PID=2637) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:14,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:05:14,307] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:14,317] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:14,340] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,340] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:14,438] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,438] {dag.py:2919} INFO - Setting next_dagrun for 08_trigger_rules to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:14,449] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/08_trigger_rules.py took 0.147 seconds
+[2022-06-20 02:05:45,625] {processor.py:153} INFO - Started process (PID=2726) to work on /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:45,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/08_trigger_rules.py for tasks to queue
+[2022-06-20 02:05:45,642] {logging_mixin.py:115} INFO - [2022-06-20 02:05:45,642] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:46,047] {processor.py:651} INFO - DAG(s) dict_keys(['08_trigger_rules']) retrieved from /opt/airflow/dags/chapter05/dags/08_trigger_rules.py
+[2022-06-20 02:05:46,097] {logging_mixin.py:115} INFO - [2022-06-20 02:05:46,097] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:46,790] {logging_mixin.py:115} INFO - [2022-06-20 02:05:46,789] {process_utils.py:240} INFO - Waiting up to 5 seconds for processes to exit...

@@ -1,0 +1,64 @@
+[2022-06-20 01:34:25,060] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 01:34:25,068] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 01:34:25,070] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:34:25,071] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 01:34:25,072] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:34:25,083] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_pictures> on 2022-06-18 00:00:00+00:00
+[2022-06-20 01:34:25,088] {standard_task_runner.py:52} INFO - Started process 240 to run task
+[2022-06-20 01:34:25,092] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'download_rocket_launches', 'get_pictures', 'scheduled__2022-06-18T00:00:00+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/data-pipline-book/2_1_download_rocket_launches.py', '--cfg-path', '/tmp/tmpzppfkr96', '--error-file', '/tmp/tmpgn07eyf_']
+[2022-06-20 01:34:25,094] {standard_task_runner.py:80} INFO - Job 47: Subtask get_pictures
+[2022-06-20 01:34:25,145] {task_command.py:369} INFO - Running <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [running]> on host b8db81cc5447
+[2022-06-20 01:34:25,195] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=download_rocket_launches
+AIRFLOW_CTX_TASK_ID=get_pictures
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-18T00:00:00+00:00
+[2022-06-20 01:34:25,197] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data-pipline-book/2_1_download_rocket_launches.py", line 40, in _get_pictures
+    image_urls = [launch["image"] for launch in launches["results"]]
+KeyError: 'results'
+[2022-06-20 01:34:25,209] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=download_rocket_launches, task_id=get_pictures, execution_date=20220618T000000, start_date=20220620T013425, end_date=20220620T013425
+[2022-06-20 01:34:25,219] {standard_task_runner.py:97} ERROR - Failed to execute job 47 for task get_pictures ('results'; 240)
+[2022-06-20 01:34:25,267] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-20 01:34:25,332] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-06-20 01:51:14,366] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 01:51:14,386] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 01:51:14,391] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:51:14,395] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 01:51:14,398] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:51:14,417] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_pictures> on 2022-06-18 00:00:00+00:00
+[2022-06-20 01:51:14,429] {standard_task_runner.py:52} INFO - Started process 196 to run task
+[2022-06-20 01:51:14,432] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'download_rocket_launches', 'get_pictures', 'scheduled__2022-06-18T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/chapter02/dags/download_rocket_launches.py', '--cfg-path', '/tmp/tmpmnq9pwj2', '--error-file', '/tmp/tmpxwl7ekxv']
+[2022-06-20 01:51:14,439] {standard_task_runner.py:80} INFO - Job 26: Subtask get_pictures
+[2022-06-20 01:51:14,614] {task_command.py:369} INFO - Running <TaskInstance: download_rocket_launches.get_pictures scheduled__2022-06-18T00:00:00+00:00 [running]> on host b39ea3d1be4a
+[2022-06-20 01:51:14,713] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=download_rocket_launches
+AIRFLOW_CTX_TASK_ID=get_pictures
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:14,718] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/chapter02/dags/download_rocket_launches.py", line 32, in _get_pictures
+    image_urls = [launch["image"] for launch in launches["results"]]
+KeyError: 'results'
+[2022-06-20 01:51:14,755] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=download_rocket_launches, task_id=get_pictures, execution_date=20220618T000000, start_date=20220620T015114, end_date=20220620T015114
+[2022-06-20 01:51:14,782] {standard_task_runner.py:97} ERROR - Failed to execute job 26 for task get_pictures ('results'; 196)
+[2022-06-20 01:51:14,834] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-20 01:51:14,879] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

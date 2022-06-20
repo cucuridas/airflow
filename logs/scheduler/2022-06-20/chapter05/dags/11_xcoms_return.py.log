@@ -1,0 +1,221 @@
+[2022-06-20 01:50:24,058] {processor.py:153} INFO - Started process (PID=83) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:24,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:50:24,062] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,062] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:24,088] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:24,244] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,244] {manager.py:508} INFO - Created Permission View: can read on DAG:11_xcoms_return
+[2022-06-20 01:50:24,260] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,260] {manager.py:508} INFO - Created Permission View: can edit on DAG:11_xcoms_return
+[2022-06-20 01:50:24,274] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,274] {manager.py:508} INFO - Created Permission View: can delete on DAG:11_xcoms_return
+[2022-06-20 01:50:24,276] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,276] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:24,288] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,288] {dag.py:2390} INFO - Creating ORM DAG for 11_xcoms_return
+[2022-06-20 01:50:24,302] {logging_mixin.py:115} INFO - [2022-06-20 01:50:24,302] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:24,321] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.265 seconds
+[2022-06-20 01:50:54,647] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:54,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:50:54,650] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,650] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:54,665] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:50:54,684] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,684] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:54,700] {logging_mixin.py:115} INFO - [2022-06-20 01:50:54,700] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:54,793] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.148 seconds
+[2022-06-20 01:51:25,459] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:25,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:51:25,462] {logging_mixin.py:115} INFO - [2022-06-20 01:51:25,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:25,479] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:25,503] {logging_mixin.py:115} INFO - [2022-06-20 01:51:25,503] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:25,524] {logging_mixin.py:115} INFO - [2022-06-20 01:51:25,524] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:25,655] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.198 seconds
+[2022-06-20 01:51:55,739] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:55,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:51:55,744] {logging_mixin.py:115} INFO - [2022-06-20 01:51:55,744] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:55,758] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:51:55,779] {logging_mixin.py:115} INFO - [2022-06-20 01:51:55,779] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:55,796] {logging_mixin.py:115} INFO - [2022-06-20 01:51:55,796] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:55,888] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.153 seconds
+[2022-06-20 01:52:26,258] {processor.py:153} INFO - Started process (PID=448) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:26,260] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:52:26,262] {logging_mixin.py:115} INFO - [2022-06-20 01:52:26,262] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:26,272] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:26,288] {logging_mixin.py:115} INFO - [2022-06-20 01:52:26,288] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:26,302] {logging_mixin.py:115} INFO - [2022-06-20 01:52:26,302] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:26,404] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.148 seconds
+[2022-06-20 01:52:56,803] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:56,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:52:56,809] {logging_mixin.py:115} INFO - [2022-06-20 01:52:56,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:56,828] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:52:56,852] {logging_mixin.py:115} INFO - [2022-06-20 01:52:56,852] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:56,871] {logging_mixin.py:115} INFO - [2022-06-20 01:52:56,871] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:56,953] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.153 seconds
+[2022-06-20 01:53:27,329] {processor.py:153} INFO - Started process (PID=626) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:27,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:53:27,332] {logging_mixin.py:115} INFO - [2022-06-20 01:53:27,332] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:27,343] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:27,359] {logging_mixin.py:115} INFO - [2022-06-20 01:53:27,359] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:27,374] {logging_mixin.py:115} INFO - [2022-06-20 01:53:27,374] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:27,455] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.130 seconds
+[2022-06-20 01:53:57,808] {processor.py:153} INFO - Started process (PID=715) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:57,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:53:57,811] {logging_mixin.py:115} INFO - [2022-06-20 01:53:57,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:57,820] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:53:57,839] {logging_mixin.py:115} INFO - [2022-06-20 01:53:57,839] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:57,854] {logging_mixin.py:115} INFO - [2022-06-20 01:53:57,854] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:57,947] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.141 seconds
+[2022-06-20 01:54:28,327] {processor.py:153} INFO - Started process (PID=793) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:28,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:54:28,330] {logging_mixin.py:115} INFO - [2022-06-20 01:54:28,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:28,339] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:28,357] {logging_mixin.py:115} INFO - [2022-06-20 01:54:28,357] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:28,370] {logging_mixin.py:115} INFO - [2022-06-20 01:54:28,370] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:28,456] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.131 seconds
+[2022-06-20 01:54:59,197] {processor.py:153} INFO - Started process (PID=883) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:59,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:54:59,201] {logging_mixin.py:115} INFO - [2022-06-20 01:54:59,201] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:59,216] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:54:59,235] {logging_mixin.py:115} INFO - [2022-06-20 01:54:59,235] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:59,250] {logging_mixin.py:115} INFO - [2022-06-20 01:54:59,249] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:59,331] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.136 seconds
+[2022-06-20 01:55:30,627] {processor.py:153} INFO - Started process (PID=973) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:55:30,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:55:30,630] {logging_mixin.py:115} INFO - [2022-06-20 01:55:30,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:55:30,639] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:55:30,658] {logging_mixin.py:115} INFO - [2022-06-20 01:55:30,658] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:30,744] {logging_mixin.py:115} INFO - [2022-06-20 01:55:30,744] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:30,754] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.128 seconds
+[2022-06-20 01:56:01,033] {processor.py:153} INFO - Started process (PID=1062) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:01,035] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:56:01,037] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:01,050] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:01,073] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,073] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:01,179] {logging_mixin.py:115} INFO - [2022-06-20 01:56:01,179] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:01,190] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.159 seconds
+[2022-06-20 01:56:31,728] {processor.py:153} INFO - Started process (PID=1151) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:31,730] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:56:31,731] {logging_mixin.py:115} INFO - [2022-06-20 01:56:31,731] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:31,748] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:56:31,768] {logging_mixin.py:115} INFO - [2022-06-20 01:56:31,768] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:31,863] {logging_mixin.py:115} INFO - [2022-06-20 01:56:31,863] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:31,871] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.146 seconds
+[2022-06-20 01:57:02,546] {processor.py:153} INFO - Started process (PID=1240) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:02,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:57:02,550] {logging_mixin.py:115} INFO - [2022-06-20 01:57:02,550] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:02,560] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:02,578] {logging_mixin.py:115} INFO - [2022-06-20 01:57:02,578] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:02,670] {logging_mixin.py:115} INFO - [2022-06-20 01:57:02,670] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:02,681] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.137 seconds
+[2022-06-20 01:57:33,427] {processor.py:153} INFO - Started process (PID=1329) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:33,428] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:57:33,429] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:33,439] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:57:33,456] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,456] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:33,557] {logging_mixin.py:115} INFO - [2022-06-20 01:57:33,557] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:33,565] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.140 seconds
+[2022-06-20 01:58:04,382] {processor.py:153} INFO - Started process (PID=1408) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:04,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:58:04,384] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,384] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:04,396] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:04,414] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,414] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:04,515] {logging_mixin.py:115} INFO - [2022-06-20 01:58:04,515] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:04,528] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.148 seconds
+[2022-06-20 01:58:35,394] {processor.py:153} INFO - Started process (PID=1497) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:35,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:58:35,398] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:35,411] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:58:35,439] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,439] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:35,581] {logging_mixin.py:115} INFO - [2022-06-20 01:58:35,581] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:35,593] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.200 seconds
+[2022-06-20 01:59:05,964] {processor.py:153} INFO - Started process (PID=1586) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:05,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:59:05,967] {logging_mixin.py:115} INFO - [2022-06-20 01:59:05,967] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:05,978] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:05,996] {logging_mixin.py:115} INFO - [2022-06-20 01:59:05,996] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:06,117] {logging_mixin.py:115} INFO - [2022-06-20 01:59:06,117] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:06,125] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.164 seconds
+[2022-06-20 01:59:36,593] {processor.py:153} INFO - Started process (PID=1675) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:36,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 01:59:36,596] {logging_mixin.py:115} INFO - [2022-06-20 01:59:36,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:36,607] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 01:59:36,625] {logging_mixin.py:115} INFO - [2022-06-20 01:59:36,625] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:36,712] {logging_mixin.py:115} INFO - [2022-06-20 01:59:36,712] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:36,720] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.130 seconds
+[2022-06-20 02:00:07,065] {processor.py:153} INFO - Started process (PID=1762) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:07,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:00:07,067] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,067] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:07,077] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:07,094] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,094] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:07,182] {logging_mixin.py:115} INFO - [2022-06-20 02:00:07,182] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:07,189] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.127 seconds
+[2022-06-20 02:00:38,053] {processor.py:153} INFO - Started process (PID=1852) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:38,055] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:00:38,056] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:38,069] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:00:38,090] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,090] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:38,182] {logging_mixin.py:115} INFO - [2022-06-20 02:00:38,182] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:38,190] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.139 seconds
+[2022-06-20 02:01:08,515] {processor.py:153} INFO - Started process (PID=1940) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:08,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:01:08,521] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:08,535] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:08,562] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,562] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:08,676] {logging_mixin.py:115} INFO - [2022-06-20 02:01:08,675] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:08,686] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.172 seconds
+[2022-06-20 02:01:39,001] {processor.py:153} INFO - Started process (PID=2018) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:39,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:01:39,005] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,005] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:39,018] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:01:39,039] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:39,126] {logging_mixin.py:115} INFO - [2022-06-20 02:01:39,125] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:39,135] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.137 seconds
+[2022-06-20 02:02:09,873] {processor.py:153} INFO - Started process (PID=2107) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:09,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:02:09,876] {logging_mixin.py:115} INFO - [2022-06-20 02:02:09,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:09,886] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:09,906] {logging_mixin.py:115} INFO - [2022-06-20 02:02:09,906] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:10,005] {logging_mixin.py:115} INFO - [2022-06-20 02:02:10,005] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:10,013] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.142 seconds
+[2022-06-20 02:02:40,593] {processor.py:153} INFO - Started process (PID=2196) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:40,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:02:40,596] {logging_mixin.py:115} INFO - [2022-06-20 02:02:40,596] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:40,606] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:02:40,628] {logging_mixin.py:115} INFO - [2022-06-20 02:02:40,628] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:40,715] {logging_mixin.py:115} INFO - [2022-06-20 02:02:40,715] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:40,722] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.131 seconds
+[2022-06-20 02:03:11,135] {processor.py:153} INFO - Started process (PID=2285) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:11,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:03:11,137] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,137] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:11,150] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:11,171] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,171] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:11,258] {logging_mixin.py:115} INFO - [2022-06-20 02:03:11,258] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:11,267] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.134 seconds
+[2022-06-20 02:03:41,642] {processor.py:153} INFO - Started process (PID=2374) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:41,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:03:41,644] {logging_mixin.py:115} INFO - [2022-06-20 02:03:41,644] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:41,653] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:03:41,671] {logging_mixin.py:115} INFO - [2022-06-20 02:03:41,671] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:41,747] {logging_mixin.py:115} INFO - [2022-06-20 02:03:41,747] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:41,754] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.115 seconds
+[2022-06-20 02:04:12,516] {processor.py:153} INFO - Started process (PID=2464) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:12,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:04:12,521] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:12,534] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:12,562] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,562] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:12,654] {logging_mixin.py:115} INFO - [2022-06-20 02:04:12,654] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:12,663] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.149 seconds
+[2022-06-20 02:04:43,147] {processor.py:153} INFO - Started process (PID=2543) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:43,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:04:43,150] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:43,160] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:04:43,180] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,180] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:43,272] {logging_mixin.py:115} INFO - [2022-06-20 02:04:43,271] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:43,280] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.135 seconds
+[2022-06-20 02:05:13,923] {processor.py:153} INFO - Started process (PID=2634) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:13,925] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:05:13,926] {logging_mixin.py:115} INFO - [2022-06-20 02:05:13,926] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:13,936] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:13,956] {logging_mixin.py:115} INFO - [2022-06-20 02:05:13,956] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:14,054] {logging_mixin.py:115} INFO - [2022-06-20 02:05:14,054] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:14,066] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.146 seconds
+[2022-06-20 02:05:44,805] {processor.py:153} INFO - Started process (PID=2723) to work on /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:44,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/dags/11_xcoms_return.py for tasks to queue
+[2022-06-20 02:05:44,809] {logging_mixin.py:115} INFO - [2022-06-20 02:05:44,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:44,937] {processor.py:651} INFO - DAG(s) dict_keys(['11_xcoms_return']) retrieved from /opt/airflow/dags/chapter05/dags/11_xcoms_return.py
+[2022-06-20 02:05:44,964] {logging_mixin.py:115} INFO - [2022-06-20 02:05:44,964] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:44,983] {logging_mixin.py:115} INFO - [2022-06-20 02:05:44,983] {dag.py:2919} INFO - Setting next_dagrun for 11_xcoms_return to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:44,999] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/dags/11_xcoms_return.py took 0.196 seconds

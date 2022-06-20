@@ -1,0 +1,221 @@
+[2022-06-20 01:50:22,154] {processor.py:153} INFO - Started process (PID=73) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:22,157] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:50:22,160] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:22,195] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:22,493] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,493] {manager.py:508} INFO - Created Permission View: can read on DAG:listing_4_07
+[2022-06-20 01:50:22,511] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,511] {manager.py:508} INFO - Created Permission View: can edit on DAG:listing_4_07
+[2022-06-20 01:50:22,530] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,530] {manager.py:508} INFO - Created Permission View: can delete on DAG:listing_4_07
+[2022-06-20 01:50:22,534] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,534] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:22,545] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,545] {dag.py:2390} INFO - Creating ORM DAG for listing_4_07
+[2022-06-20 01:50:22,564] {logging_mixin.py:115} INFO - [2022-06-20 01:50:22,564] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:22,595] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.445 seconds
+[2022-06-20 01:50:52,870] {processor.py:153} INFO - Started process (PID=162) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:52,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:50:52,875] {logging_mixin.py:115} INFO - [2022-06-20 01:50:52,875] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:52,891] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:50:52,916] {logging_mixin.py:115} INFO - [2022-06-20 01:50:52,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:52,938] {logging_mixin.py:115} INFO - [2022-06-20 01:50:52,938] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:50:52,949] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.081 seconds
+[2022-06-20 01:51:23,477] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:23,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:51:23,482] {logging_mixin.py:115} INFO - [2022-06-20 01:51:23,482] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:23,501] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:23,527] {logging_mixin.py:115} INFO - [2022-06-20 01:51:23,527] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:23,545] {logging_mixin.py:115} INFO - [2022-06-20 01:51:23,544] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:23,555] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.081 seconds
+[2022-06-20 01:51:53,805] {processor.py:153} INFO - Started process (PID=349) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:53,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:51:53,808] {logging_mixin.py:115} INFO - [2022-06-20 01:51:53,808] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:53,817] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:51:53,834] {logging_mixin.py:115} INFO - [2022-06-20 01:51:53,834] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:53,849] {logging_mixin.py:115} INFO - [2022-06-20 01:51:53,849] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:51:53,858] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.055 seconds
+[2022-06-20 01:52:24,277] {processor.py:153} INFO - Started process (PID=437) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:24,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:52:24,282] {logging_mixin.py:115} INFO - [2022-06-20 01:52:24,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:24,298] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:24,326] {logging_mixin.py:115} INFO - [2022-06-20 01:52:24,326] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:24,349] {logging_mixin.py:115} INFO - [2022-06-20 01:52:24,349] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:24,359] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.085 seconds
+[2022-06-20 01:52:54,817] {processor.py:153} INFO - Started process (PID=524) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:54,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:52:54,821] {logging_mixin.py:115} INFO - [2022-06-20 01:52:54,821] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:54,832] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:52:54,856] {logging_mixin.py:115} INFO - [2022-06-20 01:52:54,856] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:54,872] {logging_mixin.py:115} INFO - [2022-06-20 01:52:54,872] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:52:54,882] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.067 seconds
+[2022-06-20 01:53:25,525] {processor.py:153} INFO - Started process (PID=616) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:25,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:53:25,528] {logging_mixin.py:115} INFO - [2022-06-20 01:53:25,528] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:25,536] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:25,553] {logging_mixin.py:115} INFO - [2022-06-20 01:53:25,553] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:25,567] {logging_mixin.py:115} INFO - [2022-06-20 01:53:25,567] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:25,573] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.050 seconds
+[2022-06-20 01:53:56,178] {processor.py:153} INFO - Started process (PID=695) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:56,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:53:56,182] {logging_mixin.py:115} INFO - [2022-06-20 01:53:56,182] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:56,194] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:53:56,216] {logging_mixin.py:115} INFO - [2022-06-20 01:53:56,216] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:56,232] {logging_mixin.py:115} INFO - [2022-06-20 01:53:56,232] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:53:56,244] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.067 seconds
+[2022-06-20 01:54:26,653] {processor.py:153} INFO - Started process (PID=783) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:26,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:54:26,655] {logging_mixin.py:115} INFO - [2022-06-20 01:54:26,655] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:26,664] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:26,682] {logging_mixin.py:115} INFO - [2022-06-20 01:54:26,681] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:26,696] {logging_mixin.py:115} INFO - [2022-06-20 01:54:26,696] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:26,704] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.053 seconds
+[2022-06-20 01:54:57,387] {processor.py:153} INFO - Started process (PID=873) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:57,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:54:57,390] {logging_mixin.py:115} INFO - [2022-06-20 01:54:57,390] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:57,398] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:54:57,414] {logging_mixin.py:115} INFO - [2022-06-20 01:54:57,414] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:57,426] {logging_mixin.py:115} INFO - [2022-06-20 01:54:57,426] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:54:57,433] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.048 seconds
+[2022-06-20 01:55:28,394] {processor.py:153} INFO - Started process (PID=963) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:28,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:55:28,397] {logging_mixin.py:115} INFO - [2022-06-20 01:55:28,397] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:28,406] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:28,424] {logging_mixin.py:115} INFO - [2022-06-20 01:55:28,423] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:28,512] {logging_mixin.py:115} INFO - [2022-06-20 01:55:28,512] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:28,521] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.129 seconds
+[2022-06-20 01:55:58,742] {processor.py:153} INFO - Started process (PID=1052) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:58,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:55:58,749] {logging_mixin.py:115} INFO - [2022-06-20 01:55:58,749] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:58,763] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:55:58,788] {logging_mixin.py:115} INFO - [2022-06-20 01:55:58,787] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:58,901] {logging_mixin.py:115} INFO - [2022-06-20 01:55:58,900] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:55:58,909] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.169 seconds
+[2022-06-20 01:56:29,662] {processor.py:153} INFO - Started process (PID=1141) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:56:29,664] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:56:29,665] {logging_mixin.py:115} INFO - [2022-06-20 01:56:29,665] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:56:29,674] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:56:29,691] {logging_mixin.py:115} INFO - [2022-06-20 01:56:29,691] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:29,788] {logging_mixin.py:115} INFO - [2022-06-20 01:56:29,787] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:56:29,795] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.135 seconds
+[2022-06-20 01:57:00,463] {processor.py:153} INFO - Started process (PID=1230) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:00,466] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:57:00,486] {logging_mixin.py:115} INFO - [2022-06-20 01:57:00,486] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:00,516] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:00,550] {logging_mixin.py:115} INFO - [2022-06-20 01:57:00,550] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:00,664] {logging_mixin.py:115} INFO - [2022-06-20 01:57:00,664] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:00,672] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.211 seconds
+[2022-06-20 01:57:31,644] {processor.py:153} INFO - Started process (PID=1309) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:31,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:57:31,646] {logging_mixin.py:115} INFO - [2022-06-20 01:57:31,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:31,654] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:57:31,671] {logging_mixin.py:115} INFO - [2022-06-20 01:57:31,671] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:31,751] {logging_mixin.py:115} INFO - [2022-06-20 01:57:31,751] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:57:31,757] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.116 seconds
+[2022-06-20 01:58:02,455] {processor.py:153} INFO - Started process (PID=1398) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:02,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:58:02,459] {logging_mixin.py:115} INFO - [2022-06-20 01:58:02,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:02,470] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:02,488] {logging_mixin.py:115} INFO - [2022-06-20 01:58:02,488] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:02,577] {logging_mixin.py:115} INFO - [2022-06-20 01:58:02,577] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:02,586] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.133 seconds
+[2022-06-20 01:58:33,275] {processor.py:153} INFO - Started process (PID=1487) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:33,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:58:33,278] {logging_mixin.py:115} INFO - [2022-06-20 01:58:33,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:33,287] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:58:33,314] {logging_mixin.py:115} INFO - [2022-06-20 01:58:33,314] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:33,429] {logging_mixin.py:115} INFO - [2022-06-20 01:58:33,429] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:58:33,437] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.164 seconds
+[2022-06-20 01:59:04,083] {processor.py:153} INFO - Started process (PID=1576) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:04,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:59:04,086] {logging_mixin.py:115} INFO - [2022-06-20 01:59:04,086] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:04,094] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:04,110] {logging_mixin.py:115} INFO - [2022-06-20 01:59:04,110] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:04,188] {logging_mixin.py:115} INFO - [2022-06-20 01:59:04,188] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:04,194] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.113 seconds
+[2022-06-20 01:59:34,566] {processor.py:153} INFO - Started process (PID=1665) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:34,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 01:59:34,569] {logging_mixin.py:115} INFO - [2022-06-20 01:59:34,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:34,578] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 01:59:34,596] {logging_mixin.py:115} INFO - [2022-06-20 01:59:34,596] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:34,679] {logging_mixin.py:115} INFO - [2022-06-20 01:59:34,679] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 01:59:34,688] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.124 seconds
+[2022-06-20 02:00:05,216] {processor.py:153} INFO - Started process (PID=1752) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:05,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:00:05,219] {logging_mixin.py:115} INFO - [2022-06-20 02:00:05,219] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:05,227] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:05,246] {logging_mixin.py:115} INFO - [2022-06-20 02:00:05,246] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:05,328] {logging_mixin.py:115} INFO - [2022-06-20 02:00:05,327] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:05,334] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.121 seconds
+[2022-06-20 02:00:36,210] {processor.py:153} INFO - Started process (PID=1842) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:36,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:00:36,213] {logging_mixin.py:115} INFO - [2022-06-20 02:00:36,213] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:36,221] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:00:36,240] {logging_mixin.py:115} INFO - [2022-06-20 02:00:36,240] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:36,341] {logging_mixin.py:115} INFO - [2022-06-20 02:00:36,341] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:00:36,351] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.144 seconds
+[2022-06-20 02:01:06,545] {processor.py:153} INFO - Started process (PID=1921) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:06,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:01:06,548] {logging_mixin.py:115} INFO - [2022-06-20 02:01:06,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:06,557] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:06,573] {logging_mixin.py:115} INFO - [2022-06-20 02:01:06,573] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:06,659] {logging_mixin.py:115} INFO - [2022-06-20 02:01:06,659] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:06,667] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.124 seconds
+[2022-06-20 02:01:37,003] {processor.py:153} INFO - Started process (PID=2008) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:37,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:01:37,006] {logging_mixin.py:115} INFO - [2022-06-20 02:01:37,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:37,014] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:01:37,031] {logging_mixin.py:115} INFO - [2022-06-20 02:01:37,031] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:37,111] {logging_mixin.py:115} INFO - [2022-06-20 02:01:37,111] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:01:37,119] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.118 seconds
+[2022-06-20 02:02:08,004] {processor.py:153} INFO - Started process (PID=2097) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:08,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:02:08,006] {logging_mixin.py:115} INFO - [2022-06-20 02:02:08,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:08,017] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:08,036] {logging_mixin.py:115} INFO - [2022-06-20 02:02:08,036] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:08,112] {logging_mixin.py:115} INFO - [2022-06-20 02:02:08,112] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:08,119] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.118 seconds
+[2022-06-20 02:02:38,723] {processor.py:153} INFO - Started process (PID=2186) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:38,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:02:38,726] {logging_mixin.py:115} INFO - [2022-06-20 02:02:38,726] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:38,734] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:02:38,751] {logging_mixin.py:115} INFO - [2022-06-20 02:02:38,751] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:38,827] {logging_mixin.py:115} INFO - [2022-06-20 02:02:38,827] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:02:38,834] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.114 seconds
+[2022-06-20 02:03:09,337] {processor.py:153} INFO - Started process (PID=2275) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:09,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:03:09,339] {logging_mixin.py:115} INFO - [2022-06-20 02:03:09,339] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:09,348] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:09,365] {logging_mixin.py:115} INFO - [2022-06-20 02:03:09,365] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:09,441] {logging_mixin.py:115} INFO - [2022-06-20 02:03:09,441] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:09,448] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.113 seconds
+[2022-06-20 02:03:39,712] {processor.py:153} INFO - Started process (PID=2364) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:39,713] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:03:39,714] {logging_mixin.py:115} INFO - [2022-06-20 02:03:39,714] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:39,723] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:03:39,741] {logging_mixin.py:115} INFO - [2022-06-20 02:03:39,740] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:39,828] {logging_mixin.py:115} INFO - [2022-06-20 02:03:39,828] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:03:39,835] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.126 seconds
+[2022-06-20 02:04:10,504] {processor.py:153} INFO - Started process (PID=2444) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:10,506] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:04:10,507] {logging_mixin.py:115} INFO - [2022-06-20 02:04:10,507] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:10,516] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:10,534] {logging_mixin.py:115} INFO - [2022-06-20 02:04:10,534] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:10,617] {logging_mixin.py:115} INFO - [2022-06-20 02:04:10,617] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:10,625] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.123 seconds
+[2022-06-20 02:04:41,211] {processor.py:153} INFO - Started process (PID=2533) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:41,212] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:04:41,214] {logging_mixin.py:115} INFO - [2022-06-20 02:04:41,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:41,223] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:04:41,240] {logging_mixin.py:115} INFO - [2022-06-20 02:04:41,240] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:41,323] {logging_mixin.py:115} INFO - [2022-06-20 02:04:41,323] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:04:41,332] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.123 seconds
+[2022-06-20 02:05:12,150] {processor.py:153} INFO - Started process (PID=2624) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:12,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:05:12,153] {logging_mixin.py:115} INFO - [2022-06-20 02:05:12,153] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:12,163] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:12,193] {logging_mixin.py:115} INFO - [2022-06-20 02:05:12,193] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:12,292] {logging_mixin.py:115} INFO - [2022-06-20 02:05:12,291] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:12,300] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.152 seconds
+[2022-06-20 02:05:42,952] {processor.py:153} INFO - Started process (PID=2713) to work on /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:42,954] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter04/dags/listing_4_7.py for tasks to queue
+[2022-06-20 02:05:42,956] {logging_mixin.py:115} INFO - [2022-06-20 02:05:42,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:42,967] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_07']) retrieved from /opt/airflow/dags/chapter04/dags/listing_4_7.py
+[2022-06-20 02:05:43,058] {logging_mixin.py:115} INFO - [2022-06-20 02:05:43,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:43,069] {logging_mixin.py:115} INFO - [2022-06-20 02:05:43,069] {dag.py:2919} INFO - Setting next_dagrun for listing_4_07 to 2022-06-17T00:00:00+00:00, run_after=2022-06-18T00:00:00+00:00
+[2022-06-20 02:05:43,075] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter04/dags/listing_4_7.py took 0.126 seconds

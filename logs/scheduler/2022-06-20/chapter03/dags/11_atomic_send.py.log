@@ -1,0 +1,221 @@
+[2022-06-20 01:50:18,196] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:18,199] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:50:18,209] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,205] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:18,726] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:18,799] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,798] {manager.py:508} INFO - Created Permission View: can read on DAG:11_atomic_send
+[2022-06-20 01:50:18,808] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,807] {manager.py:508} INFO - Created Permission View: can edit on DAG:11_atomic_send
+[2022-06-20 01:50:18,816] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,816] {manager.py:508} INFO - Created Permission View: can delete on DAG:11_atomic_send
+[2022-06-20 01:50:18,818] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,818] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:18,825] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,825] {dag.py:2390} INFO - Creating ORM DAG for 11_atomic_send
+[2022-06-20 01:50:18,839] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,838] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:50:18,854] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.673 seconds
+[2022-06-20 01:50:48,973] {processor.py:153} INFO - Started process (PID=129) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:48,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:50:48,976] {logging_mixin.py:115} INFO - [2022-06-20 01:50:48,976] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:49,215] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:50:49,234] {logging_mixin.py:115} INFO - [2022-06-20 01:50:49,234] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:49,252] {logging_mixin.py:115} INFO - [2022-06-20 01:50:49,252] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:50:49,260] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.289 seconds
+[2022-06-20 01:51:19,331] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:19,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:51:19,336] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:19,676] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:19,692] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,692] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:19,705] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,705] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:51:19,713] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.387 seconds
+[2022-06-20 01:51:49,801] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:49,803] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:51:49,804] {logging_mixin.py:115} INFO - [2022-06-20 01:51:49,804] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:50,022] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:51:50,037] {logging_mixin.py:115} INFO - [2022-06-20 01:51:50,036] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:50,048] {logging_mixin.py:115} INFO - [2022-06-20 01:51:50,048] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:51:50,055] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.256 seconds
+[2022-06-20 01:52:20,158] {processor.py:153} INFO - Started process (PID=415) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:20,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:52:20,161] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:20,435] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:20,451] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,451] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:20,464] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,464] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:52:20,472] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.317 seconds
+[2022-06-20 01:52:51,257] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:51,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:52:51,261] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,261] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:51,527] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:52:51,545] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,545] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:51,557] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,557] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:52:51,568] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.315 seconds
+[2022-06-20 01:53:21,929] {processor.py:153} INFO - Started process (PID=583) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:21,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:53:21,934] {logging_mixin.py:115} INFO - [2022-06-20 01:53:21,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:22,176] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:22,196] {logging_mixin.py:115} INFO - [2022-06-20 01:53:22,195] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:22,209] {logging_mixin.py:115} INFO - [2022-06-20 01:53:22,209] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:53:22,217] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.292 seconds
+[2022-06-20 01:53:52,477] {processor.py:153} INFO - Started process (PID=672) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:52,481] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:53:52,483] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:52,710] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:53:52,730] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,730] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:52,745] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,745] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:53:52,754] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.282 seconds
+[2022-06-20 01:54:22,985] {processor.py:153} INFO - Started process (PID=760) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:22,987] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:54:22,989] {logging_mixin.py:115} INFO - [2022-06-20 01:54:22,989] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:23,207] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:23,223] {logging_mixin.py:115} INFO - [2022-06-20 01:54:23,223] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:23,237] {logging_mixin.py:115} INFO - [2022-06-20 01:54:23,237] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:54:23,245] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.264 seconds
+[2022-06-20 01:54:53,407] {processor.py:153} INFO - Started process (PID=850) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:53,412] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:54:53,416] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,416] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:53,687] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:54:53,708] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,708] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:53,724] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,724] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:54:53,734] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.332 seconds
+[2022-06-20 01:55:23,827] {processor.py:153} INFO - Started process (PID=940) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:23,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:55:23,832] {logging_mixin.py:115} INFO - [2022-06-20 01:55:23,832] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:24,049] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:24,063] {logging_mixin.py:115} INFO - [2022-06-20 01:55:24,063] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:24,075] {logging_mixin.py:115} INFO - [2022-06-20 01:55:24,075] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:55:24,082] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.259 seconds
+[2022-06-20 01:55:54,184] {processor.py:153} INFO - Started process (PID=1019) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:54,186] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:55:54,188] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,188] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:54,404] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:55:54,417] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,417] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:54,427] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,427] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:55:54,433] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.251 seconds
+[2022-06-20 01:56:24,608] {processor.py:153} INFO - Started process (PID=1108) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:24,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:56:24,613] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:24,865] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:24,887] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,886] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:24,904] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,904] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:56:24,913] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.310 seconds
+[2022-06-20 01:56:55,163] {processor.py:153} INFO - Started process (PID=1197) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:55,167] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:56:55,171] {logging_mixin.py:115} INFO - [2022-06-20 01:56:55,171] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:55,454] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:56:55,474] {logging_mixin.py:115} INFO - [2022-06-20 01:56:55,473] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:55,489] {logging_mixin.py:115} INFO - [2022-06-20 01:56:55,488] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:56:55,500] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.342 seconds
+[2022-06-20 01:57:26,270] {processor.py:153} INFO - Started process (PID=1286) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:26,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:57:26,277] {logging_mixin.py:115} INFO - [2022-06-20 01:57:26,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:26,517] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:26,534] {logging_mixin.py:115} INFO - [2022-06-20 01:57:26,534] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:26,546] {logging_mixin.py:115} INFO - [2022-06-20 01:57:26,546] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:57:26,555] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.289 seconds
+[2022-06-20 01:57:57,083] {processor.py:153} INFO - Started process (PID=1375) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:57,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:57:57,089] {logging_mixin.py:115} INFO - [2022-06-20 01:57:57,089] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:57,351] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:57:57,369] {logging_mixin.py:115} INFO - [2022-06-20 01:57:57,369] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:57,383] {logging_mixin.py:115} INFO - [2022-06-20 01:57:57,383] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:57:57,391] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.315 seconds
+[2022-06-20 01:58:27,848] {processor.py:153} INFO - Started process (PID=1464) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:27,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:58:27,853] {logging_mixin.py:115} INFO - [2022-06-20 01:58:27,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:28,092] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:28,113] {logging_mixin.py:115} INFO - [2022-06-20 01:58:28,113] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:28,129] {logging_mixin.py:115} INFO - [2022-06-20 01:58:28,129] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:58:28,140] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.295 seconds
+[2022-06-20 01:58:58,888] {processor.py:153} INFO - Started process (PID=1553) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:58,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:58:58,892] {logging_mixin.py:115} INFO - [2022-06-20 01:58:58,892] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:59,108] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:58:59,128] {logging_mixin.py:115} INFO - [2022-06-20 01:58:59,127] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:59,141] {logging_mixin.py:115} INFO - [2022-06-20 01:58:59,141] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:58:59,150] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.265 seconds
+[2022-06-20 01:59:29,318] {processor.py:153} INFO - Started process (PID=1632) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:59:29,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:59:29,320] {logging_mixin.py:115} INFO - [2022-06-20 01:59:29,320] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:59:29,589] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:59:29,614] {logging_mixin.py:115} INFO - [2022-06-20 01:59:29,613] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:29,627] {logging_mixin.py:115} INFO - [2022-06-20 01:59:29,627] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 01:59:29,636] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.321 seconds
+[2022-06-20 01:59:59,933] {processor.py:153} INFO - Started process (PID=1719) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 01:59:59,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 01:59:59,936] {logging_mixin.py:115} INFO - [2022-06-20 01:59:59,936] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:00:00,145] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:00:00,161] {logging_mixin.py:115} INFO - [2022-06-20 02:00:00,161] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:00,174] {logging_mixin.py:115} INFO - [2022-06-20 02:00:00,174] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:00:00,181] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.250 seconds
+[2022-06-20 02:00:31,020] {processor.py:153} INFO - Started process (PID=1809) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:00:31,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:00:31,025] {logging_mixin.py:115} INFO - [2022-06-20 02:00:31,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:00:31,223] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:00:31,238] {logging_mixin.py:115} INFO - [2022-06-20 02:00:31,238] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:31,250] {logging_mixin.py:115} INFO - [2022-06-20 02:00:31,250] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:00:31,258] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.242 seconds
+[2022-06-20 02:01:01,430] {processor.py:153} INFO - Started process (PID=1898) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:01,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:01:01,435] {logging_mixin.py:115} INFO - [2022-06-20 02:01:01,435] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:01,631] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:01,645] {logging_mixin.py:115} INFO - [2022-06-20 02:01:01,645] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:01,656] {logging_mixin.py:115} INFO - [2022-06-20 02:01:01,656] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:01:01,663] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.238 seconds
+[2022-06-20 02:01:31,839] {processor.py:153} INFO - Started process (PID=1985) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:31,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:01:31,844] {logging_mixin.py:115} INFO - [2022-06-20 02:01:31,844] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:32,051] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:01:32,066] {logging_mixin.py:115} INFO - [2022-06-20 02:01:32,066] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:32,078] {logging_mixin.py:115} INFO - [2022-06-20 02:01:32,077] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:01:32,084] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.250 seconds
+[2022-06-20 02:02:02,673] {processor.py:153} INFO - Started process (PID=2074) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:02,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:02:02,677] {logging_mixin.py:115} INFO - [2022-06-20 02:02:02,677] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:02,936] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:02,956] {logging_mixin.py:115} INFO - [2022-06-20 02:02:02,956] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:02,973] {logging_mixin.py:115} INFO - [2022-06-20 02:02:02,972] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:02:02,988] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.317 seconds
+[2022-06-20 02:02:33,152] {processor.py:153} INFO - Started process (PID=2153) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:33,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:02:33,158] {logging_mixin.py:115} INFO - [2022-06-20 02:02:33,158] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:33,376] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:02:33,394] {logging_mixin.py:115} INFO - [2022-06-20 02:02:33,393] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:33,407] {logging_mixin.py:115} INFO - [2022-06-20 02:02:33,407] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:02:33,415] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.266 seconds
+[2022-06-20 02:03:03,937] {processor.py:153} INFO - Started process (PID=2242) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:03,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:03:03,941] {logging_mixin.py:115} INFO - [2022-06-20 02:03:03,941] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:04,140] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:04,156] {logging_mixin.py:115} INFO - [2022-06-20 02:03:04,155] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:04,168] {logging_mixin.py:115} INFO - [2022-06-20 02:03:04,168] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:03:04,175] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.245 seconds
+[2022-06-20 02:03:34,472] {processor.py:153} INFO - Started process (PID=2331) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:34,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:03:34,484] {logging_mixin.py:115} INFO - [2022-06-20 02:03:34,483] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:34,734] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:03:34,753] {logging_mixin.py:115} INFO - [2022-06-20 02:03:34,752] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:34,767] {logging_mixin.py:115} INFO - [2022-06-20 02:03:34,767] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:03:34,779] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.314 seconds
+[2022-06-20 02:04:05,136] {processor.py:153} INFO - Started process (PID=2421) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:05,137] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:04:05,139] {logging_mixin.py:115} INFO - [2022-06-20 02:04:05,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:05,353] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:05,369] {logging_mixin.py:115} INFO - [2022-06-20 02:04:05,369] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:05,383] {logging_mixin.py:115} INFO - [2022-06-20 02:04:05,383] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:04:05,390] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.257 seconds
+[2022-06-20 02:04:36,017] {processor.py:153} INFO - Started process (PID=2510) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:36,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:04:36,020] {logging_mixin.py:115} INFO - [2022-06-20 02:04:36,020] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:36,338] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:04:36,361] {logging_mixin.py:115} INFO - [2022-06-20 02:04:36,361] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:36,376] {logging_mixin.py:115} INFO - [2022-06-20 02:04:36,376] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:04:36,383] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.369 seconds
+[2022-06-20 02:05:06,565] {processor.py:153} INFO - Started process (PID=2601) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:06,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:05:06,569] {logging_mixin.py:115} INFO - [2022-06-20 02:05:06,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:06,768] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:06,783] {logging_mixin.py:115} INFO - [2022-06-20 02:05:06,783] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:06,795] {logging_mixin.py:115} INFO - [2022-06-20 02:05:06,795] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:05:06,801] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.239 seconds
+[2022-06-20 02:05:37,411] {processor.py:153} INFO - Started process (PID=2680) to work on /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:37,414] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/11_atomic_send.py for tasks to queue
+[2022-06-20 02:05:37,415] {logging_mixin.py:115} INFO - [2022-06-20 02:05:37,415] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:37,643] {processor.py:651} INFO - DAG(s) dict_keys(['11_atomic_send']) retrieved from /opt/airflow/dags/chapter03/dags/11_atomic_send.py
+[2022-06-20 02:05:37,659] {logging_mixin.py:115} INFO - [2022-06-20 02:05:37,658] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:37,671] {logging_mixin.py:115} INFO - [2022-06-20 02:05:37,671] {dag.py:2919} INFO - Setting next_dagrun for 11_atomic_send to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-20 02:05:37,679] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/11_atomic_send.py took 0.272 seconds

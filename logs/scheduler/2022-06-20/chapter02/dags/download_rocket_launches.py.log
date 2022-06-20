@@ -1,0 +1,221 @@
+[2022-06-20 01:50:17,487] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:17,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:50:17,495] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:17,532] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:17,929] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,929] {manager.py:508} INFO - Created Permission View: can read on DAG:download_rocket_launches
+[2022-06-20 01:50:17,952] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,952] {manager.py:508} INFO - Created Permission View: can edit on DAG:download_rocket_launches
+[2022-06-20 01:50:17,983] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,983] {manager.py:508} INFO - Created Permission View: can delete on DAG:download_rocket_launches
+[2022-06-20 01:50:17,985] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,985] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:17,997] {logging_mixin.py:115} INFO - [2022-06-20 01:50:17,997] {dag.py:2390} INFO - Creating ORM DAG for download_rocket_launches
+[2022-06-20 01:50:18,018] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,018] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-06T00:00:00+00:00, run_after=2022-06-07T00:00:00+00:00
+[2022-06-20 01:50:18,059] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.575 seconds
+[2022-06-20 01:50:48,788] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:48,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:50:48,795] {logging_mixin.py:115} INFO - [2022-06-20 01:50:48,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:48,820] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:50:48,841] {logging_mixin.py:115} INFO - [2022-06-20 01:50:48,841] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:48,857] {logging_mixin.py:115} INFO - [2022-06-20 01:50:48,857] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-06T00:00:00+00:00, run_after=2022-06-07T00:00:00+00:00
+[2022-06-20 01:50:48,946] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.165 seconds
+[2022-06-20 01:51:19,289] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:19,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:51:19,297] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:19,323] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:19,354] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,354] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:19,379] {logging_mixin.py:115} INFO - [2022-06-20 01:51:19,379] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:51:19,529] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.244 seconds
+[2022-06-20 01:51:49,697] {processor.py:153} INFO - Started process (PID=325) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:49,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:51:49,703] {logging_mixin.py:115} INFO - [2022-06-20 01:51:49,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:49,717] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:51:49,735] {logging_mixin.py:115} INFO - [2022-06-20 01:51:49,735] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:49,748] {logging_mixin.py:115} INFO - [2022-06-20 01:51:49,748] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:51:49,847] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.153 seconds
+[2022-06-20 01:52:20,153] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:20,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:52:20,156] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:20,168] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:20,192] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,192] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:20,215] {logging_mixin.py:115} INFO - [2022-06-20 01:52:20,215] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:52:20,345] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.195 seconds
+[2022-06-20 01:52:51,249] {processor.py:153} INFO - Started process (PID=493) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:51,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:52:51,255] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:51,273] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:52:51,294] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,294] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:51,309] {logging_mixin.py:115} INFO - [2022-06-20 01:52:51,309] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:52:51,406] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.163 seconds
+[2022-06-20 01:53:21,918] {processor.py:153} INFO - Started process (PID=582) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:21,921] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:53:21,924] {logging_mixin.py:115} INFO - [2022-06-20 01:53:21,924] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:21,942] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:21,965] {logging_mixin.py:115} INFO - [2022-06-20 01:53:21,965] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:21,984] {logging_mixin.py:115} INFO - [2022-06-20 01:53:21,984] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:53:22,072] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.161 seconds
+[2022-06-20 01:53:52,474] {processor.py:153} INFO - Started process (PID=671) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:52,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:53:52,479] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:52,496] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:53:52,518] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,518] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:52,534] {logging_mixin.py:115} INFO - [2022-06-20 01:53:52,534] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:53:52,620] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.151 seconds
+[2022-06-20 01:54:22,978] {processor.py:153} INFO - Started process (PID=759) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:22,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:54:22,983] {logging_mixin.py:115} INFO - [2022-06-20 01:54:22,983] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:22,999] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:23,019] {logging_mixin.py:115} INFO - [2022-06-20 01:54:23,019] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:23,034] {logging_mixin.py:115} INFO - [2022-06-20 01:54:23,034] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:54:23,119] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.146 seconds
+[2022-06-20 01:54:53,401] {processor.py:153} INFO - Started process (PID=849) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:53,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:54:53,407] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,407] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:53,435] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:54:53,459] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:53,483] {logging_mixin.py:115} INFO - [2022-06-20 01:54:53,483] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:54:53,576] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.181 seconds
+[2022-06-20 01:55:23,679] {processor.py:153} INFO - Started process (PID=939) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:23,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:55:23,700] {logging_mixin.py:115} INFO - [2022-06-20 01:55:23,700] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:23,720] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:23,741] {logging_mixin.py:115} INFO - [2022-06-20 01:55:23,741] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:23,840] {logging_mixin.py:115} INFO - [2022-06-20 01:55:23,840] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:55:23,850] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.177 seconds
+[2022-06-20 01:55:54,184] {processor.py:153} INFO - Started process (PID=1018) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:54,186] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:55:54,188] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,188] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:54,199] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:55:54,217] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,217] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:54,308] {logging_mixin.py:115} INFO - [2022-06-20 01:55:54,308] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:55:54,317] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.135 seconds
+[2022-06-20 01:56:24,599] {processor.py:153} INFO - Started process (PID=1107) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:24,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:56:24,606] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,606] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:24,628] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:24,653] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,653] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:24,747] {logging_mixin.py:115} INFO - [2022-06-20 01:56:24,747] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:56:24,755] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.161 seconds
+[2022-06-20 01:56:54,944] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:54,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:56:54,949] {logging_mixin.py:115} INFO - [2022-06-20 01:56:54,949] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:54,965] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:56:54,991] {logging_mixin.py:115} INFO - [2022-06-20 01:56:54,991] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:55,102] {logging_mixin.py:115} INFO - [2022-06-20 01:56:55,102] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:56:55,117] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.177 seconds
+[2022-06-20 01:57:25,254] {processor.py:153} INFO - Started process (PID=1285) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:25,257] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:57:25,260] {logging_mixin.py:115} INFO - [2022-06-20 01:57:25,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:25,276] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:25,296] {logging_mixin.py:115} INFO - [2022-06-20 01:57:25,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:25,380] {logging_mixin.py:115} INFO - [2022-06-20 01:57:25,380] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:57:25,386] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.136 seconds
+[2022-06-20 01:57:56,048] {processor.py:153} INFO - Started process (PID=1374) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:56,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:57:56,053] {logging_mixin.py:115} INFO - [2022-06-20 01:57:56,053] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:56,073] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:57:56,092] {logging_mixin.py:115} INFO - [2022-06-20 01:57:56,092] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:56,214] {logging_mixin.py:115} INFO - [2022-06-20 01:57:56,214] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:57:56,222] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.178 seconds
+[2022-06-20 01:58:26,678] {processor.py:153} INFO - Started process (PID=1463) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:26,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:58:26,681] {logging_mixin.py:115} INFO - [2022-06-20 01:58:26,681] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:26,692] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:26,718] {logging_mixin.py:115} INFO - [2022-06-20 01:58:26,718] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:26,828] {logging_mixin.py:115} INFO - [2022-06-20 01:58:26,828] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:58:26,839] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.163 seconds
+[2022-06-20 01:58:56,875] {processor.py:153} INFO - Started process (PID=1542) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:56,876] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:58:56,877] {logging_mixin.py:115} INFO - [2022-06-20 01:58:56,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:56,889] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:58:56,908] {logging_mixin.py:115} INFO - [2022-06-20 01:58:56,907] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:56,995] {logging_mixin.py:115} INFO - [2022-06-20 01:58:56,995] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:58:57,002] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.129 seconds
+[2022-06-20 01:59:27,289] {processor.py:153} INFO - Started process (PID=1631) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:27,291] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:59:27,292] {logging_mixin.py:115} INFO - [2022-06-20 01:59:27,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:27,302] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:27,318] {logging_mixin.py:115} INFO - [2022-06-20 01:59:27,318] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:27,396] {logging_mixin.py:115} INFO - [2022-06-20 01:59:27,396] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:59:27,402] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.116 seconds
+[2022-06-20 01:59:57,912] {processor.py:153} INFO - Started process (PID=1718) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:57,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 01:59:57,915] {logging_mixin.py:115} INFO - [2022-06-20 01:59:57,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:57,924] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 01:59:57,940] {logging_mixin.py:115} INFO - [2022-06-20 01:59:57,940] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:58,019] {logging_mixin.py:115} INFO - [2022-06-20 01:59:58,019] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 01:59:58,025] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.115 seconds
+[2022-06-20 02:00:28,994] {processor.py:153} INFO - Started process (PID=1808) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:28,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:00:28,997] {logging_mixin.py:115} INFO - [2022-06-20 02:00:28,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:29,006] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:29,025] {logging_mixin.py:115} INFO - [2022-06-20 02:00:29,025] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:29,106] {logging_mixin.py:115} INFO - [2022-06-20 02:00:29,106] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:00:29,113] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.121 seconds
+[2022-06-20 02:00:59,361] {processor.py:153} INFO - Started process (PID=1897) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:59,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:00:59,364] {logging_mixin.py:115} INFO - [2022-06-20 02:00:59,363] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:59,375] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:00:59,392] {logging_mixin.py:115} INFO - [2022-06-20 02:00:59,392] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:59,469] {logging_mixin.py:115} INFO - [2022-06-20 02:00:59,469] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:00:59,476] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.117 seconds
+[2022-06-20 02:01:29,805] {processor.py:153} INFO - Started process (PID=1975) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:01:29,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:01:29,807] {logging_mixin.py:115} INFO - [2022-06-20 02:01:29,807] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:01:29,816] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:01:29,836] {logging_mixin.py:115} INFO - [2022-06-20 02:01:29,836] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:29,931] {logging_mixin.py:115} INFO - [2022-06-20 02:01:29,931] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:01:29,939] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.136 seconds
+[2022-06-20 02:02:00,656] {processor.py:153} INFO - Started process (PID=2063) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:00,658] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:02:00,659] {logging_mixin.py:115} INFO - [2022-06-20 02:02:00,659] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:00,672] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:00,691] {logging_mixin.py:115} INFO - [2022-06-20 02:02:00,691] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:00,775] {logging_mixin.py:115} INFO - [2022-06-20 02:02:00,775] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:02:00,781] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.128 seconds
+[2022-06-20 02:02:31,109] {processor.py:153} INFO - Started process (PID=2152) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:31,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:02:31,112] {logging_mixin.py:115} INFO - [2022-06-20 02:02:31,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:31,124] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:02:31,142] {logging_mixin.py:115} INFO - [2022-06-20 02:02:31,142] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:31,220] {logging_mixin.py:115} INFO - [2022-06-20 02:02:31,220] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:02:31,226] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.119 seconds
+[2022-06-20 02:03:01,896] {processor.py:153} INFO - Started process (PID=2241) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:01,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:03:01,899] {logging_mixin.py:115} INFO - [2022-06-20 02:03:01,899] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:01,910] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:01,926] {logging_mixin.py:115} INFO - [2022-06-20 02:03:01,926] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:02,009] {logging_mixin.py:115} INFO - [2022-06-20 02:03:02,009] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:03:02,017] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.123 seconds
+[2022-06-20 02:03:32,436] {processor.py:153} INFO - Started process (PID=2330) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:32,437] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:03:32,438] {logging_mixin.py:115} INFO - [2022-06-20 02:03:32,438] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:32,447] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:03:32,464] {logging_mixin.py:115} INFO - [2022-06-20 02:03:32,464] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:32,540] {logging_mixin.py:115} INFO - [2022-06-20 02:03:32,540] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:03:32,548] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.114 seconds
+[2022-06-20 02:04:03,090] {processor.py:153} INFO - Started process (PID=2420) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:03,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:04:03,093] {logging_mixin.py:115} INFO - [2022-06-20 02:04:03,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:03,108] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:03,133] {logging_mixin.py:115} INFO - [2022-06-20 02:04:03,133] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:03,235] {logging_mixin.py:115} INFO - [2022-06-20 02:04:03,235] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:04:03,243] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.155 seconds
+[2022-06-20 02:04:34,002] {processor.py:153} INFO - Started process (PID=2509) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:34,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:04:34,006] {logging_mixin.py:115} INFO - [2022-06-20 02:04:34,006] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:34,018] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:04:34,040] {logging_mixin.py:115} INFO - [2022-06-20 02:04:34,040] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:34,122] {logging_mixin.py:115} INFO - [2022-06-20 02:04:34,122] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:04:34,131] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.131 seconds
+[2022-06-20 02:05:04,549] {processor.py:153} INFO - Started process (PID=2590) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:04,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:05:04,551] {logging_mixin.py:115} INFO - [2022-06-20 02:05:04,551] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:04,561] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:04,578] {logging_mixin.py:115} INFO - [2022-06-20 02:05:04,577] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:04,655] {logging_mixin.py:115} INFO - [2022-06-20 02:05:04,655] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:05:04,662] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.115 seconds
+[2022-06-20 02:05:35,351] {processor.py:153} INFO - Started process (PID=2679) to work on /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:35,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter02/dags/download_rocket_launches.py for tasks to queue
+[2022-06-20 02:05:35,355] {logging_mixin.py:115} INFO - [2022-06-20 02:05:35,354] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:35,452] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/chapter02/dags/download_rocket_launches.py
+[2022-06-20 02:05:35,466] {logging_mixin.py:115} INFO - [2022-06-20 02:05:35,466] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:35,480] {logging_mixin.py:115} INFO - [2022-06-20 02:05:35,479] {dag.py:2919} INFO - Setting next_dagrun for download_rocket_launches to 2022-06-20T00:00:00+00:00, run_after=2022-06-21T00:00:00+00:00
+[2022-06-20 02:05:35,486] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter02/dags/download_rocket_launches.py took 0.138 seconds

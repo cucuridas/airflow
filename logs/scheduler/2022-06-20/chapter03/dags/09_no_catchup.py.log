@@ -1,0 +1,221 @@
+[2022-06-20 01:50:18,911] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:18,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:50:18,916] {logging_mixin.py:115} INFO - [2022-06-20 01:50:18,916] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:19,292] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:19,362] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,362] {manager.py:508} INFO - Created Permission View: can read on DAG:09_no_catchup
+[2022-06-20 01:50:19,384] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,384] {manager.py:508} INFO - Created Permission View: can edit on DAG:09_no_catchup
+[2022-06-20 01:50:19,394] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,394] {manager.py:508} INFO - Created Permission View: can delete on DAG:09_no_catchup
+[2022-06-20 01:50:19,396] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,396] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:19,405] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,404] {dag.py:2390} INFO - Creating ORM DAG for 09_no_catchup
+[2022-06-20 01:50:19,423] {logging_mixin.py:115} INFO - [2022-06-20 01:50:19,423] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:50:19,447] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.539 seconds
+[2022-06-20 01:50:50,009] {processor.py:153} INFO - Started process (PID=133) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:50,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:50:50,019] {logging_mixin.py:115} INFO - [2022-06-20 01:50:50,019] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:50,433] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:50:50,454] {logging_mixin.py:115} INFO - [2022-06-20 01:50:50,454] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:50:50,472] {logging_mixin.py:115} INFO - [2022-06-20 01:50:50,472] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:50:50,481] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.480 seconds
+[2022-06-20 01:51:20,749] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:20,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:51:20,752] {logging_mixin.py:115} INFO - [2022-06-20 01:51:20,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:21,018] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:21,035] {logging_mixin.py:115} INFO - [2022-06-20 01:51:21,034] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:21,047] {logging_mixin.py:115} INFO - [2022-06-20 01:51:21,047] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:51:21,055] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.309 seconds
+[2022-06-20 01:51:51,121] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:51,125] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:51:51,127] {logging_mixin.py:115} INFO - [2022-06-20 01:51:51,127] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:51,361] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:51:51,376] {logging_mixin.py:115} INFO - [2022-06-20 01:51:51,376] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:51:51,389] {logging_mixin.py:115} INFO - [2022-06-20 01:51:51,389] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:51:51,396] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.281 seconds
+[2022-06-20 01:52:21,514] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:21,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:52:21,518] {logging_mixin.py:115} INFO - [2022-06-20 01:52:21,518] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:21,713] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:21,737] {logging_mixin.py:115} INFO - [2022-06-20 01:52:21,737] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:21,760] {logging_mixin.py:115} INFO - [2022-06-20 01:52:21,760] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:52:21,771] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.260 seconds
+[2022-06-20 01:52:52,602] {processor.py:153} INFO - Started process (PID=508) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:52,604] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:52:52,605] {logging_mixin.py:115} INFO - [2022-06-20 01:52:52,605] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:52,845] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:52:52,872] {logging_mixin.py:115} INFO - [2022-06-20 01:52:52,871] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:52:52,900] {logging_mixin.py:115} INFO - [2022-06-20 01:52:52,900] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:52:52,916] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.316 seconds
+[2022-06-20 01:53:23,251] {processor.py:153} INFO - Started process (PID=587) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:23,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:53:23,255] {logging_mixin.py:115} INFO - [2022-06-20 01:53:23,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:23,497] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:23,513] {logging_mixin.py:115} INFO - [2022-06-20 01:53:23,513] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:23,526] {logging_mixin.py:115} INFO - [2022-06-20 01:53:23,526] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:53:23,535] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.286 seconds
+[2022-06-20 01:53:53,821] {processor.py:153} INFO - Started process (PID=676) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:53,825] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:53:53,828] {logging_mixin.py:115} INFO - [2022-06-20 01:53:53,828] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:54,042] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:53:54,068] {logging_mixin.py:115} INFO - [2022-06-20 01:53:54,068] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:53:54,085] {logging_mixin.py:115} INFO - [2022-06-20 01:53:54,085] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:53:54,098] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.283 seconds
+[2022-06-20 01:54:24,297] {processor.py:153} INFO - Started process (PID=764) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:24,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:54:24,301] {logging_mixin.py:115} INFO - [2022-06-20 01:54:24,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:24,516] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:24,533] {logging_mixin.py:115} INFO - [2022-06-20 01:54:24,532] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:24,545] {logging_mixin.py:115} INFO - [2022-06-20 01:54:24,544] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:54:24,551] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.260 seconds
+[2022-06-20 01:54:54,786] {processor.py:153} INFO - Started process (PID=854) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:54,790] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:54:54,792] {logging_mixin.py:115} INFO - [2022-06-20 01:54:54,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:55,016] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:54:55,035] {logging_mixin.py:115} INFO - [2022-06-20 01:54:55,035] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:54:55,049] {logging_mixin.py:115} INFO - [2022-06-20 01:54:55,048] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:54:55,056] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.275 seconds
+[2022-06-20 01:55:25,125] {processor.py:153} INFO - Started process (PID=944) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:25,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:55:25,128] {logging_mixin.py:115} INFO - [2022-06-20 01:55:25,128] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:25,324] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:25,341] {logging_mixin.py:115} INFO - [2022-06-20 01:55:25,341] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:25,354] {logging_mixin.py:115} INFO - [2022-06-20 01:55:25,354] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:55:25,362] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.241 seconds
+[2022-06-20 01:55:55,472] {processor.py:153} INFO - Started process (PID=1033) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:55,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:55:55,475] {logging_mixin.py:115} INFO - [2022-06-20 01:55:55,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:55,687] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:55:55,703] {logging_mixin.py:115} INFO - [2022-06-20 01:55:55,703] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:55:55,716] {logging_mixin.py:115} INFO - [2022-06-20 01:55:55,716] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:55:55,723] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.253 seconds
+[2022-06-20 01:56:25,957] {processor.py:153} INFO - Started process (PID=1112) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:25,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:56:25,962] {logging_mixin.py:115} INFO - [2022-06-20 01:56:25,962] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:26,222] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:26,245] {logging_mixin.py:115} INFO - [2022-06-20 01:56:26,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:26,262] {logging_mixin.py:115} INFO - [2022-06-20 01:56:26,262] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:56:26,271] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.316 seconds
+[2022-06-20 01:56:56,542] {processor.py:153} INFO - Started process (PID=1201) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:56,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:56:56,546] {logging_mixin.py:115} INFO - [2022-06-20 01:56:56,546] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:56,801] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:56:56,840] {logging_mixin.py:115} INFO - [2022-06-20 01:56:56,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:56:56,858] {logging_mixin.py:115} INFO - [2022-06-20 01:56:56,858] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:56:56,875] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.336 seconds
+[2022-06-20 01:57:27,447] {processor.py:153} INFO - Started process (PID=1290) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:27,458] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:57:27,468] {logging_mixin.py:115} INFO - [2022-06-20 01:57:27,468] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:28,199] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:28,290] {logging_mixin.py:115} INFO - [2022-06-20 01:57:28,290] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:28,314] {logging_mixin.py:115} INFO - [2022-06-20 01:57:28,314] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:57:28,370] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.929 seconds
+[2022-06-20 01:57:58,456] {processor.py:153} INFO - Started process (PID=1379) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:58,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:57:58,464] {logging_mixin.py:115} INFO - [2022-06-20 01:57:58,464] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:58,675] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:57:58,689] {logging_mixin.py:115} INFO - [2022-06-20 01:57:58,689] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:57:58,701] {logging_mixin.py:115} INFO - [2022-06-20 01:57:58,701] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:57:58,707] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.257 seconds
+[2022-06-20 01:58:29,210] {processor.py:153} INFO - Started process (PID=1468) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:58:29,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:58:29,218] {logging_mixin.py:115} INFO - [2022-06-20 01:58:29,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:58:29,435] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:58:29,452] {logging_mixin.py:115} INFO - [2022-06-20 01:58:29,452] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:58:29,466] {logging_mixin.py:115} INFO - [2022-06-20 01:58:29,466] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:58:29,473] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.268 seconds
+[2022-06-20 01:59:00,068] {processor.py:153} INFO - Started process (PID=1557) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:00,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:59:00,074] {logging_mixin.py:115} INFO - [2022-06-20 01:59:00,074] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:00,275] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:00,290] {logging_mixin.py:115} INFO - [2022-06-20 01:59:00,290] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:00,301] {logging_mixin.py:115} INFO - [2022-06-20 01:59:00,301] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:59:00,309] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.246 seconds
+[2022-06-20 01:59:30,633] {processor.py:153} INFO - Started process (PID=1636) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:30,634] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 01:59:30,636] {logging_mixin.py:115} INFO - [2022-06-20 01:59:30,635] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:30,830] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 01:59:30,844] {logging_mixin.py:115} INFO - [2022-06-20 01:59:30,844] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 01:59:30,855] {logging_mixin.py:115} INFO - [2022-06-20 01:59:30,855] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 01:59:30,863] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.234 seconds
+[2022-06-20 02:00:01,093] {processor.py:153} INFO - Started process (PID=1723) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:01,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:00:01,100] {logging_mixin.py:115} INFO - [2022-06-20 02:00:01,100] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:01,309] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:01,325] {logging_mixin.py:115} INFO - [2022-06-20 02:00:01,324] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:01,336] {logging_mixin.py:115} INFO - [2022-06-20 02:00:01,336] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:00:01,343] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.256 seconds
+[2022-06-20 02:00:32,176] {processor.py:153} INFO - Started process (PID=1813) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:32,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:00:32,181] {logging_mixin.py:115} INFO - [2022-06-20 02:00:32,181] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:32,388] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:00:32,404] {logging_mixin.py:115} INFO - [2022-06-20 02:00:32,403] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:00:32,418] {logging_mixin.py:115} INFO - [2022-06-20 02:00:32,418] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:00:32,430] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.258 seconds
+[2022-06-20 02:01:02,542] {processor.py:153} INFO - Started process (PID=1902) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:02,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:01:02,549] {logging_mixin.py:115} INFO - [2022-06-20 02:01:02,549] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:02,750] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:02,766] {logging_mixin.py:115} INFO - [2022-06-20 02:01:02,766] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:02,777] {logging_mixin.py:115} INFO - [2022-06-20 02:01:02,777] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:01:02,784] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.249 seconds
+[2022-06-20 02:01:32,999] {processor.py:153} INFO - Started process (PID=1989) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:33,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:01:33,005] {logging_mixin.py:115} INFO - [2022-06-20 02:01:33,005] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:33,217] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:01:33,233] {logging_mixin.py:115} INFO - [2022-06-20 02:01:33,233] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:01:33,245] {logging_mixin.py:115} INFO - [2022-06-20 02:01:33,245] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:01:33,252] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.258 seconds
+[2022-06-20 02:02:04,026] {processor.py:153} INFO - Started process (PID=2078) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:04,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:02:04,028] {logging_mixin.py:115} INFO - [2022-06-20 02:02:04,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:04,237] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:04,252] {logging_mixin.py:115} INFO - [2022-06-20 02:02:04,251] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:04,264] {logging_mixin.py:115} INFO - [2022-06-20 02:02:04,264] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:02:04,270] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.246 seconds
+[2022-06-20 02:02:34,461] {processor.py:153} INFO - Started process (PID=2157) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:34,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:02:34,466] {logging_mixin.py:115} INFO - [2022-06-20 02:02:34,465] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:34,677] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:02:34,697] {logging_mixin.py:115} INFO - [2022-06-20 02:02:34,697] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:02:34,723] {logging_mixin.py:115} INFO - [2022-06-20 02:02:34,723] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:02:34,740] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.283 seconds
+[2022-06-20 02:03:05,086] {processor.py:153} INFO - Started process (PID=2246) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:05,091] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:03:05,093] {logging_mixin.py:115} INFO - [2022-06-20 02:03:05,093] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:05,331] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:05,348] {logging_mixin.py:115} INFO - [2022-06-20 02:03:05,347] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:05,365] {logging_mixin.py:115} INFO - [2022-06-20 02:03:05,364] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:03:05,376] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.296 seconds
+[2022-06-20 02:03:35,832] {processor.py:153} INFO - Started process (PID=2335) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:35,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:03:35,836] {logging_mixin.py:115} INFO - [2022-06-20 02:03:35,836] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:36,044] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:03:36,062] {logging_mixin.py:115} INFO - [2022-06-20 02:03:36,062] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:03:36,074] {logging_mixin.py:115} INFO - [2022-06-20 02:03:36,074] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:03:36,080] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.252 seconds
+[2022-06-20 02:04:06,319] {processor.py:153} INFO - Started process (PID=2425) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:06,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:04:06,330] {logging_mixin.py:115} INFO - [2022-06-20 02:04:06,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:06,560] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:06,575] {logging_mixin.py:115} INFO - [2022-06-20 02:04:06,574] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:06,586] {logging_mixin.py:115} INFO - [2022-06-20 02:04:06,586] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:04:06,593] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.280 seconds
+[2022-06-20 02:04:37,192] {processor.py:153} INFO - Started process (PID=2514) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:37,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:04:37,198] {logging_mixin.py:115} INFO - [2022-06-20 02:04:37,198] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:37,431] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:04:37,445] {logging_mixin.py:115} INFO - [2022-06-20 02:04:37,445] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:04:37,457] {logging_mixin.py:115} INFO - [2022-06-20 02:04:37,457] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:04:37,477] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.290 seconds
+[2022-06-20 02:05:07,714] {processor.py:153} INFO - Started process (PID=2605) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:07,716] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:05:07,718] {logging_mixin.py:115} INFO - [2022-06-20 02:05:07,718] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:07,934] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:07,947] {logging_mixin.py:115} INFO - [2022-06-20 02:05:07,947] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:07,959] {logging_mixin.py:115} INFO - [2022-06-20 02:05:07,959] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:05:07,966] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.256 seconds
+[2022-06-20 02:05:38,535] {processor.py:153} INFO - Started process (PID=2694) to work on /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:38,539] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/dags/09_no_catchup.py for tasks to queue
+[2022-06-20 02:05:38,540] {logging_mixin.py:115} INFO - [2022-06-20 02:05:38,540] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:38,797] {processor.py:651} INFO - DAG(s) dict_keys(['09_no_catchup']) retrieved from /opt/airflow/dags/chapter03/dags/09_no_catchup.py
+[2022-06-20 02:05:38,816] {logging_mixin.py:115} INFO - [2022-06-20 02:05:38,816] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-20 02:05:38,832] {logging_mixin.py:115} INFO - [2022-06-20 02:05:38,832] {dag.py:2919} INFO - Setting next_dagrun for 09_no_catchup to None, run_after=None
+[2022-06-20 02:05:38,843] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/dags/09_no_catchup.py took 0.311 seconds

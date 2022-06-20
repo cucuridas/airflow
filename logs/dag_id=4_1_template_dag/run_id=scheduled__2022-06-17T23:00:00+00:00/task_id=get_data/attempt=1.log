@@ -1,0 +1,33 @@
+[2022-06-20 01:34:28,609] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_1_template_dag.get_data scheduled__2022-06-17T23:00:00+00:00 [queued]>
+[2022-06-20 01:34:28,618] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_1_template_dag.get_data scheduled__2022-06-17T23:00:00+00:00 [queued]>
+[2022-06-20 01:34:28,620] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:34:28,622] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 01:34:28,623] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:34:28,639] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): get_data> on 2022-06-17 23:00:00+00:00
+[2022-06-20 01:34:28,647] {standard_task_runner.py:52} INFO - Started process 299 to run task
+[2022-06-20 01:34:28,654] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '4_1_template_dag', 'get_data', 'scheduled__2022-06-17T23:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/data-pipline-book/4_1_template_dag.py', '--cfg-path', '/tmp/tmpcx1zioyd', '--error-file', '/tmp/tmpi5_db8bd']
+[2022-06-20 01:34:28,656] {standard_task_runner.py:80} INFO - Job 61: Subtask get_data
+[2022-06-20 01:34:28,738] {task_command.py:369} INFO - Running <TaskInstance: 4_1_template_dag.get_data scheduled__2022-06-17T23:00:00+00:00 [running]> on host b8db81cc5447
+[2022-06-20 01:34:28,780] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-20 01:34:28,822] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=4_1_template_dag
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-17T23:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-17T23:00:00+00:00
+[2022-06-20 01:34:28,826] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-06-20 01:34:28,831] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -o /tmp/wikipageviews.gz https://dumps.wikimedia.org/other/pageviews/2022/2022-06/pageviews-20220617-230000.gz']
+[2022-06-20 01:34:28,844] {subprocess.py:85} INFO - Output:
+[2022-06-20 01:34:28,850] {subprocess.py:92} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2022-06-20 01:34:28,851] {subprocess.py:92} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2022-06-20 01:34:31,236] {subprocess.py:92} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   213  100   213    0     0     89      0  0:00:02  0:00:02 --:--:--    89100   213  100   213    0     0     89      0  0:00:02  0:00:02 --:--:--    89
+[2022-06-20 01:34:31,243] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-06-20 01:34:31,286] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=4_1_template_dag, task_id=get_data, execution_date=20220617T230000, start_date=20220620T013428, end_date=20220620T013431
+[2022-06-20 01:34:31,316] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-20 01:34:31,338] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

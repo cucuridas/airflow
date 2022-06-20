@@ -3267,3 +3267,178 @@
 [2022-06-12 12:53:15,832] {logging_mixin.py:115} INFO - [2022-06-12 12:53:15,832] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-06-12 12:53:15,846] {logging_mixin.py:115} INFO - [2022-06-12 12:53:15,846] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T12:50:00+00:00, run_after=2022-06-12T12:52:00+00:00
 [2022-06-12 12:53:15,853] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.056 seconds
+[2022-06-12 23:47:32,958] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:47:32,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:47:32,962] {logging_mixin.py:115} INFO - [2022-06-12 23:47:32,962] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:47:32,979] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:47:33,007] {logging_mixin.py:115} INFO - [2022-06-12 23:47:33,005] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:47:33,038] {logging_mixin.py:115} INFO - [2022-06-12 23:47:33,038] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:44:00+00:00, run_after=2022-06-12T23:46:00+00:00
+[2022-06-12 23:47:33,053] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.098 seconds
+[2022-06-12 23:48:03,806] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:03,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:48:03,809] {logging_mixin.py:115} INFO - [2022-06-12 23:48:03,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:03,821] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:03,839] {logging_mixin.py:115} INFO - [2022-06-12 23:48:03,839] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:48:03,856] {logging_mixin.py:115} INFO - [2022-06-12 23:48:03,856] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:46:00+00:00, run_after=2022-06-12T23:48:00+00:00
+[2022-06-12 23:48:03,866] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.064 seconds
+[2022-06-12 23:48:34,907] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:34,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:48:34,910] {logging_mixin.py:115} INFO - [2022-06-12 23:48:34,910] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:34,924] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:48:34,941] {logging_mixin.py:115} INFO - [2022-06-12 23:48:34,941] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:48:34,959] {logging_mixin.py:115} INFO - [2022-06-12 23:48:34,959] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:46:00+00:00, run_after=2022-06-12T23:48:00+00:00
+[2022-06-12 23:48:34,970] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.065 seconds
+[2022-06-12 23:49:05,025] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:05,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:49:05,028] {logging_mixin.py:115} INFO - [2022-06-12 23:49:05,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:05,039] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:05,058] {logging_mixin.py:115} INFO - [2022-06-12 23:49:05,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:49:05,074] {logging_mixin.py:115} INFO - [2022-06-12 23:49:05,074] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:46:00+00:00, run_after=2022-06-12T23:48:00+00:00
+[2022-06-12 23:49:05,083] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.060 seconds
+[2022-06-12 23:49:36,109] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:36,110] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:49:36,111] {logging_mixin.py:115} INFO - [2022-06-12 23:49:36,111] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:36,128] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:49:36,148] {logging_mixin.py:115} INFO - [2022-06-12 23:49:36,148] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:49:36,164] {logging_mixin.py:115} INFO - [2022-06-12 23:49:36,164] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:46:00+00:00, run_after=2022-06-12T23:48:00+00:00
+[2022-06-12 23:49:36,172] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.066 seconds
+[2022-06-12 23:50:07,030] {processor.py:153} INFO - Started process (PID=381) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:07,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:50:07,033] {logging_mixin.py:115} INFO - [2022-06-12 23:50:07,033] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:07,044] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:07,063] {logging_mixin.py:115} INFO - [2022-06-12 23:50:07,063] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:50:07,079] {logging_mixin.py:115} INFO - [2022-06-12 23:50:07,079] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:48:00+00:00, run_after=2022-06-12T23:50:00+00:00
+[2022-06-12 23:50:07,088] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.061 seconds
+[2022-06-12 23:50:38,091] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:38,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:50:38,094] {logging_mixin.py:115} INFO - [2022-06-12 23:50:38,094] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:38,110] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:50:38,126] {logging_mixin.py:115} INFO - [2022-06-12 23:50:38,126] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:50:38,143] {logging_mixin.py:115} INFO - [2022-06-12 23:50:38,143] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:48:00+00:00, run_after=2022-06-12T23:50:00+00:00
+[2022-06-12 23:50:38,150] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.062 seconds
+[2022-06-12 23:51:09,205] {processor.py:153} INFO - Started process (PID=517) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:09,207] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:51:09,209] {logging_mixin.py:115} INFO - [2022-06-12 23:51:09,209] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:09,228] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:09,248] {logging_mixin.py:115} INFO - [2022-06-12 23:51:09,248] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:51:09,264] {logging_mixin.py:115} INFO - [2022-06-12 23:51:09,264] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:48:00+00:00, run_after=2022-06-12T23:50:00+00:00
+[2022-06-12 23:51:09,272] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.070 seconds
+[2022-06-12 23:51:40,156] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:40,157] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:51:40,158] {logging_mixin.py:115} INFO - [2022-06-12 23:51:40,158] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:40,170] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:51:40,186] {logging_mixin.py:115} INFO - [2022-06-12 23:51:40,186] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:51:40,204] {logging_mixin.py:115} INFO - [2022-06-12 23:51:40,204] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:48:00+00:00, run_after=2022-06-12T23:50:00+00:00
+[2022-06-12 23:51:40,211] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.057 seconds
+[2022-06-12 23:52:10,319] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:10,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:52:10,322] {logging_mixin.py:115} INFO - [2022-06-12 23:52:10,321] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:10,339] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:10,357] {logging_mixin.py:115} INFO - [2022-06-12 23:52:10,357] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:52:10,374] {logging_mixin.py:115} INFO - [2022-06-12 23:52:10,374] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:50:00+00:00, run_after=2022-06-12T23:52:00+00:00
+[2022-06-12 23:52:10,381] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.065 seconds
+[2022-06-12 23:52:40,554] {processor.py:153} INFO - Started process (PID=720) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:40,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:52:40,557] {logging_mixin.py:115} INFO - [2022-06-12 23:52:40,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:40,569] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:52:40,587] {logging_mixin.py:115} INFO - [2022-06-12 23:52:40,587] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:52:40,602] {logging_mixin.py:115} INFO - [2022-06-12 23:52:40,602] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:50:00+00:00, run_after=2022-06-12T23:52:00+00:00
+[2022-06-12 23:52:40,609] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.057 seconds
+[2022-06-12 23:53:11,462] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:11,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:53:11,465] {logging_mixin.py:115} INFO - [2022-06-12 23:53:11,465] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:11,477] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:11,495] {logging_mixin.py:115} INFO - [2022-06-12 23:53:11,495] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:53:11,509] {logging_mixin.py:115} INFO - [2022-06-12 23:53:11,509] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:50:00+00:00, run_after=2022-06-12T23:52:00+00:00
+[2022-06-12 23:53:11,518] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.059 seconds
+[2022-06-12 23:53:41,575] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:41,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:53:41,578] {logging_mixin.py:115} INFO - [2022-06-12 23:53:41,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:41,588] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:53:41,608] {logging_mixin.py:115} INFO - [2022-06-12 23:53:41,608] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:53:41,623] {logging_mixin.py:115} INFO - [2022-06-12 23:53:41,623] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:50:00+00:00, run_after=2022-06-12T23:52:00+00:00
+[2022-06-12 23:53:41,630] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.057 seconds
+[2022-06-12 23:54:12,793] {processor.py:153} INFO - Started process (PID=925) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:12,795] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:54:12,796] {logging_mixin.py:115} INFO - [2022-06-12 23:54:12,796] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:12,808] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:12,825] {logging_mixin.py:115} INFO - [2022-06-12 23:54:12,825] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:54:12,841] {logging_mixin.py:115} INFO - [2022-06-12 23:54:12,841] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:52:00+00:00, run_after=2022-06-12T23:54:00+00:00
+[2022-06-12 23:54:12,851] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.060 seconds
+[2022-06-12 23:54:42,928] {processor.py:153} INFO - Started process (PID=991) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:42,929] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:54:42,932] {logging_mixin.py:115} INFO - [2022-06-12 23:54:42,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:42,945] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:54:42,966] {logging_mixin.py:115} INFO - [2022-06-12 23:54:42,966] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:54:42,980] {logging_mixin.py:115} INFO - [2022-06-12 23:54:42,980] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:52:00+00:00, run_after=2022-06-12T23:54:00+00:00
+[2022-06-12 23:54:42,988] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.062 seconds
+[2022-06-12 23:55:13,882] {processor.py:153} INFO - Started process (PID=1063) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:13,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:55:13,884] {logging_mixin.py:115} INFO - [2022-06-12 23:55:13,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:13,895] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:13,914] {logging_mixin.py:115} INFO - [2022-06-12 23:55:13,914] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:55:13,928] {logging_mixin.py:115} INFO - [2022-06-12 23:55:13,928] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:52:00+00:00, run_after=2022-06-12T23:54:00+00:00
+[2022-06-12 23:55:13,935] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.056 seconds
+[2022-06-12 23:55:44,055] {processor.py:153} INFO - Started process (PID=1129) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:44,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:55:44,059] {logging_mixin.py:115} INFO - [2022-06-12 23:55:44,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:44,073] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:55:44,096] {logging_mixin.py:115} INFO - [2022-06-12 23:55:44,096] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:55:44,110] {logging_mixin.py:115} INFO - [2022-06-12 23:55:44,110] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:52:00+00:00, run_after=2022-06-12T23:54:00+00:00
+[2022-06-12 23:55:44,118] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.066 seconds
+[2022-06-12 23:56:14,191] {processor.py:153} INFO - Started process (PID=1200) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:14,193] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:56:14,194] {logging_mixin.py:115} INFO - [2022-06-12 23:56:14,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:14,205] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:14,222] {logging_mixin.py:115} INFO - [2022-06-12 23:56:14,222] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:56:14,235] {logging_mixin.py:115} INFO - [2022-06-12 23:56:14,235] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:54:00+00:00, run_after=2022-06-12T23:56:00+00:00
+[2022-06-12 23:56:14,243] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.056 seconds
+[2022-06-12 23:56:45,388] {processor.py:153} INFO - Started process (PID=1275) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:45,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:56:45,391] {logging_mixin.py:115} INFO - [2022-06-12 23:56:45,391] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:45,402] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:56:45,421] {logging_mixin.py:115} INFO - [2022-06-12 23:56:45,421] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:56:45,436] {logging_mixin.py:115} INFO - [2022-06-12 23:56:45,436] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:54:00+00:00, run_after=2022-06-12T23:56:00+00:00
+[2022-06-12 23:56:45,443] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.057 seconds
+[2022-06-12 23:57:16,375] {processor.py:153} INFO - Started process (PID=1342) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:16,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:57:16,379] {logging_mixin.py:115} INFO - [2022-06-12 23:57:16,379] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:16,392] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:16,418] {logging_mixin.py:115} INFO - [2022-06-12 23:57:16,418] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:57:16,432] {logging_mixin.py:115} INFO - [2022-06-12 23:57:16,432] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:54:00+00:00, run_after=2022-06-12T23:56:00+00:00
+[2022-06-12 23:57:16,441] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.068 seconds
+[2022-06-12 23:57:46,499] {processor.py:153} INFO - Started process (PID=1405) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:46,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:57:46,502] {logging_mixin.py:115} INFO - [2022-06-12 23:57:46,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:46,513] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:57:46,534] {logging_mixin.py:115} INFO - [2022-06-12 23:57:46,534] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:57:46,547] {logging_mixin.py:115} INFO - [2022-06-12 23:57:46,547] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:54:00+00:00, run_after=2022-06-12T23:56:00+00:00
+[2022-06-12 23:57:46,556] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.059 seconds
+[2022-06-12 23:58:16,611] {processor.py:153} INFO - Started process (PID=1472) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:16,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:58:16,613] {logging_mixin.py:115} INFO - [2022-06-12 23:58:16,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:16,624] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:16,645] {logging_mixin.py:115} INFO - [2022-06-12 23:58:16,645] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:58:16,662] {logging_mixin.py:115} INFO - [2022-06-12 23:58:16,662] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:56:00+00:00, run_after=2022-06-12T23:58:00+00:00
+[2022-06-12 23:58:16,676] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.067 seconds
+[2022-06-12 23:58:46,830] {processor.py:153} INFO - Started process (PID=1542) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:46,832] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:58:46,833] {logging_mixin.py:115} INFO - [2022-06-12 23:58:46,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:46,845] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:58:46,865] {logging_mixin.py:115} INFO - [2022-06-12 23:58:46,865] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:58:46,879] {logging_mixin.py:115} INFO - [2022-06-12 23:58:46,879] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:56:00+00:00, run_after=2022-06-12T23:58:00+00:00
+[2022-06-12 23:58:46,889] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.061 seconds
+[2022-06-12 23:59:17,098] {processor.py:153} INFO - Started process (PID=1614) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:17,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:59:17,101] {logging_mixin.py:115} INFO - [2022-06-12 23:59:17,101] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:17,114] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:17,133] {logging_mixin.py:115} INFO - [2022-06-12 23:59:17,133] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:59:17,148] {logging_mixin.py:115} INFO - [2022-06-12 23:59:17,148] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:56:00+00:00, run_after=2022-06-12T23:58:00+00:00
+[2022-06-12 23:59:17,157] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.062 seconds
+[2022-06-12 23:59:47,322] {processor.py:153} INFO - Started process (PID=1683) to work on /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:47,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_sla.py for tasks to queue
+[2022-06-12 23:59:47,325] {logging_mixin.py:115} INFO - [2022-06-12 23:59:47,325] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:47,335] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_sla']) retrieved from /opt/airflow/dags/running_time_con_sla.py
+[2022-06-12 23:59:47,354] {logging_mixin.py:115} INFO - [2022-06-12 23:59:47,354] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-12 23:59:47,366] {logging_mixin.py:115} INFO - [2022-06-12 23:59:47,366] {dag.py:2919} INFO - Setting next_dagrun for running_controller_sla to 2022-06-12T23:56:00+00:00, run_after=2022-06-12T23:58:00+00:00
+[2022-06-12 23:59:47,372] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_sla.py took 0.052 seconds

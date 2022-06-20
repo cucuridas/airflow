@@ -1,0 +1,27 @@
+[2022-06-13 11:09:28,434] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-13T10:00:00+00:00 [queued]>
+[2022-06-13 11:09:28,454] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-13T10:00:00+00:00 [queued]>
+[2022-06-13 11:09:28,457] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 11:09:28,460] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-13 11:09:28,462] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-13 11:09:28,480] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data> on 2022-06-13 10:00:00+00:00
+[2022-06-13 11:09:28,491] {standard_task_runner.py:52} INFO - Started process 29742 to run task
+[2022-06-13 11:09:28,494] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_4_05', 'get_data', 'scheduled__2022-06-13T10:00:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/listing_4_5.py', '--cfg-path', '/tmp/tmpj4w3qvjk', '--error-file', '/tmp/tmps4103_ze']
+[2022-06-13 11:09:28,498] {standard_task_runner.py:80} INFO - Job 125: Subtask get_data
+[2022-06-13 11:09:28,625] {task_command.py:369} INFO - Running <TaskInstance: listing_4_05.get_data scheduled__2022-06-13T10:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-13 11:09:28,717] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_4_05
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-13T10:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-13T10:00:00+00:00
+[2022-06-13 11:09:28,721] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-13 11:27:52,257] {local_task_job.py:221} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-06-13 11:27:52,262] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 29742. PIDs of all processes in the group: [29742]
+[2022-06-13 11:27:52,264] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 29742
+[2022-06-13 11:27:52,267] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-06-13 11:27:52,322] {process_utils.py:75} INFO - Process psutil.Process(pid=29742, status='terminated', exitcode=0, started='11:09:28') (29742) terminated with exit code 0

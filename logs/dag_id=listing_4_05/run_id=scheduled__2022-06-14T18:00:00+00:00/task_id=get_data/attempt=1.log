@@ -1,0 +1,37 @@
+[2022-06-14 19:45:00,534] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-14T18:00:00+00:00 [queued]>
+[2022-06-14 19:45:00,543] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-14T18:00:00+00:00 [queued]>
+[2022-06-14 19:45:00,547] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-14 19:45:00,547] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-14 19:45:00,548] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-14 19:45:00,559] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data> on 2022-06-14 18:00:00+00:00
+[2022-06-14 19:45:00,566] {standard_task_runner.py:52} INFO - Started process 74157 to run task
+[2022-06-14 19:45:00,569] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_4_05', 'get_data', 'scheduled__2022-06-14T18:00:00+00:00', '--job-id', '158', '--raw', '--subdir', 'DAGS_FOLDER/listing_4_5.py', '--cfg-path', '/tmp/tmpgq1_6n1j', '--error-file', '/tmp/tmpeo7ovnw0']
+[2022-06-14 19:45:00,571] {standard_task_runner.py:80} INFO - Job 158: Subtask get_data
+[2022-06-14 19:45:00,653] {task_command.py:369} INFO - Running <TaskInstance: listing_4_05.get_data scheduled__2022-06-14T18:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-14 19:45:00,804] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_4_05
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-14T18:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-14T18:00:00+00:00
+[2022-06-14 19:45:00,809] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-14 23:53:48,061] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/listing_4_5.py", line 21, in _get_data
+    request.urlretrieve(url, output_path)
+  File "/usr/local/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 97973 out of 56897558 bytes>
+[2022-06-14 23:53:48,079] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=listing_4_05, task_id=get_data, execution_date=20220614T180000, start_date=20220614T194500, end_date=20220614T235348
+[2022-06-14 23:53:48,090] {standard_task_runner.py:97} ERROR - Failed to execute job 158 for task get_data (<urlopen error retrieval incomplete: got only 97973 out of 56897558 bytes>; 74157)
+[2022-06-14 23:53:48,129] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-14 23:53:48,148] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

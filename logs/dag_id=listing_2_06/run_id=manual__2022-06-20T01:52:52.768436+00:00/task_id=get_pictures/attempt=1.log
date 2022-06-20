@@ -1,0 +1,32 @@
+[2022-06-20 01:52:56,573] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_06.get_pictures manual__2022-06-20T01:52:52.768436+00:00 [queued]>
+[2022-06-20 01:52:56,581] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_2_06.get_pictures manual__2022-06-20T01:52:52.768436+00:00 [queued]>
+[2022-06-20 01:52:56,582] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:52:56,583] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 01:52:56,584] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 01:52:56,596] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_pictures> on 2022-06-20 01:52:52.768436+00:00
+[2022-06-20 01:52:56,601] {standard_task_runner.py:52} INFO - Started process 309 to run task
+[2022-06-20 01:52:56,604] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_2_06', 'get_pictures', 'manual__2022-06-20T01:52:52.768436+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/chapter02/dags/listing_2_6.py', '--cfg-path', '/tmp/tmpdawbbck1', '--error-file', '/tmp/tmp3xtrq5oh']
+[2022-06-20 01:52:56,606] {standard_task_runner.py:80} INFO - Job 34: Subtask get_pictures
+[2022-06-20 01:52:56,659] {task_command.py:369} INFO - Running <TaskInstance: listing_2_06.get_pictures manual__2022-06-20T01:52:52.768436+00:00 [running]> on host b39ea3d1be4a
+[2022-06-20 01:52:56,720] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_2_06
+AIRFLOW_CTX_TASK_ID=get_pictures
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-20T01:52:52.768436+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-20T01:52:52.768436+00:00
+[2022-06-20 01:52:56,723] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/chapter02/dags/listing_2_6.py", line 31, in _get_pictures
+    image_urls = [launch["image"] for launch in launches["results"]]
+KeyError: 'results'
+[2022-06-20 01:52:56,736] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=listing_2_06, task_id=get_pictures, execution_date=20220620T015252, start_date=20220620T015256, end_date=20220620T015256
+[2022-06-20 01:52:56,748] {standard_task_runner.py:97} ERROR - Failed to execute job 34 for task get_pictures ('results'; 309)
+[2022-06-20 01:52:56,780] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-06-20 01:52:56,824] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2022-06-12 23:47:52,000] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-11T01:00:00+00:00 [queued]>
+[2022-06-12 23:47:52,012] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: listing_4_05.get_data scheduled__2022-06-11T01:00:00+00:00 [queued]>
+[2022-06-12 23:47:52,016] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 23:47:52,018] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-12 23:47:52,021] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-12 23:47:52,038] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_data> on 2022-06-11 01:00:00+00:00
+[2022-06-12 23:47:52,044] {standard_task_runner.py:52} INFO - Started process 78 to run task
+[2022-06-12 23:47:52,053] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'listing_4_05', 'get_data', 'scheduled__2022-06-11T01:00:00+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/listing_4_5.py', '--cfg-path', '/tmp/tmpnzztl1y7', '--error-file', '/tmp/tmpxx2hd_ps']
+[2022-06-12 23:47:52,057] {standard_task_runner.py:80} INFO - Job 67: Subtask get_data
+[2022-06-12 23:47:52,179] {task_command.py:369} INFO - Running <TaskInstance: listing_4_05.get_data scheduled__2022-06-11T01:00:00+00:00 [running]> on host 48de8cc79e8d
+[2022-06-12 23:47:52,334] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=listing_4_05
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-11T01:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-11T01:00:00+00:00
+[2022-06-12 23:47:52,339] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-06-12 23:48:12,061] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-12 23:48:12,093] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=listing_4_05, task_id=get_data, execution_date=20220611T010000, start_date=20220612T234752, end_date=20220612T234812
+[2022-06-12 23:48:12,142] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-12 23:48:12,170] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

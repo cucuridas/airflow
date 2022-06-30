@@ -1,0 +1,24 @@
+[2022-06-20 04:02:15,868] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.fetch_sales_old scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,903] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.fetch_sales_old scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,906] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,912] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 04:02:15,919] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,936] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): fetch_sales_old> on 2022-06-18 00:00:00+00:00
+[2022-06-20 04:02:15,943] {standard_task_runner.py:52} INFO - Started process 94 to run task
+[2022-06-20 04:02:15,949] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '5_2_branch_dag', 'fetch_sales_old', 'scheduled__2022-06-18T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/chapter05/5_2_branch_dag.py', '--cfg-path', '/tmp/tmp5vsbfc31', '--error-file', '/tmp/tmpg1vm8v3s']
+[2022-06-20 04:02:15,951] {standard_task_runner.py:80} INFO - Job 51: Subtask fetch_sales_old
+[2022-06-20 04:02:16,016] {task_command.py:369} INFO - Running <TaskInstance: 5_2_branch_dag.fetch_sales_old scheduled__2022-06-18T00:00:00+00:00 [running]> on host 69ff35f06aa7
+[2022-06-20 04:02:16,118] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_2_branch_dag
+AIRFLOW_CTX_TASK_ID=fetch_sales_old
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-18T00:00:00+00:00
+[2022-06-20 04:02:16,122] {logging_mixin.py:115} INFO - Fetching sales data (OLD)...
+[2022-06-20 04:02:16,125] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-20 04:02:16,157] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=5_2_branch_dag, task_id=fetch_sales_old, execution_date=20220618T000000, start_date=20220620T040215, end_date=20220620T040216
+[2022-06-20 04:02:16,212] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-20 04:02:16,267] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

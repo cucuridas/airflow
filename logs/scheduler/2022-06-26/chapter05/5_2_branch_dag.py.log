@@ -1,0 +1,620 @@
+[2022-06-26 13:37:32,554] {processor.py:153} INFO - Started process (PID=66) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:37:32,557] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:37:32,562] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,562] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:37:32,609] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:37:32,751] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,751] {manager.py:508} INFO - Created Permission View: can read on DAG:5_2_branch_dag
+[2022-06-26 13:37:32,767] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,766] {manager.py:508} INFO - Created Permission View: can edit on DAG:5_2_branch_dag
+[2022-06-26 13:37:32,776] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,776] {manager.py:508} INFO - Created Permission View: can delete on DAG:5_2_branch_dag
+[2022-06-26 13:37:32,779] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,778] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:37:32,794] {logging_mixin.py:115} INFO - [2022-06-26 13:37:32,794] {dag.py:2390} INFO - Creating ORM DAG for 5_2_branch_dag
+[2022-06-26 13:37:33,014] {logging_mixin.py:115} INFO - [2022-06-26 13:37:33,014] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:37:33,041] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.493 seconds
+[2022-06-26 13:38:03,252] {processor.py:153} INFO - Started process (PID=127) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:03,253] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:38:03,254] {logging_mixin.py:115} INFO - [2022-06-26 13:38:03,254] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:03,268] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:03,287] {logging_mixin.py:115} INFO - [2022-06-26 13:38:03,287] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:03,301] {logging_mixin.py:115} INFO - [2022-06-26 13:38:03,300] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:38:03,308] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.059 seconds
+[2022-06-26 13:38:33,870] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:33,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:38:33,873] {logging_mixin.py:115} INFO - [2022-06-26 13:38:33,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:33,884] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:38:33,902] {logging_mixin.py:115} INFO - [2022-06-26 13:38:33,902] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:33,916] {logging_mixin.py:115} INFO - [2022-06-26 13:38:33,916] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:38:33,925] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.059 seconds
+[2022-06-26 13:39:04,503] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:04,504] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:39:04,505] {logging_mixin.py:115} INFO - [2022-06-26 13:39:04,505] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:04,517] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:04,536] {logging_mixin.py:115} INFO - [2022-06-26 13:39:04,536] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:04,548] {logging_mixin.py:115} INFO - [2022-06-26 13:39:04,548] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:39:04,556] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.057 seconds
+[2022-06-26 13:39:34,754] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:34,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:39:34,757] {logging_mixin.py:115} INFO - [2022-06-26 13:39:34,757] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:34,766] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:39:34,786] {logging_mixin.py:115} INFO - [2022-06-26 13:39:34,786] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:34,800] {logging_mixin.py:115} INFO - [2022-06-26 13:39:34,800] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:39:34,808] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.058 seconds
+[2022-06-26 13:40:05,114] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:05,116] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:40:05,119] {logging_mixin.py:115} INFO - [2022-06-26 13:40:05,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:05,137] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:05,157] {logging_mixin.py:115} INFO - [2022-06-26 13:40:05,157] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:05,174] {logging_mixin.py:115} INFO - [2022-06-26 13:40:05,173] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:40:05,181] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.073 seconds
+[2022-06-26 13:40:35,978] {processor.py:153} INFO - Started process (PID=423) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:35,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:40:35,989] {logging_mixin.py:115} INFO - [2022-06-26 13:40:35,989] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:36,013] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:40:36,053] {logging_mixin.py:115} INFO - [2022-06-26 13:40:36,053] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:36,076] {logging_mixin.py:115} INFO - [2022-06-26 13:40:36,076] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:40:36,084] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.111 seconds
+[2022-06-26 13:41:06,871] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:06,873] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:41:06,876] {logging_mixin.py:115} INFO - [2022-06-26 13:41:06,876] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:06,890] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:06,911] {logging_mixin.py:115} INFO - [2022-06-26 13:41:06,911] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:06,927] {logging_mixin.py:115} INFO - [2022-06-26 13:41:06,927] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:41:06,936] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.069 seconds
+[2022-06-26 13:41:37,585] {processor.py:153} INFO - Started process (PID=538) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:37,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:41:37,590] {logging_mixin.py:115} INFO - [2022-06-26 13:41:37,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:37,604] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:41:37,621] {logging_mixin.py:115} INFO - [2022-06-26 13:41:37,621] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:37,634] {logging_mixin.py:115} INFO - [2022-06-26 13:41:37,634] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:41:37,641] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.063 seconds
+[2022-06-26 13:42:08,236] {processor.py:153} INFO - Started process (PID=604) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:08,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:42:08,238] {logging_mixin.py:115} INFO - [2022-06-26 13:42:08,238] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:08,249] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:08,268] {logging_mixin.py:115} INFO - [2022-06-26 13:42:08,268] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:08,281] {logging_mixin.py:115} INFO - [2022-06-26 13:42:08,281] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:42:08,290] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.059 seconds
+[2022-06-26 13:42:39,075] {processor.py:153} INFO - Started process (PID=665) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:39,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:42:39,077] {logging_mixin.py:115} INFO - [2022-06-26 13:42:39,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:39,089] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:42:39,107] {logging_mixin.py:115} INFO - [2022-06-26 13:42:39,107] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:39,122] {logging_mixin.py:115} INFO - [2022-06-26 13:42:39,122] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:42:39,129] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 13:43:09,825] {processor.py:153} INFO - Started process (PID=726) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:09,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:43:09,831] {logging_mixin.py:115} INFO - [2022-06-26 13:43:09,831] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:09,847] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:09,868] {logging_mixin.py:115} INFO - [2022-06-26 13:43:09,868] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:09,884] {logging_mixin.py:115} INFO - [2022-06-26 13:43:09,884] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:43:09,892] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.069 seconds
+[2022-06-26 13:43:40,460] {processor.py:153} INFO - Started process (PID=787) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:40,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:43:40,462] {logging_mixin.py:115} INFO - [2022-06-26 13:43:40,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:40,473] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:43:40,491] {logging_mixin.py:115} INFO - [2022-06-26 13:43:40,491] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:40,504] {logging_mixin.py:115} INFO - [2022-06-26 13:43:40,504] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:43:40,513] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.055 seconds
+[2022-06-26 13:44:10,902] {processor.py:153} INFO - Started process (PID=848) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:10,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:44:10,905] {logging_mixin.py:115} INFO - [2022-06-26 13:44:10,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:10,916] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:10,934] {logging_mixin.py:115} INFO - [2022-06-26 13:44:10,934] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:10,948] {logging_mixin.py:115} INFO - [2022-06-26 13:44:10,948] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:44:10,956] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 13:44:41,837] {processor.py:153} INFO - Started process (PID=908) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:41,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:44:41,841] {logging_mixin.py:115} INFO - [2022-06-26 13:44:41,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:41,861] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:44:41,885] {logging_mixin.py:115} INFO - [2022-06-26 13:44:41,885] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:41,902] {logging_mixin.py:115} INFO - [2022-06-26 13:44:41,902] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:44:41,913] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.079 seconds
+[2022-06-26 13:45:12,700] {processor.py:153} INFO - Started process (PID=959) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:12,702] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:45:12,703] {logging_mixin.py:115} INFO - [2022-06-26 13:45:12,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:12,713] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:12,730] {logging_mixin.py:115} INFO - [2022-06-26 13:45:12,730] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:12,742] {logging_mixin.py:115} INFO - [2022-06-26 13:45:12,742] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:45:12,748] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.050 seconds
+[2022-06-26 13:45:43,467] {processor.py:153} INFO - Started process (PID=1019) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:43,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:45:43,470] {logging_mixin.py:115} INFO - [2022-06-26 13:45:43,470] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:43,482] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:45:43,502] {logging_mixin.py:115} INFO - [2022-06-26 13:45:43,502] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:43,513] {logging_mixin.py:115} INFO - [2022-06-26 13:45:43,513] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:45:43,520] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 13:46:14,243] {processor.py:153} INFO - Started process (PID=1081) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:14,244] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:46:14,245] {logging_mixin.py:115} INFO - [2022-06-26 13:46:14,245] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:14,256] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:14,275] {logging_mixin.py:115} INFO - [2022-06-26 13:46:14,274] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:14,288] {logging_mixin.py:115} INFO - [2022-06-26 13:46:14,288] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:46:14,295] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.054 seconds
+[2022-06-26 13:46:45,026] {processor.py:153} INFO - Started process (PID=1142) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:45,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:46:45,032] {logging_mixin.py:115} INFO - [2022-06-26 13:46:45,032] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:45,061] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:46:45,082] {logging_mixin.py:115} INFO - [2022-06-26 13:46:45,082] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:45,095] {logging_mixin.py:115} INFO - [2022-06-26 13:46:45,095] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:46:45,104] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.083 seconds
+[2022-06-26 13:47:15,957] {processor.py:153} INFO - Started process (PID=1203) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:15,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:47:15,960] {logging_mixin.py:115} INFO - [2022-06-26 13:47:15,959] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:15,972] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:15,989] {logging_mixin.py:115} INFO - [2022-06-26 13:47:15,989] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:16,001] {logging_mixin.py:115} INFO - [2022-06-26 13:47:16,001] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:47:16,007] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.052 seconds
+[2022-06-26 13:47:46,849] {processor.py:153} INFO - Started process (PID=1264) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:46,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:47:46,852] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:46,863] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:47:46,881] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,881] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:46,895] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,895] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:47:46,902] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 13:48:17,778] {processor.py:153} INFO - Started process (PID=1324) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:17,780] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:48:17,781] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,781] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:17,792] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:17,810] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,810] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:17,826] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,825] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:48:17,833] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.057 seconds
+[2022-06-26 13:48:48,527] {processor.py:153} INFO - Started process (PID=1375) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:48,529] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:48:48,530] {logging_mixin.py:115} INFO - [2022-06-26 13:48:48,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:48,540] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:48:48,559] {logging_mixin.py:115} INFO - [2022-06-26 13:48:48,559] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:48,574] {logging_mixin.py:115} INFO - [2022-06-26 13:48:48,573] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:48:48,581] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 13:49:19,214] {processor.py:153} INFO - Started process (PID=1435) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:19,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:49:19,217] {logging_mixin.py:115} INFO - [2022-06-26 13:49:19,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:19,227] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:19,246] {logging_mixin.py:115} INFO - [2022-06-26 13:49:19,246] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:19,260] {logging_mixin.py:115} INFO - [2022-06-26 13:49:19,260] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:49:19,270] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.058 seconds
+[2022-06-26 13:49:49,940] {processor.py:153} INFO - Started process (PID=1496) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:49,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:49:49,942] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:49,954] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:49:49,971] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,971] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:49,985] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,985] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:49:49,992] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.055 seconds
+[2022-06-26 13:50:20,814] {processor.py:153} INFO - Started process (PID=1558) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:20,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:50:20,817] {logging_mixin.py:115} INFO - [2022-06-26 13:50:20,817] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:20,828] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:20,850] {logging_mixin.py:115} INFO - [2022-06-26 13:50:20,849] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:20,868] {logging_mixin.py:115} INFO - [2022-06-26 13:50:20,868] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:50:20,880] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.068 seconds
+[2022-06-26 13:50:51,517] {processor.py:153} INFO - Started process (PID=1619) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:51,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:50:51,520] {logging_mixin.py:115} INFO - [2022-06-26 13:50:51,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:51,530] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:50:51,546] {logging_mixin.py:115} INFO - [2022-06-26 13:50:51,546] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:51,558] {logging_mixin.py:115} INFO - [2022-06-26 13:50:51,558] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:50:51,565] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.049 seconds
+[2022-06-26 13:51:22,283] {processor.py:153} INFO - Started process (PID=1679) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:22,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:51:22,286] {logging_mixin.py:115} INFO - [2022-06-26 13:51:22,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:22,297] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:22,314] {logging_mixin.py:115} INFO - [2022-06-26 13:51:22,314] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:22,326] {logging_mixin.py:115} INFO - [2022-06-26 13:51:22,326] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:51:22,332] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.051 seconds
+[2022-06-26 13:51:53,071] {processor.py:153} INFO - Started process (PID=1739) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:53,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:51:53,073] {logging_mixin.py:115} INFO - [2022-06-26 13:51:53,073] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:53,082] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:51:53,100] {logging_mixin.py:115} INFO - [2022-06-26 13:51:53,100] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:53,112] {logging_mixin.py:115} INFO - [2022-06-26 13:51:53,112] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:51:53,118] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.049 seconds
+[2022-06-26 13:52:23,996] {processor.py:153} INFO - Started process (PID=1800) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:23,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:52:24,000] {logging_mixin.py:115} INFO - [2022-06-26 13:52:24,000] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:24,014] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:24,035] {logging_mixin.py:115} INFO - [2022-06-26 13:52:24,035] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:24,050] {logging_mixin.py:115} INFO - [2022-06-26 13:52:24,050] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:52:24,058] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.064 seconds
+[2022-06-26 13:52:54,961] {processor.py:153} INFO - Started process (PID=1850) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:54,962] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:52:54,964] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:54,976] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:52:54,995] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,995] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:55,007] {logging_mixin.py:115} INFO - [2022-06-26 13:52:55,007] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:52:55,015] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.058 seconds
+[2022-06-26 13:53:25,761] {processor.py:153} INFO - Started process (PID=1911) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:25,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:53:25,764] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,764] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:25,775] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:25,795] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,795] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:25,807] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,807] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:53:25,813] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.055 seconds
+[2022-06-26 13:53:56,760] {processor.py:153} INFO - Started process (PID=1972) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:56,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:53:56,763] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,763] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:56,775] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:53:56,795] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,795] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:56,809] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,809] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:53:56,816] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.058 seconds
+[2022-06-26 13:54:27,695] {processor.py:153} INFO - Started process (PID=2032) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:27,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:54:27,698] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,698] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:27,711] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:27,732] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,732] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:27,747] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,747] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:54:27,757] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.065 seconds
+[2022-06-26 13:54:58,534] {processor.py:153} INFO - Started process (PID=2093) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:58,537] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:54:58,539] {logging_mixin.py:115} INFO - [2022-06-26 13:54:58,538] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:58,552] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:54:58,571] {logging_mixin.py:115} INFO - [2022-06-26 13:54:58,571] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:58,587] {logging_mixin.py:115} INFO - [2022-06-26 13:54:58,587] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:54:58,597] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.065 seconds
+[2022-06-26 13:55:29,546] {processor.py:153} INFO - Started process (PID=2153) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:55:29,549] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:55:29,551] {logging_mixin.py:115} INFO - [2022-06-26 13:55:29,551] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:55:29,566] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:55:29,591] {logging_mixin.py:115} INFO - [2022-06-26 13:55:29,591] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:29,608] {logging_mixin.py:115} INFO - [2022-06-26 13:55:29,608] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:55:29,617] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.074 seconds
+[2022-06-26 13:56:00,720] {processor.py:153} INFO - Started process (PID=2214) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:00,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:56:00,723] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:00,734] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:00,753] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,753] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:00,767] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,767] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:56:00,777] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.059 seconds
+[2022-06-26 13:56:31,527] {processor.py:153} INFO - Started process (PID=2276) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:31,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:56:31,529] {logging_mixin.py:115} INFO - [2022-06-26 13:56:31,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:31,539] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:56:31,558] {logging_mixin.py:115} INFO - [2022-06-26 13:56:31,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:31,573] {logging_mixin.py:115} INFO - [2022-06-26 13:56:31,573] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:56:31,582] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.057 seconds
+[2022-06-26 13:57:02,587] {processor.py:153} INFO - Started process (PID=2327) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:02,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:57:02,589] {logging_mixin.py:115} INFO - [2022-06-26 13:57:02,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:02,605] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:02,658] {logging_mixin.py:115} INFO - [2022-06-26 13:57:02,658] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:02,680] {logging_mixin.py:115} INFO - [2022-06-26 13:57:02,679] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:57:02,694] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.109 seconds
+[2022-06-26 13:57:32,861] {processor.py:153} INFO - Started process (PID=2388) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:32,862] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:57:32,864] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,864] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:32,875] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:57:32,902] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,902] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:32,916] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,916] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:57:32,924] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.066 seconds
+[2022-06-26 13:58:03,761] {processor.py:153} INFO - Started process (PID=2449) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:03,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:58:03,764] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,764] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:03,776] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:03,798] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,798] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:03,813] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,813] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:58:03,822] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.063 seconds
+[2022-06-26 13:58:34,900] {processor.py:153} INFO - Started process (PID=2510) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:34,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:58:34,908] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,908] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:34,920] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:58:34,942] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,942] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:34,958] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,958] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:58:34,970] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.073 seconds
+[2022-06-26 13:59:05,731] {processor.py:153} INFO - Started process (PID=2570) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:05,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:59:05,734] {logging_mixin.py:115} INFO - [2022-06-26 13:59:05,734] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:05,745] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:05,764] {logging_mixin.py:115} INFO - [2022-06-26 13:59:05,764] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:05,779] {logging_mixin.py:115} INFO - [2022-06-26 13:59:05,779] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:59:05,787] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.059 seconds
+[2022-06-26 13:59:36,360] {processor.py:153} INFO - Started process (PID=2631) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:36,361] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 13:59:36,362] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,362] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:36,374] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 13:59:36,394] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,394] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:36,409] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,409] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 13:59:36,419] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.062 seconds
+[2022-06-26 14:00:07,066] {processor.py:153} INFO - Started process (PID=2694) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:07,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:00:07,069] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,069] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:07,081] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:07,103] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,103] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:07,122] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,122] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:00:07,132] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.068 seconds
+[2022-06-26 14:00:37,808] {processor.py:153} INFO - Started process (PID=2745) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:37,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:00:37,810] {logging_mixin.py:115} INFO - [2022-06-26 14:00:37,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:37,821] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:00:37,843] {logging_mixin.py:115} INFO - [2022-06-26 14:00:37,843] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:37,859] {logging_mixin.py:115} INFO - [2022-06-26 14:00:37,859] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:00:37,867] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.061 seconds
+[2022-06-26 14:01:08,537] {processor.py:153} INFO - Started process (PID=2806) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:08,538] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:01:08,539] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:08,551] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:08,571] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,571] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:08,589] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,589] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:01:08,598] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.064 seconds
+[2022-06-26 14:01:39,233] {processor.py:153} INFO - Started process (PID=2867) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:39,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:01:39,236] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,236] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:39,246] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:01:39,268] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,268] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:39,285] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,285] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:01:39,294] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.063 seconds
+[2022-06-26 14:02:10,346] {processor.py:153} INFO - Started process (PID=2928) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:10,347] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:02:10,349] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,349] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:10,361] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:10,384] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:10,401] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,401] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:02:10,410] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.067 seconds
+[2022-06-26 14:02:41,280] {processor.py:153} INFO - Started process (PID=2989) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:41,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:02:41,286] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:41,302] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:02:41,329] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,328] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:41,346] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,346] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:02:41,357] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.080 seconds
+[2022-06-26 14:03:12,218] {processor.py:153} INFO - Started process (PID=3050) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:12,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:03:12,222] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:12,237] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:12,263] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,263] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:12,277] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,277] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:03:12,286] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.070 seconds
+[2022-06-26 14:03:43,078] {processor.py:153} INFO - Started process (PID=3111) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:43,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:03:43,088] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:43,109] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:03:43,133] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,133] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:43,149] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,149] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:03:43,162] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.087 seconds
+[2022-06-26 14:04:14,098] {processor.py:153} INFO - Started process (PID=3162) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:14,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:04:14,103] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,103] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:14,116] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:14,141] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,141] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:14,159] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,159] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:04:14,167] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.071 seconds
+[2022-06-26 14:04:44,921] {processor.py:153} INFO - Started process (PID=3224) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:44,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:04:44,925] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,925] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:44,942] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:04:44,967] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,967] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:44,983] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,982] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:04:44,990] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.071 seconds
+[2022-06-26 14:05:15,731] {processor.py:153} INFO - Started process (PID=3285) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:15,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:05:15,735] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,735] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:15,746] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:15,766] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,766] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:15,783] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,782] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:05:15,792] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.063 seconds
+[2022-06-26 14:05:46,238] {processor.py:153} INFO - Started process (PID=3346) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:46,240] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:05:46,241] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,241] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:46,251] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:05:46,273] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,273] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:46,288] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,288] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:05:46,296] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.060 seconds
+[2022-06-26 14:09:52,840] {processor.py:153} INFO - Started process (PID=3397) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:09:52,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:09:52,845] {logging_mixin.py:115} INFO - [2022-06-26 14:09:52,845] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:09:52,865] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:09:52,916] {logging_mixin.py:115} INFO - [2022-06-26 14:09:52,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:09:52,937] {logging_mixin.py:115} INFO - [2022-06-26 14:09:52,937] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:09:53,066] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.231 seconds
+[2022-06-26 14:10:23,580] {processor.py:153} INFO - Started process (PID=3456) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:23,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:10:23,584] {logging_mixin.py:115} INFO - [2022-06-26 14:10:23,583] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:23,599] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:23,622] {logging_mixin.py:115} INFO - [2022-06-26 14:10:23,622] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:23,639] {logging_mixin.py:115} INFO - [2022-06-26 14:10:23,639] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:10:23,734] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.156 seconds
+[2022-06-26 14:10:53,965] {processor.py:153} INFO - Started process (PID=3509) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:53,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:10:53,969] {logging_mixin.py:115} INFO - [2022-06-26 14:10:53,969] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:53,980] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:10:54,002] {logging_mixin.py:115} INFO - [2022-06-26 14:10:54,002] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:54,017] {logging_mixin.py:115} INFO - [2022-06-26 14:10:54,017] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:10:54,113] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.150 seconds
+[2022-06-26 14:11:24,357] {processor.py:153} INFO - Started process (PID=3570) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:24,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:11:24,366] {logging_mixin.py:115} INFO - [2022-06-26 14:11:24,366] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:24,385] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:24,412] {logging_mixin.py:115} INFO - [2022-06-26 14:11:24,412] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:24,429] {logging_mixin.py:115} INFO - [2022-06-26 14:11:24,429] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:11:24,524] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.169 seconds
+[2022-06-26 14:11:54,671] {processor.py:153} INFO - Started process (PID=3631) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:54,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:11:54,681] {logging_mixin.py:115} INFO - [2022-06-26 14:11:54,681] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:54,694] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:11:54,718] {logging_mixin.py:115} INFO - [2022-06-26 14:11:54,718] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:54,737] {logging_mixin.py:115} INFO - [2022-06-26 14:11:54,737] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:11:54,828] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.160 seconds
+[2022-06-26 14:12:24,948] {processor.py:153} INFO - Started process (PID=3692) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:24,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:12:24,951] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:24,963] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:24,983] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,983] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:24,997] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,997] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:12:25,082] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.136 seconds
+[2022-06-26 14:12:55,599] {processor.py:153} INFO - Started process (PID=4247) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:55,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:12:55,604] {logging_mixin.py:115} INFO - [2022-06-26 14:12:55,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:55,623] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:12:55,650] {logging_mixin.py:115} INFO - [2022-06-26 14:12:55,650] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:55,669] {logging_mixin.py:115} INFO - [2022-06-26 14:12:55,669] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:12:55,786] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.189 seconds
+[2022-06-26 14:13:26,046] {processor.py:153} INFO - Started process (PID=4738) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:26,048] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:13:26,050] {logging_mixin.py:115} INFO - [2022-06-26 14:13:26,050] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:26,060] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:26,080] {logging_mixin.py:115} INFO - [2022-06-26 14:13:26,080] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:26,095] {logging_mixin.py:115} INFO - [2022-06-26 14:13:26,094] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:13:26,178] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.134 seconds
+[2022-06-26 14:13:56,689] {processor.py:153} INFO - Started process (PID=5730) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:56,692] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:13:56,693] {logging_mixin.py:115} INFO - [2022-06-26 14:13:56,693] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:56,706] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:13:56,727] {logging_mixin.py:115} INFO - [2022-06-26 14:13:56,727] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:56,743] {logging_mixin.py:115} INFO - [2022-06-26 14:13:56,743] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:13:56,842] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.156 seconds
+[2022-06-26 14:14:27,023] {processor.py:153} INFO - Started process (PID=6092) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:27,025] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:14:27,026] {logging_mixin.py:115} INFO - [2022-06-26 14:14:27,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:27,039] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:27,060] {logging_mixin.py:115} INFO - [2022-06-26 14:14:27,060] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:27,077] {logging_mixin.py:115} INFO - [2022-06-26 14:14:27,077] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:14:27,165] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.145 seconds
+[2022-06-26 14:14:57,648] {processor.py:153} INFO - Started process (PID=6464) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:57,650] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:14:57,651] {logging_mixin.py:115} INFO - [2022-06-26 14:14:57,651] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:57,663] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:14:57,687] {logging_mixin.py:115} INFO - [2022-06-26 14:14:57,687] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:57,786] {logging_mixin.py:115} INFO - [2022-06-26 14:14:57,785] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:14:57,799] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.153 seconds
+[2022-06-26 14:15:28,330] {processor.py:153} INFO - Started process (PID=6838) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:28,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:15:28,334] {logging_mixin.py:115} INFO - [2022-06-26 14:15:28,334] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:28,345] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:28,368] {logging_mixin.py:115} INFO - [2022-06-26 14:15:28,368] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:28,472] {logging_mixin.py:115} INFO - [2022-06-26 14:15:28,472] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:15:28,480] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.152 seconds
+[2022-06-26 14:15:59,197] {processor.py:153} INFO - Started process (PID=7451) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:59,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:15:59,201] {logging_mixin.py:115} INFO - [2022-06-26 14:15:59,201] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:59,216] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:15:59,245] {logging_mixin.py:115} INFO - [2022-06-26 14:15:59,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:59,350] {logging_mixin.py:115} INFO - [2022-06-26 14:15:59,350] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:15:59,360] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.167 seconds
+[2022-06-26 14:16:29,973] {processor.py:153} INFO - Started process (PID=9129) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:16:29,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:16:29,979] {logging_mixin.py:115} INFO - [2022-06-26 14:16:29,979] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:16:30,003] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:16:30,034] {logging_mixin.py:115} INFO - [2022-06-26 14:16:30,034] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:30,151] {logging_mixin.py:115} INFO - [2022-06-26 14:16:30,151] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:16:30,164] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.195 seconds
+[2022-06-26 14:17:00,252] {processor.py:153} INFO - Started process (PID=9900) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:00,253] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:17:00,255] {logging_mixin.py:115} INFO - [2022-06-26 14:17:00,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:00,266] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:00,288] {logging_mixin.py:115} INFO - [2022-06-26 14:17:00,288] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:00,380] {logging_mixin.py:115} INFO - [2022-06-26 14:17:00,380] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:17:00,388] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.138 seconds
+[2022-06-26 14:17:30,911] {processor.py:153} INFO - Started process (PID=10829) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:30,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:17:30,915] {logging_mixin.py:115} INFO - [2022-06-26 14:17:30,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:30,927] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:17:30,954] {logging_mixin.py:115} INFO - [2022-06-26 14:17:30,954] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:31,064] {logging_mixin.py:115} INFO - [2022-06-26 14:17:31,063] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:17:31,071] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.162 seconds
+[2022-06-26 14:18:01,459] {processor.py:153} INFO - Started process (PID=11395) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:01,462] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:18:01,465] {logging_mixin.py:115} INFO - [2022-06-26 14:18:01,465] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:01,483] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:01,506] {logging_mixin.py:115} INFO - [2022-06-26 14:18:01,506] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:01,641] {logging_mixin.py:115} INFO - [2022-06-26 14:18:01,641] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:18:01,658] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.202 seconds
+[2022-06-26 14:18:32,451] {processor.py:153} INFO - Started process (PID=12214) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:32,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:18:32,454] {logging_mixin.py:115} INFO - [2022-06-26 14:18:32,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:32,470] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:18:32,495] {logging_mixin.py:115} INFO - [2022-06-26 14:18:32,495] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:32,614] {logging_mixin.py:115} INFO - [2022-06-26 14:18:32,614] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:18:32,623] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.175 seconds
+[2022-06-26 14:19:03,365] {processor.py:153} INFO - Started process (PID=12600) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:03,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:19:03,369] {logging_mixin.py:115} INFO - [2022-06-26 14:19:03,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:03,385] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:03,409] {logging_mixin.py:115} INFO - [2022-06-26 14:19:03,409] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:03,503] {logging_mixin.py:115} INFO - [2022-06-26 14:19:03,503] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:19:03,511] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.149 seconds
+[2022-06-26 14:19:34,228] {processor.py:153} INFO - Started process (PID=13585) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:34,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:19:34,231] {logging_mixin.py:115} INFO - [2022-06-26 14:19:34,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:34,246] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:19:34,272] {logging_mixin.py:115} INFO - [2022-06-26 14:19:34,272] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:34,383] {logging_mixin.py:115} INFO - [2022-06-26 14:19:34,383] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:19:34,395] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.169 seconds
+[2022-06-26 14:20:05,099] {processor.py:153} INFO - Started process (PID=14361) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:20:05,100] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:20:05,102] {logging_mixin.py:115} INFO - [2022-06-26 14:20:05,102] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:20:05,112] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:20:05,134] {logging_mixin.py:115} INFO - [2022-06-26 14:20:05,134] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:20:05,252] {logging_mixin.py:115} INFO - [2022-06-26 14:20:05,252] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:20:05,267] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.170 seconds
+[2022-06-26 14:53:09,737] {processor.py:153} INFO - Started process (PID=14826) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:53:09,739] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 14:53:09,741] {logging_mixin.py:115} INFO - [2022-06-26 14:53:09,741] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:53:09,772] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 14:53:09,849] {logging_mixin.py:115} INFO - [2022-06-26 14:53:09,849] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:53:10,021] {logging_mixin.py:115} INFO - [2022-06-26 14:53:10,021] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 14:53:10,035] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.302 seconds
+[2022-06-26 16:16:00,819] {processor.py:153} INFO - Started process (PID=15204) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 16:16:00,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 16:16:00,824] {logging_mixin.py:115} INFO - [2022-06-26 16:16:00,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 16:16:00,839] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 16:16:00,954] {logging_mixin.py:115} INFO - [2022-06-26 16:16:00,954] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 16:16:00,969] {logging_mixin.py:115} INFO - [2022-06-26 16:16:00,969] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 16:16:00,977] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.161 seconds
+[2022-06-26 17:21:22,274] {processor.py:153} INFO - Started process (PID=15561) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 17:21:22,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 17:21:22,279] {logging_mixin.py:115} INFO - [2022-06-26 17:21:22,279] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 17:21:22,297] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 17:21:22,457] {logging_mixin.py:115} INFO - [2022-06-26 17:21:22,457] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 17:21:22,479] {logging_mixin.py:115} INFO - [2022-06-26 17:21:22,479] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 17:21:22,497] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.227 seconds
+[2022-06-26 18:41:38,386] {processor.py:153} INFO - Started process (PID=15921) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 18:41:38,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 18:41:38,392] {logging_mixin.py:115} INFO - [2022-06-26 18:41:38,392] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 18:41:38,542] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 18:41:38,572] {logging_mixin.py:115} INFO - [2022-06-26 18:41:38,572] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 18:41:38,598] {logging_mixin.py:115} INFO - [2022-06-26 18:41:38,598] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 18:41:38,614] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.234 seconds
+[2022-06-26 20:03:39,783] {processor.py:153} INFO - Started process (PID=16199) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 20:03:39,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 20:03:39,789] {logging_mixin.py:115} INFO - [2022-06-26 20:03:39,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 20:03:39,809] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 20:03:39,845] {logging_mixin.py:115} INFO - [2022-06-26 20:03:39,845] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 20:03:39,879] {logging_mixin.py:115} INFO - [2022-06-26 20:03:39,879] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 20:03:39,910] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.131 seconds
+[2022-06-26 21:23:32,618] {processor.py:153} INFO - Started process (PID=16479) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 21:23:32,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 21:23:32,625] {logging_mixin.py:115} INFO - [2022-06-26 21:23:32,625] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 21:23:32,651] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 21:23:32,690] {logging_mixin.py:115} INFO - [2022-06-26 21:23:32,690] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 21:23:32,722] {logging_mixin.py:115} INFO - [2022-06-26 21:23:32,722] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 21:23:32,744] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.130 seconds
+[2022-06-26 22:29:32,467] {processor.py:153} INFO - Started process (PID=16762) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 22:29:32,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 22:29:32,472] {logging_mixin.py:115} INFO - [2022-06-26 22:29:32,472] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 22:29:32,490] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 22:29:32,517] {logging_mixin.py:115} INFO - [2022-06-26 22:29:32,517] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 22:29:32,544] {logging_mixin.py:115} INFO - [2022-06-26 22:29:32,544] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 22:29:32,561] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.097 seconds
+[2022-06-26 23:11:57,585] {processor.py:153} INFO - Started process (PID=17071) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:11:57,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 23:11:57,598] {logging_mixin.py:115} INFO - [2022-06-26 23:11:57,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:11:57,621] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:11:57,661] {logging_mixin.py:115} INFO - [2022-06-26 23:11:57,661] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:11:57,700] {logging_mixin.py:115} INFO - [2022-06-26 23:11:57,700] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 23:11:57,719] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.139 seconds
+[2022-06-26 23:12:28,635] {processor.py:153} INFO - Started process (PID=17358) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:28,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 23:12:28,641] {logging_mixin.py:115} INFO - [2022-06-26 23:12:28,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:28,655] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:28,677] {logging_mixin.py:115} INFO - [2022-06-26 23:12:28,677] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:28,695] {logging_mixin.py:115} INFO - [2022-06-26 23:12:28,695] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 23:12:28,710] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.077 seconds
+[2022-06-26 23:12:59,454] {processor.py:153} INFO - Started process (PID=17638) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:59,455] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 23:12:59,457] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,457] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:59,469] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:12:59,487] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,487] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:59,499] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,499] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 23:12:59,508] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.056 seconds
+[2022-06-26 23:31:50,279] {processor.py:153} INFO - Started process (PID=17906) to work on /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:31:50,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter05/5_2_branch_dag.py for tasks to queue
+[2022-06-26 23:31:50,285] {logging_mixin.py:115} INFO - [2022-06-26 23:31:50,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:31:50,309] {processor.py:651} INFO - DAG(s) dict_keys(['5_2_branch_dag']) retrieved from /opt/airflow/dags/chapter05/5_2_branch_dag.py
+[2022-06-26 23:31:50,348] {logging_mixin.py:115} INFO - [2022-06-26 23:31:50,348] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:31:50,375] {logging_mixin.py:115} INFO - [2022-06-26 23:31:50,375] {dag.py:2919} INFO - Setting next_dagrun for 5_2_branch_dag to 2022-06-23T00:00:00+00:00, run_after=2022-06-24T00:00:00+00:00
+[2022-06-26 23:31:50,399] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter05/5_2_branch_dag.py took 0.123 seconds

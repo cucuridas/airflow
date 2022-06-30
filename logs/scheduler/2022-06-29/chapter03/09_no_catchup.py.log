@@ -1,0 +1,4 @@
+[2022-06-29 07:10:18,214] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/chapter03/09_no_catchup.py
+[2022-06-29 07:10:18,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/09_no_catchup.py for tasks to queue
+[2022-06-29 07:10:18,225] {logging_mixin.py:115} INFO - [2022-06-29 07:10:18,225] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/09_no_catchup.py
+[2022-06-29 07:10:18,872] {logging_mixin.py:115} INFO - [2022-06-29 07:10:18,872] {process_utils.py:240} INFO - Waiting up to 5 seconds for processes to exit...

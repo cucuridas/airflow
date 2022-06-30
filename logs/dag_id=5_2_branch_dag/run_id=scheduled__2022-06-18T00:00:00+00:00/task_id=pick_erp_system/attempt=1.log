@@ -1,0 +1,28 @@
+[2022-06-20 04:02:15,091] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.pick_erp_system scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,101] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.pick_erp_system scheduled__2022-06-18T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,105] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,106] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 04:02:15,108] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,127] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): pick_erp_system> on 2022-06-18 00:00:00+00:00
+[2022-06-20 04:02:15,136] {standard_task_runner.py:52} INFO - Started process 83 to run task
+[2022-06-20 04:02:15,141] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '5_2_branch_dag', 'pick_erp_system', 'scheduled__2022-06-18T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/chapter05/5_2_branch_dag.py', '--cfg-path', '/tmp/tmp_evzfax3', '--error-file', '/tmp/tmprdwc9iki']
+[2022-06-20 04:02:15,144] {standard_task_runner.py:80} INFO - Job 45: Subtask pick_erp_system
+[2022-06-20 04:02:15,225] {task_command.py:369} INFO - Running <TaskInstance: 5_2_branch_dag.pick_erp_system scheduled__2022-06-18T00:00:00+00:00 [running]> on host 69ff35f06aa7
+[2022-06-20 04:02:15,337] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_2_branch_dag
+AIRFLOW_CTX_TASK_ID=pick_erp_system
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-18T00:00:00+00:00
+[2022-06-20 04:02:15,341] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-06-20 04:02:15,345] {python.py:173} INFO - Done. Returned value was: fetch_sales_old
+[2022-06-20 04:02:15,350] {skipmixin.py:140} INFO - Following branch fetch_sales_old
+[2022-06-20 04:02:15,353] {skipmixin.py:175} INFO - Skipping tasks ['fetch_sales_new']
+[2022-06-20 04:02:15,438] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=5_2_branch_dag, task_id=pick_erp_system, execution_date=20220618T000000, start_date=20220620T040215, end_date=20220620T040215
+[2022-06-20 04:02:15,486] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-20 04:02:15,550] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

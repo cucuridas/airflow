@@ -1,0 +1,30 @@
+[2022-06-20 04:02:14,630] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_3_context_variable_pythonop.print_context scheduled__2022-06-17T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:14,645] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_3_context_variable_pythonop.print_context scheduled__2022-06-17T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:14,647] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:14,649] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 04:02:14,652] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:14,670] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): print_context> on 2022-06-17 00:00:00+00:00
+[2022-06-20 04:02:14,675] {standard_task_runner.py:52} INFO - Started process 78 to run task
+[2022-06-20 04:02:14,680] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '4_3_context_variable_pythonop', 'print_context', 'scheduled__2022-06-17T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/chapter04/4_3_context_variable_pythonop.py', '--cfg-path', '/tmp/tmpaxdalp3o', '--error-file', '/tmp/tmp0ig2s3r3']
+[2022-06-20 04:02:14,683] {standard_task_runner.py:80} INFO - Job 42: Subtask print_context
+[2022-06-20 04:02:14,805] {task_command.py:369} INFO - Running <TaskInstance: 4_3_context_variable_pythonop.print_context scheduled__2022-06-17T00:00:00+00:00 [running]> on host 69ff35f06aa7
+[2022-06-20 04:02:14,961] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=4_3_context_variable_pythonop
+AIRFLOW_CTX_TASK_ID=print_context
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-17T00:00:00+00:00
+[2022-06-20 04:02:14,968] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-06-20 04:02:14,973] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-06-20 04:02:14,978] {logging_mixin.py:115} INFO - Start: 2022-06-17T00:00:00+00:00, end: None
+[2022-06-20 04:02:14,985] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-20 04:02:15,076] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=4_3_context_variable_pythonop, task_id=print_context, execution_date=20220617T000000, start_date=20220620T040214, end_date=20220620T040215
+[2022-06-20 04:02:15,110] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-20 04:02:15,150] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

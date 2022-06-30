@@ -1,0 +1,620 @@
+[2022-06-26 13:37:29,270] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:37:29,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:37:29,292] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,292] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:37:29,867] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:37:30,037] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,037] {manager.py:508} INFO - Created Permission View: can read on DAG:03_with_end_date
+[2022-06-26 13:37:30,072] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,072] {manager.py:508} INFO - Created Permission View: can edit on DAG:03_with_end_date
+[2022-06-26 13:37:30,109] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,109] {manager.py:508} INFO - Created Permission View: can delete on DAG:03_with_end_date
+[2022-06-26 13:37:30,118] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,117] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:37:30,175] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,168] {dag.py:2390} INFO - Creating ORM DAG for 03_with_end_date
+[2022-06-26 13:37:30,246] {logging_mixin.py:115} INFO - [2022-06-26 13:37:30,246] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:37:30,299] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 1.031 seconds
+[2022-06-26 13:38:00,716] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:00,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:38:00,718] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,718] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:00,895] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:00,908] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,908] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:00,919] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,919] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:38:00,925] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.212 seconds
+[2022-06-26 13:38:31,274] {processor.py:153} INFO - Started process (PID=166) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:31,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:38:31,278] {logging_mixin.py:115} INFO - [2022-06-26 13:38:31,278] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:31,470] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:38:31,486] {logging_mixin.py:115} INFO - [2022-06-26 13:38:31,486] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:31,498] {logging_mixin.py:115} INFO - [2022-06-26 13:38:31,498] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:38:31,505] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.237 seconds
+[2022-06-26 13:39:01,887] {processor.py:153} INFO - Started process (PID=227) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:01,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:39:01,890] {logging_mixin.py:115} INFO - [2022-06-26 13:39:01,890] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:02,093] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:02,108] {logging_mixin.py:115} INFO - [2022-06-26 13:39:02,108] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:02,120] {logging_mixin.py:115} INFO - [2022-06-26 13:39:02,120] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:39:02,126] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.244 seconds
+[2022-06-26 13:39:32,913] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:32,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:39:32,917] {logging_mixin.py:115} INFO - [2022-06-26 13:39:32,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:33,090] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:39:33,104] {logging_mixin.py:115} INFO - [2022-06-26 13:39:33,104] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:33,116] {logging_mixin.py:115} INFO - [2022-06-26 13:39:33,116] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:39:33,122] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.211 seconds
+[2022-06-26 13:40:03,960] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:03,961] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:40:03,965] {logging_mixin.py:115} INFO - [2022-06-26 13:40:03,965] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:04,160] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:04,176] {logging_mixin.py:115} INFO - [2022-06-26 13:40:04,176] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:04,189] {logging_mixin.py:115} INFO - [2022-06-26 13:40:04,189] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:40:04,196] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.239 seconds
+[2022-06-26 13:40:34,371] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:34,375] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:40:34,380] {logging_mixin.py:115} INFO - [2022-06-26 13:40:34,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:34,613] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:40:34,639] {logging_mixin.py:115} INFO - [2022-06-26 13:40:34,638] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:34,673] {logging_mixin.py:115} INFO - [2022-06-26 13:40:34,673] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:40:34,682] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.313 seconds
+[2022-06-26 13:41:05,287] {processor.py:153} INFO - Started process (PID=463) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:05,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:41:05,294] {logging_mixin.py:115} INFO - [2022-06-26 13:41:05,294] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:05,544] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:05,558] {logging_mixin.py:115} INFO - [2022-06-26 13:41:05,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:05,569] {logging_mixin.py:115} INFO - [2022-06-26 13:41:05,569] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:41:05,575] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.290 seconds
+[2022-06-26 13:41:36,145] {processor.py:153} INFO - Started process (PID=529) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:36,146] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:41:36,150] {logging_mixin.py:115} INFO - [2022-06-26 13:41:36,150] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:36,324] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:41:36,337] {logging_mixin.py:115} INFO - [2022-06-26 13:41:36,336] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:36,348] {logging_mixin.py:115} INFO - [2022-06-26 13:41:36,348] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:41:36,354] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.212 seconds
+[2022-06-26 13:42:06,901] {processor.py:153} INFO - Started process (PID=595) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:06,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:42:06,903] {logging_mixin.py:115} INFO - [2022-06-26 13:42:06,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:07,078] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:07,091] {logging_mixin.py:115} INFO - [2022-06-26 13:42:07,090] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:07,102] {logging_mixin.py:115} INFO - [2022-06-26 13:42:07,102] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:42:07,108] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.211 seconds
+[2022-06-26 13:42:37,687] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:37,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:42:37,690] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:37,889] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:42:37,902] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,902] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:37,914] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,914] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:42:37,924] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.240 seconds
+[2022-06-26 13:43:08,407] {processor.py:153} INFO - Started process (PID=717) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:08,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:43:08,409] {logging_mixin.py:115} INFO - [2022-06-26 13:43:08,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:08,584] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:08,597] {logging_mixin.py:115} INFO - [2022-06-26 13:43:08,597] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:08,609] {logging_mixin.py:115} INFO - [2022-06-26 13:43:08,609] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:43:08,615] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.210 seconds
+[2022-06-26 13:43:39,137] {processor.py:153} INFO - Started process (PID=778) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:39,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:43:39,139] {logging_mixin.py:115} INFO - [2022-06-26 13:43:39,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:39,335] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:43:39,348] {logging_mixin.py:115} INFO - [2022-06-26 13:43:39,348] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:39,359] {logging_mixin.py:115} INFO - [2022-06-26 13:43:39,359] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:43:39,365] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.230 seconds
+[2022-06-26 13:44:09,989] {processor.py:153} INFO - Started process (PID=836) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:09,992] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:44:09,995] {logging_mixin.py:115} INFO - [2022-06-26 13:44:09,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:10,258] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:10,278] {logging_mixin.py:115} INFO - [2022-06-26 13:44:10,278] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:10,294] {logging_mixin.py:115} INFO - [2022-06-26 13:44:10,294] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:44:10,305] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.320 seconds
+[2022-06-26 13:44:40,935] {processor.py:153} INFO - Started process (PID=887) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:40,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:44:40,938] {logging_mixin.py:115} INFO - [2022-06-26 13:44:40,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:41,160] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:44:41,174] {logging_mixin.py:115} INFO - [2022-06-26 13:44:41,174] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:41,187] {logging_mixin.py:115} INFO - [2022-06-26 13:44:41,187] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:44:41,198] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.266 seconds
+[2022-06-26 13:45:11,965] {processor.py:153} INFO - Started process (PID=947) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:11,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:45:11,969] {logging_mixin.py:115} INFO - [2022-06-26 13:45:11,969] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:12,164] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:12,178] {logging_mixin.py:115} INFO - [2022-06-26 13:45:12,178] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:12,190] {logging_mixin.py:115} INFO - [2022-06-26 13:45:12,190] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:45:12,197] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.234 seconds
+[2022-06-26 13:45:42,751] {processor.py:153} INFO - Started process (PID=1007) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:42,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:45:42,754] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,754] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:42,943] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:45:42,958] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,958] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:42,970] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,970] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:45:42,978] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.230 seconds
+[2022-06-26 13:46:13,636] {processor.py:153} INFO - Started process (PID=1070) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:13,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:46:13,643] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,643] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:13,867] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:13,881] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,881] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:13,894] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,894] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:46:13,903] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.270 seconds
+[2022-06-26 13:46:44,418] {processor.py:153} INFO - Started process (PID=1132) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:44,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:46:44,420] {logging_mixin.py:115} INFO - [2022-06-26 13:46:44,420] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:44,629] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:46:44,647] {logging_mixin.py:115} INFO - [2022-06-26 13:46:44,647] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:44,662] {logging_mixin.py:115} INFO - [2022-06-26 13:46:44,662] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:46:44,673] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.258 seconds
+[2022-06-26 13:47:15,278] {processor.py:153} INFO - Started process (PID=1192) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:15,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:47:15,282] {logging_mixin.py:115} INFO - [2022-06-26 13:47:15,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:15,513] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:15,533] {logging_mixin.py:115} INFO - [2022-06-26 13:47:15,533] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:15,554] {logging_mixin.py:115} INFO - [2022-06-26 13:47:15,554] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:47:15,569] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.293 seconds
+[2022-06-26 13:47:46,109] {processor.py:153} INFO - Started process (PID=1252) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:46,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:47:46,112] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:46,318] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:47:46,331] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,331] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:46,343] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,343] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:47:46,348] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.242 seconds
+[2022-06-26 13:48:17,179] {processor.py:153} INFO - Started process (PID=1313) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:17,181] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:48:17,182] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,182] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:17,422] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:17,438] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,438] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:17,451] {logging_mixin.py:115} INFO - [2022-06-26 13:48:17,451] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:48:17,461] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.285 seconds
+[2022-06-26 13:48:47,979] {processor.py:153} INFO - Started process (PID=1365) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:47,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:48:47,982] {logging_mixin.py:115} INFO - [2022-06-26 13:48:47,982] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:48,176] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:48:48,191] {logging_mixin.py:115} INFO - [2022-06-26 13:48:48,190] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:48,204] {logging_mixin.py:115} INFO - [2022-06-26 13:48:48,204] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:48:48,211] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.234 seconds
+[2022-06-26 13:49:18,589] {processor.py:153} INFO - Started process (PID=1424) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:18,591] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:49:18,593] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,592] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:18,799] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:18,812] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,812] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:18,827] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,827] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:49:18,835] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.248 seconds
+[2022-06-26 13:49:49,194] {processor.py:153} INFO - Started process (PID=1484) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:49,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:49:49,196] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,196] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:49,389] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:49:49,403] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,403] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:49,416] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,416] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:49:49,423] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.231 seconds
+[2022-06-26 13:50:19,983] {processor.py:153} INFO - Started process (PID=1546) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:19,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:50:19,986] {logging_mixin.py:115} INFO - [2022-06-26 13:50:19,986] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:20,260] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:20,283] {logging_mixin.py:115} INFO - [2022-06-26 13:50:20,283] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:20,317] {logging_mixin.py:115} INFO - [2022-06-26 13:50:20,317] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:50:20,326] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.348 seconds
+[2022-06-26 13:50:50,767] {processor.py:153} INFO - Started process (PID=1607) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:50,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:50:50,770] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:50,959] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:50:50,973] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,973] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:50,985] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,985] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:50:50,992] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.228 seconds
+[2022-06-26 13:51:21,678] {processor.py:153} INFO - Started process (PID=1668) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:21,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:51:21,682] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,682] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:21,889] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:21,903] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,903] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:21,915] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,915] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:51:21,922] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.246 seconds
+[2022-06-26 13:51:52,494] {processor.py:153} INFO - Started process (PID=1729) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:52,496] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:51:52,498] {logging_mixin.py:115} INFO - [2022-06-26 13:51:52,497] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:52,687] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:51:52,701] {logging_mixin.py:115} INFO - [2022-06-26 13:51:52,701] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:52,715] {logging_mixin.py:115} INFO - [2022-06-26 13:51:52,715] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:51:52,721] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.229 seconds
+[2022-06-26 13:52:23,318] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:23,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:52:23,322] {logging_mixin.py:115} INFO - [2022-06-26 13:52:23,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:23,541] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:23,557] {logging_mixin.py:115} INFO - [2022-06-26 13:52:23,557] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:23,570] {logging_mixin.py:115} INFO - [2022-06-26 13:52:23,570] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:52:23,580] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.264 seconds
+[2022-06-26 13:52:54,339] {processor.py:153} INFO - Started process (PID=1839) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:54,340] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:52:54,342] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,341] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:54,537] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:52:54,551] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,551] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:54,564] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,564] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:52:54,571] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.235 seconds
+[2022-06-26 13:53:25,128] {processor.py:153} INFO - Started process (PID=1900) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:25,130] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:53:25,131] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:25,367] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:25,383] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,383] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:25,395] {logging_mixin.py:115} INFO - [2022-06-26 13:53:25,395] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:53:25,402] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.277 seconds
+[2022-06-26 13:53:56,047] {processor.py:153} INFO - Started process (PID=1961) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:56,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:53:56,051] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,050] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:56,265] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:53:56,281] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,281] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:56,295] {logging_mixin.py:115} INFO - [2022-06-26 13:53:56,295] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:53:56,304] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.259 seconds
+[2022-06-26 13:54:27,049] {processor.py:153} INFO - Started process (PID=2021) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:27,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:54:27,052] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,052] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:27,243] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:27,258] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,258] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:27,271] {logging_mixin.py:115} INFO - [2022-06-26 13:54:27,271] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:54:27,278] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.231 seconds
+[2022-06-26 13:54:57,898] {processor.py:153} INFO - Started process (PID=2082) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:57,900] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:54:57,903] {logging_mixin.py:115} INFO - [2022-06-26 13:54:57,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:58,103] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:54:58,123] {logging_mixin.py:115} INFO - [2022-06-26 13:54:58,123] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:58,138] {logging_mixin.py:115} INFO - [2022-06-26 13:54:58,138] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:54:58,151] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.255 seconds
+[2022-06-26 13:55:28,828] {processor.py:153} INFO - Started process (PID=2142) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:55:28,831] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:55:28,834] {logging_mixin.py:115} INFO - [2022-06-26 13:55:28,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:55:29,067] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:55:29,081] {logging_mixin.py:115} INFO - [2022-06-26 13:55:29,081] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:29,093] {logging_mixin.py:115} INFO - [2022-06-26 13:55:29,093] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:55:29,100] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.276 seconds
+[2022-06-26 13:56:00,056] {processor.py:153} INFO - Started process (PID=2203) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:00,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:56:00,062] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,062] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:00,270] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:00,286] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,286] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:00,302] {logging_mixin.py:115} INFO - [2022-06-26 13:56:00,302] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:56:00,309] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.260 seconds
+[2022-06-26 13:56:30,884] {processor.py:153} INFO - Started process (PID=2265) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:30,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:56:30,889] {logging_mixin.py:115} INFO - [2022-06-26 13:56:30,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:31,094] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:56:31,114] {logging_mixin.py:115} INFO - [2022-06-26 13:56:31,114] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:31,127] {logging_mixin.py:115} INFO - [2022-06-26 13:56:31,127] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:56:31,135] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.253 seconds
+[2022-06-26 13:57:01,578] {processor.py:153} INFO - Started process (PID=2315) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:01,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:57:01,584] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:01,840] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:01,863] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,863] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:01,879] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,879] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:57:01,893] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.318 seconds
+[2022-06-26 13:57:32,175] {processor.py:153} INFO - Started process (PID=2377) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:32,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:57:32,178] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,178] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:32,361] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:57:32,373] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,373] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:32,385] {logging_mixin.py:115} INFO - [2022-06-26 13:57:32,385] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:57:32,392] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.218 seconds
+[2022-06-26 13:58:03,046] {processor.py:153} INFO - Started process (PID=2438) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:03,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:58:03,050] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,050] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:03,278] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:03,297] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,297] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:03,311] {logging_mixin.py:115} INFO - [2022-06-26 13:58:03,311] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:58:03,320] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.276 seconds
+[2022-06-26 13:58:34,051] {processor.py:153} INFO - Started process (PID=2499) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:34,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:58:34,056] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:34,337] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:58:34,354] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,354] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:34,370] {logging_mixin.py:115} INFO - [2022-06-26 13:58:34,370] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:58:34,380] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.332 seconds
+[2022-06-26 13:59:04,848] {processor.py:153} INFO - Started process (PID=2558) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:04,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:59:04,850] {logging_mixin.py:115} INFO - [2022-06-26 13:59:04,850] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:05,039] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:05,054] {logging_mixin.py:115} INFO - [2022-06-26 13:59:05,054] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:05,066] {logging_mixin.py:115} INFO - [2022-06-26 13:59:05,066] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:59:05,073] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.227 seconds
+[2022-06-26 13:59:35,430] {processor.py:153} INFO - Started process (PID=2619) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:35,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 13:59:35,435] {logging_mixin.py:115} INFO - [2022-06-26 13:59:35,435] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:35,714] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 13:59:35,732] {logging_mixin.py:115} INFO - [2022-06-26 13:59:35,732] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:35,746] {logging_mixin.py:115} INFO - [2022-06-26 13:59:35,746] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:59:35,756] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.329 seconds
+[2022-06-26 14:00:06,225] {processor.py:153} INFO - Started process (PID=2669) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:06,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:00:06,228] {logging_mixin.py:115} INFO - [2022-06-26 14:00:06,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:06,419] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:06,435] {logging_mixin.py:115} INFO - [2022-06-26 14:00:06,435] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:06,448] {logging_mixin.py:115} INFO - [2022-06-26 14:00:06,448] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:00:06,454] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.231 seconds
+[2022-06-26 14:00:36,939] {processor.py:153} INFO - Started process (PID=2733) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:36,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:00:36,942] {logging_mixin.py:115} INFO - [2022-06-26 14:00:36,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:37,154] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:00:37,170] {logging_mixin.py:115} INFO - [2022-06-26 14:00:37,170] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:37,183] {logging_mixin.py:115} INFO - [2022-06-26 14:00:37,183] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:00:37,191] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.255 seconds
+[2022-06-26 14:01:07,752] {processor.py:153} INFO - Started process (PID=2794) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:07,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:01:07,756] {logging_mixin.py:115} INFO - [2022-06-26 14:01:07,756] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:07,945] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:07,959] {logging_mixin.py:115} INFO - [2022-06-26 14:01:07,959] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:07,970] {logging_mixin.py:115} INFO - [2022-06-26 14:01:07,970] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:01:07,977] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.227 seconds
+[2022-06-26 14:01:38,193] {processor.py:153} INFO - Started process (PID=2855) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:38,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:01:38,197] {logging_mixin.py:115} INFO - [2022-06-26 14:01:38,197] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:38,448] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:01:38,471] {logging_mixin.py:115} INFO - [2022-06-26 14:01:38,471] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:38,492] {logging_mixin.py:115} INFO - [2022-06-26 14:01:38,492] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:01:38,505] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.315 seconds
+[2022-06-26 14:02:09,317] {processor.py:153} INFO - Started process (PID=2916) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:09,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:02:09,320] {logging_mixin.py:115} INFO - [2022-06-26 14:02:09,320] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:09,550] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:09,569] {logging_mixin.py:115} INFO - [2022-06-26 14:02:09,569] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:09,583] {logging_mixin.py:115} INFO - [2022-06-26 14:02:09,583] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:02:09,593] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.279 seconds
+[2022-06-26 14:02:40,270] {processor.py:153} INFO - Started process (PID=2977) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:40,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:02:40,280] {logging_mixin.py:115} INFO - [2022-06-26 14:02:40,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:40,508] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:02:40,526] {logging_mixin.py:115} INFO - [2022-06-26 14:02:40,526] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:40,539] {logging_mixin.py:115} INFO - [2022-06-26 14:02:40,539] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:02:40,547] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.280 seconds
+[2022-06-26 14:03:11,354] {processor.py:153} INFO - Started process (PID=3038) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:11,356] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:03:11,357] {logging_mixin.py:115} INFO - [2022-06-26 14:03:11,357] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:11,555] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:11,584] {logging_mixin.py:115} INFO - [2022-06-26 14:03:11,584] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:11,596] {logging_mixin.py:115} INFO - [2022-06-26 14:03:11,596] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:03:11,603] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.251 seconds
+[2022-06-26 14:03:42,061] {processor.py:153} INFO - Started process (PID=3096) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:42,064] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:03:42,065] {logging_mixin.py:115} INFO - [2022-06-26 14:03:42,065] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:42,276] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:03:42,293] {logging_mixin.py:115} INFO - [2022-06-26 14:03:42,292] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:42,309] {logging_mixin.py:115} INFO - [2022-06-26 14:03:42,309] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:03:42,320] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.261 seconds
+[2022-06-26 14:04:13,186] {processor.py:153} INFO - Started process (PID=3150) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:13,188] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:04:13,190] {logging_mixin.py:115} INFO - [2022-06-26 14:04:13,190] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:13,412] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:13,429] {logging_mixin.py:115} INFO - [2022-06-26 14:04:13,429] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:13,442] {logging_mixin.py:115} INFO - [2022-06-26 14:04:13,442] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:04:13,451] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.268 seconds
+[2022-06-26 14:04:44,126] {processor.py:153} INFO - Started process (PID=3212) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:44,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:04:44,128] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,128] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:44,349] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:04:44,364] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,364] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:44,377] {logging_mixin.py:115} INFO - [2022-06-26 14:04:44,376] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:04:44,383] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.260 seconds
+[2022-06-26 14:05:15,014] {processor.py:153} INFO - Started process (PID=3273) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:15,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:05:15,019] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,018] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:15,210] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:15,225] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,225] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:15,237] {logging_mixin.py:115} INFO - [2022-06-26 14:05:15,237] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:05:15,243] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.231 seconds
+[2022-06-26 14:05:45,473] {processor.py:153} INFO - Started process (PID=3334) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:45,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:05:45,476] {logging_mixin.py:115} INFO - [2022-06-26 14:05:45,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:45,688] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:05:45,703] {logging_mixin.py:115} INFO - [2022-06-26 14:05:45,703] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:45,716] {logging_mixin.py:115} INFO - [2022-06-26 14:05:45,716] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:05:45,723] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.252 seconds
+[2022-06-26 14:09:51,160] {processor.py:153} INFO - Started process (PID=3385) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:09:51,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:09:51,179] {logging_mixin.py:115} INFO - [2022-06-26 14:09:51,179] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:09:51,638] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:09:51,667] {logging_mixin.py:115} INFO - [2022-06-26 14:09:51,666] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:09:51,715] {logging_mixin.py:115} INFO - [2022-06-26 14:09:51,715] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:09:51,737] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.591 seconds
+[2022-06-26 14:10:22,592] {processor.py:153} INFO - Started process (PID=3436) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:22,593] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:10:22,594] {logging_mixin.py:115} INFO - [2022-06-26 14:10:22,594] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:22,806] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:22,833] {logging_mixin.py:115} INFO - [2022-06-26 14:10:22,832] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:22,847] {logging_mixin.py:115} INFO - [2022-06-26 14:10:22,846] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:10:22,853] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.264 seconds
+[2022-06-26 14:10:53,151] {processor.py:153} INFO - Started process (PID=3497) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:53,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:10:53,154] {logging_mixin.py:115} INFO - [2022-06-26 14:10:53,154] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:53,360] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:10:53,376] {logging_mixin.py:115} INFO - [2022-06-26 14:10:53,376] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:53,388] {logging_mixin.py:115} INFO - [2022-06-26 14:10:53,388] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:10:53,398] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.252 seconds
+[2022-06-26 14:11:23,459] {processor.py:153} INFO - Started process (PID=3558) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:23,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:11:23,462] {logging_mixin.py:115} INFO - [2022-06-26 14:11:23,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:23,658] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:23,674] {logging_mixin.py:115} INFO - [2022-06-26 14:11:23,673] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:23,687] {logging_mixin.py:115} INFO - [2022-06-26 14:11:23,687] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:11:23,693] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.237 seconds
+[2022-06-26 14:11:53,808] {processor.py:153} INFO - Started process (PID=3619) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:53,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:11:53,810] {logging_mixin.py:115} INFO - [2022-06-26 14:11:53,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:54,003] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:11:54,017] {logging_mixin.py:115} INFO - [2022-06-26 14:11:54,017] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:54,030] {logging_mixin.py:115} INFO - [2022-06-26 14:11:54,030] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:11:54,036] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.231 seconds
+[2022-06-26 14:12:24,129] {processor.py:153} INFO - Started process (PID=3680) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:24,132] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:12:24,133] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,133] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:24,322] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:24,337] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,337] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:24,350] {logging_mixin.py:115} INFO - [2022-06-26 14:12:24,350] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:12:24,356] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.229 seconds
+[2022-06-26 14:12:54,456] {processor.py:153} INFO - Started process (PID=4179) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:54,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:12:54,460] {logging_mixin.py:115} INFO - [2022-06-26 14:12:54,460] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:54,762] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:12:54,787] {logging_mixin.py:115} INFO - [2022-06-26 14:12:54,787] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:54,823] {logging_mixin.py:115} INFO - [2022-06-26 14:12:54,823] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:12:54,837] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.383 seconds
+[2022-06-26 14:13:25,295] {processor.py:153} INFO - Started process (PID=4722) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:25,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:13:25,298] {logging_mixin.py:115} INFO - [2022-06-26 14:13:25,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:25,499] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:25,514] {logging_mixin.py:115} INFO - [2022-06-26 14:13:25,514] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:25,526] {logging_mixin.py:115} INFO - [2022-06-26 14:13:25,526] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:13:25,532] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.240 seconds
+[2022-06-26 14:13:55,816] {processor.py:153} INFO - Started process (PID=5705) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:55,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:13:55,818] {logging_mixin.py:115} INFO - [2022-06-26 14:13:55,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:56,016] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:13:56,033] {logging_mixin.py:115} INFO - [2022-06-26 14:13:56,033] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:56,048] {logging_mixin.py:115} INFO - [2022-06-26 14:13:56,048] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:13:56,059] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.247 seconds
+[2022-06-26 14:14:26,173] {processor.py:153} INFO - Started process (PID=6073) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:26,175] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:14:26,176] {logging_mixin.py:115} INFO - [2022-06-26 14:14:26,176] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:26,401] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:26,416] {logging_mixin.py:115} INFO - [2022-06-26 14:14:26,416] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:26,428] {logging_mixin.py:115} INFO - [2022-06-26 14:14:26,428] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:14:26,437] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.266 seconds
+[2022-06-26 14:14:56,602] {processor.py:153} INFO - Started process (PID=6445) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:56,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:14:56,607] {logging_mixin.py:115} INFO - [2022-06-26 14:14:56,606] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:56,801] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:14:56,815] {logging_mixin.py:115} INFO - [2022-06-26 14:14:56,815] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:56,827] {logging_mixin.py:115} INFO - [2022-06-26 14:14:56,827] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:14:56,835] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.235 seconds
+[2022-06-26 14:15:27,308] {processor.py:153} INFO - Started process (PID=6819) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:27,310] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:15:27,311] {logging_mixin.py:115} INFO - [2022-06-26 14:15:27,311] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:27,504] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:27,519] {logging_mixin.py:115} INFO - [2022-06-26 14:15:27,519] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:27,532] {logging_mixin.py:115} INFO - [2022-06-26 14:15:27,532] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:15:27,539] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.233 seconds
+[2022-06-26 14:15:58,042] {processor.py:153} INFO - Started process (PID=7222) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:58,045] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:15:58,047] {logging_mixin.py:115} INFO - [2022-06-26 14:15:58,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:58,329] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:15:58,361] {logging_mixin.py:115} INFO - [2022-06-26 14:15:58,361] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:58,381] {logging_mixin.py:115} INFO - [2022-06-26 14:15:58,381] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:15:58,395] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.355 seconds
+[2022-06-26 14:16:28,740] {processor.py:153} INFO - Started process (PID=9107) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:28,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:16:28,745] {logging_mixin.py:115} INFO - [2022-06-26 14:16:28,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:28,984] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:29,003] {logging_mixin.py:115} INFO - [2022-06-26 14:16:29,002] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:29,015] {logging_mixin.py:115} INFO - [2022-06-26 14:16:29,015] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:16:29,022] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.286 seconds
+[2022-06-26 14:16:59,113] {processor.py:153} INFO - Started process (PID=9872) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:59,114] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:16:59,116] {logging_mixin.py:115} INFO - [2022-06-26 14:16:59,115] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:59,308] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:16:59,323] {logging_mixin.py:115} INFO - [2022-06-26 14:16:59,323] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:59,336] {logging_mixin.py:115} INFO - [2022-06-26 14:16:59,336] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:16:59,343] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.233 seconds
+[2022-06-26 14:17:29,827] {processor.py:153} INFO - Started process (PID=10804) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:17:29,830] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:17:29,832] {logging_mixin.py:115} INFO - [2022-06-26 14:17:29,831] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:17:30,039] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:17:30,055] {logging_mixin.py:115} INFO - [2022-06-26 14:17:30,055] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:30,068] {logging_mixin.py:115} INFO - [2022-06-26 14:17:30,068] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:17:30,076] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.252 seconds
+[2022-06-26 14:18:00,334] {processor.py:153} INFO - Started process (PID=11376) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:00,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:18:00,337] {logging_mixin.py:115} INFO - [2022-06-26 14:18:00,337] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:00,537] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:00,553] {logging_mixin.py:115} INFO - [2022-06-26 14:18:00,552] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:00,565] {logging_mixin.py:115} INFO - [2022-06-26 14:18:00,565] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:18:00,573] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.242 seconds
+[2022-06-26 14:18:31,029] {processor.py:153} INFO - Started process (PID=12192) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:31,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:18:31,033] {logging_mixin.py:115} INFO - [2022-06-26 14:18:31,033] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:31,298] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:18:31,318] {logging_mixin.py:115} INFO - [2022-06-26 14:18:31,318] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:31,333] {logging_mixin.py:115} INFO - [2022-06-26 14:18:31,333] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:18:31,346] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.321 seconds
+[2022-06-26 14:19:02,046] {processor.py:153} INFO - Started process (PID=12568) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:02,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:19:02,048] {logging_mixin.py:115} INFO - [2022-06-26 14:19:02,048] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:02,285] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:02,303] {logging_mixin.py:115} INFO - [2022-06-26 14:19:02,303] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:02,317] {logging_mixin.py:115} INFO - [2022-06-26 14:19:02,317] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:19:02,326] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.283 seconds
+[2022-06-26 14:19:33,055] {processor.py:153} INFO - Started process (PID=13564) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:33,057] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:19:33,058] {logging_mixin.py:115} INFO - [2022-06-26 14:19:33,058] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:33,298] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:19:33,320] {logging_mixin.py:115} INFO - [2022-06-26 14:19:33,320] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:33,339] {logging_mixin.py:115} INFO - [2022-06-26 14:19:33,339] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:19:33,346] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.293 seconds
+[2022-06-26 14:20:04,018] {processor.py:153} INFO - Started process (PID=14342) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:20:04,020] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:20:04,022] {logging_mixin.py:115} INFO - [2022-06-26 14:20:04,022] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:20:04,263] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:20:04,279] {logging_mixin.py:115} INFO - [2022-06-26 14:20:04,278] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:20:04,291] {logging_mixin.py:115} INFO - [2022-06-26 14:20:04,290] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:20:04,297] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.283 seconds
+[2022-06-26 14:53:07,320] {processor.py:153} INFO - Started process (PID=14791) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:53:07,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 14:53:07,328] {logging_mixin.py:115} INFO - [2022-06-26 14:53:07,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:53:07,905] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 14:53:07,947] {logging_mixin.py:115} INFO - [2022-06-26 14:53:07,947] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:53:07,975] {logging_mixin.py:115} INFO - [2022-06-26 14:53:07,975] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:53:07,986] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.672 seconds
+[2022-06-26 16:15:59,005] {processor.py:153} INFO - Started process (PID=15177) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 16:15:59,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 16:15:59,011] {logging_mixin.py:115} INFO - [2022-06-26 16:15:59,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 16:15:59,570] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 16:15:59,644] {logging_mixin.py:115} INFO - [2022-06-26 16:15:59,643] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 16:15:59,686] {logging_mixin.py:115} INFO - [2022-06-26 16:15:59,686] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 16:15:59,707] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.707 seconds
+[2022-06-26 17:21:20,479] {processor.py:153} INFO - Started process (PID=15529) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 17:21:20,482] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 17:21:20,485] {logging_mixin.py:115} INFO - [2022-06-26 17:21:20,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 17:21:20,816] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 17:21:20,842] {logging_mixin.py:115} INFO - [2022-06-26 17:21:20,842] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 17:21:20,862] {logging_mixin.py:115} INFO - [2022-06-26 17:21:20,862] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 17:21:20,877] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.402 seconds
+[2022-06-26 18:41:36,524] {processor.py:153} INFO - Started process (PID=15895) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 18:41:36,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 18:41:36,530] {logging_mixin.py:115} INFO - [2022-06-26 18:41:36,530] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 18:41:36,915] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 18:41:36,940] {logging_mixin.py:115} INFO - [2022-06-26 18:41:36,940] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 18:41:36,956] {logging_mixin.py:115} INFO - [2022-06-26 18:41:36,956] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 18:41:36,976] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.456 seconds
+[2022-06-26 20:03:38,677] {processor.py:153} INFO - Started process (PID=16180) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 20:03:38,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 20:03:38,683] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,683] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 20:03:38,905] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 20:03:38,941] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,940] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 20:03:38,968] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,967] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 20:03:38,984] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.312 seconds
+[2022-06-26 21:23:31,516] {processor.py:153} INFO - Started process (PID=16459) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 21:23:31,521] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 21:23:31,523] {logging_mixin.py:115} INFO - [2022-06-26 21:23:31,523] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 21:23:31,771] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 21:23:31,799] {logging_mixin.py:115} INFO - [2022-06-26 21:23:31,798] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 21:23:31,825] {logging_mixin.py:115} INFO - [2022-06-26 21:23:31,825] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 21:23:31,840] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.328 seconds
+[2022-06-26 22:29:31,416] {processor.py:153} INFO - Started process (PID=16744) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 22:29:31,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 22:29:31,429] {logging_mixin.py:115} INFO - [2022-06-26 22:29:31,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 22:29:31,705] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 22:29:31,738] {logging_mixin.py:115} INFO - [2022-06-26 22:29:31,737] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 22:29:31,764] {logging_mixin.py:115} INFO - [2022-06-26 22:29:31,764] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 22:29:31,779] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.369 seconds
+[2022-06-26 23:11:56,492] {processor.py:153} INFO - Started process (PID=17053) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:11:56,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 23:11:56,507] {logging_mixin.py:115} INFO - [2022-06-26 23:11:56,507] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:11:56,790] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:11:56,820] {logging_mixin.py:115} INFO - [2022-06-26 23:11:56,819] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:11:56,857] {logging_mixin.py:115} INFO - [2022-06-26 23:11:56,857] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:11:56,883] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.398 seconds
+[2022-06-26 23:12:27,136] {processor.py:153} INFO - Started process (PID=17340) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:27,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 23:12:27,139] {logging_mixin.py:115} INFO - [2022-06-26 23:12:27,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:27,260] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:27,278] {logging_mixin.py:115} INFO - [2022-06-26 23:12:27,277] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:27,291] {logging_mixin.py:115} INFO - [2022-06-26 23:12:27,291] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:12:27,298] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.164 seconds
+[2022-06-26 23:12:57,791] {processor.py:153} INFO - Started process (PID=17612) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:57,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 23:12:57,794] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:57,912] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:12:57,931] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,930] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:57,944] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,944] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:12:57,951] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.162 seconds
+[2022-06-26 23:31:48,861] {processor.py:153} INFO - Started process (PID=17880) to work on /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:31:48,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/03_with_end_date.py for tasks to queue
+[2022-06-26 23:31:48,866] {logging_mixin.py:115} INFO - [2022-06-26 23:31:48,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:31:49,121] {processor.py:651} INFO - DAG(s) dict_keys(['03_with_end_date']) retrieved from /opt/airflow/dags/chapter03/03_with_end_date.py
+[2022-06-26 23:31:49,158] {logging_mixin.py:115} INFO - [2022-06-26 23:31:49,157] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:31:49,188] {logging_mixin.py:115} INFO - [2022-06-26 23:31:49,188] {dag.py:2919} INFO - Setting next_dagrun for 03_with_end_date to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:31:49,204] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/03_with_end_date.py took 0.347 seconds

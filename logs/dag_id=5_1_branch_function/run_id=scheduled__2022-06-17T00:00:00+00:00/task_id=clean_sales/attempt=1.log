@@ -1,0 +1,27 @@
+[2022-06-20 04:02:15,856] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_1_branch_function.clean_sales scheduled__2022-06-17T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,869] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_1_branch_function.clean_sales scheduled__2022-06-17T00:00:00+00:00 [queued]>
+[2022-06-20 04:02:15,872] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,874] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-20 04:02:15,877] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-20 04:02:15,899] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): clean_sales> on 2022-06-17 00:00:00+00:00
+[2022-06-20 04:02:15,908] {standard_task_runner.py:52} INFO - Started process 93 to run task
+[2022-06-20 04:02:15,915] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '5_1_branch_function', 'clean_sales', 'scheduled__2022-06-17T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/chapter05/5_1_branch_function.py', '--cfg-path', '/tmp/tmpj5nn343r', '--error-file', '/tmp/tmpxl63n0u_']
+[2022-06-20 04:02:15,925] {standard_task_runner.py:80} INFO - Job 50: Subtask clean_sales
+[2022-06-20 04:02:16,000] {task_command.py:369} INFO - Running <TaskInstance: 5_1_branch_function.clean_sales scheduled__2022-06-17T00:00:00+00:00 [running]> on host 69ff35f06aa7
+[2022-06-20 04:02:16,099] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_1_branch_function
+AIRFLOW_CTX_TASK_ID=clean_sales
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-17T00:00:00+00:00
+[2022-06-20 04:02:16,103] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:290: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2022-06-20 04:02:16,107] {logging_mixin.py:115} INFO - Preprocessing sales data (OLD)...
+[2022-06-20 04:02:16,109] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-20 04:02:16,139] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=5_1_branch_function, task_id=clean_sales, execution_date=20220617T000000, start_date=20220620T040215, end_date=20220620T040216
+[2022-06-20 04:02:16,220] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-20 04:02:16,269] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

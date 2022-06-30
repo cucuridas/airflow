@@ -1,0 +1,620 @@
+[2022-06-26 13:37:34,669] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:37:34,671] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:37:34,672] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:37:34,689] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:37:34,751] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,751] {manager.py:508} INFO - Created Permission View: can read on DAG:running_controller_timeout
+[2022-06-26 13:37:34,761] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,761] {manager.py:508} INFO - Created Permission View: can edit on DAG:running_controller_timeout
+[2022-06-26 13:37:34,772] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,772] {manager.py:508} INFO - Created Permission View: can delete on DAG:running_controller_timeout
+[2022-06-26 13:37:34,773] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,773] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:37:34,781] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,781] {dag.py:2390} INFO - Creating ORM DAG for running_controller_timeout
+[2022-06-26 13:37:34,872] {logging_mixin.py:115} INFO - [2022-06-26 13:37:34,872] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:37:34.872187+00:00, run_after=2022-06-26T13:37:34.872187+00:00
+[2022-06-26 13:37:34,883] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.216 seconds
+[2022-06-26 13:38:05,678] {processor.py:153} INFO - Started process (PID=137) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:05,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:38:05,682] {logging_mixin.py:115} INFO - [2022-06-26 13:38:05,681] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:05,696] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:05,721] {logging_mixin.py:115} INFO - [2022-06-26 13:38:05,721] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:05,736] {logging_mixin.py:115} INFO - [2022-06-26 13:38:05,736] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:38:05.736349+00:00, run_after=2022-06-26T13:38:05.736349+00:00
+[2022-06-26 13:38:05,746] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.070 seconds
+[2022-06-26 13:38:36,302] {processor.py:153} INFO - Started process (PID=198) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:36,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:38:36,306] {logging_mixin.py:115} INFO - [2022-06-26 13:38:36,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:36,315] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:38:36,334] {logging_mixin.py:115} INFO - [2022-06-26 13:38:36,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:36,346] {logging_mixin.py:115} INFO - [2022-06-26 13:38:36,346] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:38:36.346252+00:00, run_after=2022-06-26T13:38:36.346252+00:00
+[2022-06-26 13:38:36,354] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.056 seconds
+[2022-06-26 13:39:07,029] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:07,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:39:07,036] {logging_mixin.py:115} INFO - [2022-06-26 13:39:07,036] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:07,050] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:07,091] {logging_mixin.py:115} INFO - [2022-06-26 13:39:07,091] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:07,112] {logging_mixin.py:115} INFO - [2022-06-26 13:39:07,111] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:39:07.111760+00:00, run_after=2022-06-26T13:39:07.111760+00:00
+[2022-06-26 13:39:07,129] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.108 seconds
+[2022-06-26 13:39:38,074] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:38,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:39:38,085] {logging_mixin.py:115} INFO - [2022-06-26 13:39:38,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:38,095] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:39:38,114] {logging_mixin.py:115} INFO - [2022-06-26 13:39:38,114] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:38,128] {logging_mixin.py:115} INFO - [2022-06-26 13:39:38,128] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:39:38.128722+00:00, run_after=2022-06-26T13:39:38.128722+00:00
+[2022-06-26 13:39:38,137] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.069 seconds
+[2022-06-26 13:40:08,486] {processor.py:153} INFO - Started process (PID=371) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:08,487] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:40:08,488] {logging_mixin.py:115} INFO - [2022-06-26 13:40:08,488] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:08,497] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:08,514] {logging_mixin.py:115} INFO - [2022-06-26 13:40:08,514] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:08,527] {logging_mixin.py:115} INFO - [2022-06-26 13:40:08,527] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:40:08.526953+00:00, run_after=2022-06-26T13:40:08.526953+00:00
+[2022-06-26 13:40:08,534] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.053 seconds
+[2022-06-26 13:40:39,429] {processor.py:153} INFO - Started process (PID=433) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:39,435] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:40:39,440] {logging_mixin.py:115} INFO - [2022-06-26 13:40:39,440] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:39,464] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:40:39,493] {logging_mixin.py:115} INFO - [2022-06-26 13:40:39,493] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:39,510] {logging_mixin.py:115} INFO - [2022-06-26 13:40:39,510] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:40:39.510293+00:00, run_after=2022-06-26T13:40:39.510293+00:00
+[2022-06-26 13:40:39,527] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.103 seconds
+[2022-06-26 13:41:10,281] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:10,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:41:10,283] {logging_mixin.py:115} INFO - [2022-06-26 13:41:10,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:10,292] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:10,309] {logging_mixin.py:115} INFO - [2022-06-26 13:41:10,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:10,323] {logging_mixin.py:115} INFO - [2022-06-26 13:41:10,323] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:41:10.322863+00:00, run_after=2022-06-26T13:41:10.322863+00:00
+[2022-06-26 13:41:10,331] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:41:40,995] {processor.py:153} INFO - Started process (PID=562) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:40,997] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:41:40,998] {logging_mixin.py:115} INFO - [2022-06-26 13:41:40,998] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:41,007] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:41:41,026] {logging_mixin.py:115} INFO - [2022-06-26 13:41:41,026] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:41,038] {logging_mixin.py:115} INFO - [2022-06-26 13:41:41,038] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:41:41.038489+00:00, run_after=2022-06-26T13:41:41.038489+00:00
+[2022-06-26 13:41:41,046] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:42:11,625] {processor.py:153} INFO - Started process (PID=624) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:11,627] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:42:11,628] {logging_mixin.py:115} INFO - [2022-06-26 13:42:11,628] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:11,638] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:11,656] {logging_mixin.py:115} INFO - [2022-06-26 13:42:11,656] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:11,669] {logging_mixin.py:115} INFO - [2022-06-26 13:42:11,669] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:42:11.668949+00:00, run_after=2022-06-26T13:42:11.668949+00:00
+[2022-06-26 13:42:11,677] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.056 seconds
+[2022-06-26 13:42:42,466] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:42,469] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:42:42,471] {logging_mixin.py:115} INFO - [2022-06-26 13:42:42,471] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:42,484] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:42:42,504] {logging_mixin.py:115} INFO - [2022-06-26 13:42:42,504] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:42,521] {logging_mixin.py:115} INFO - [2022-06-26 13:42:42,521] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:42:42.520711+00:00, run_after=2022-06-26T13:42:42.520711+00:00
+[2022-06-26 13:42:42,530] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.067 seconds
+[2022-06-26 13:43:13,270] {processor.py:153} INFO - Started process (PID=736) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:13,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:43:13,272] {logging_mixin.py:115} INFO - [2022-06-26 13:43:13,272] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:13,281] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:13,300] {logging_mixin.py:115} INFO - [2022-06-26 13:43:13,300] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:13,313] {logging_mixin.py:115} INFO - [2022-06-26 13:43:13,312] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:43:13.312856+00:00, run_after=2022-06-26T13:43:13.312856+00:00
+[2022-06-26 13:43:13,320] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.052 seconds
+[2022-06-26 13:43:44,161] {processor.py:153} INFO - Started process (PID=797) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:44,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:43:44,167] {logging_mixin.py:115} INFO - [2022-06-26 13:43:44,167] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:44,186] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:43:44,222] {logging_mixin.py:115} INFO - [2022-06-26 13:43:44,222] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:44,244] {logging_mixin.py:115} INFO - [2022-06-26 13:43:44,243] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:43:44.243766+00:00, run_after=2022-06-26T13:43:44.243766+00:00
+[2022-06-26 13:43:44,263] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.106 seconds
+[2022-06-26 13:44:14,346] {processor.py:153} INFO - Started process (PID=858) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:14,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:44:14,349] {logging_mixin.py:115} INFO - [2022-06-26 13:44:14,349] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:14,359] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:14,377] {logging_mixin.py:115} INFO - [2022-06-26 13:44:14,377] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:14,389] {logging_mixin.py:115} INFO - [2022-06-26 13:44:14,389] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:44:14.389395+00:00, run_after=2022-06-26T13:44:14.389395+00:00
+[2022-06-26 13:44:14,404] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.060 seconds
+[2022-06-26 13:44:45,388] {processor.py:153} INFO - Started process (PID=918) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:45,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:44:45,391] {logging_mixin.py:115} INFO - [2022-06-26 13:44:45,391] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:45,401] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:44:45,420] {logging_mixin.py:115} INFO - [2022-06-26 13:44:45,420] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:45,433] {logging_mixin.py:115} INFO - [2022-06-26 13:44:45,433] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:44:45.433455+00:00, run_after=2022-06-26T13:44:45.433455+00:00
+[2022-06-26 13:44:45,441] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:45:16,074] {processor.py:153} INFO - Started process (PID=978) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:16,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:45:16,078] {logging_mixin.py:115} INFO - [2022-06-26 13:45:16,078] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:16,098] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:16,121] {logging_mixin.py:115} INFO - [2022-06-26 13:45:16,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:16,137] {logging_mixin.py:115} INFO - [2022-06-26 13:45:16,137] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:45:16.137056+00:00, run_after=2022-06-26T13:45:16.137056+00:00
+[2022-06-26 13:45:16,154] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.081 seconds
+[2022-06-26 13:45:46,821] {processor.py:153} INFO - Started process (PID=1040) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:46,823] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:45:46,824] {logging_mixin.py:115} INFO - [2022-06-26 13:45:46,824] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:46,837] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:45:46,857] {logging_mixin.py:115} INFO - [2022-06-26 13:45:46,857] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:46,872] {logging_mixin.py:115} INFO - [2022-06-26 13:45:46,872] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:45:46.871962+00:00, run_after=2022-06-26T13:45:46.871962+00:00
+[2022-06-26 13:45:46,881] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.062 seconds
+[2022-06-26 13:46:17,569] {processor.py:153} INFO - Started process (PID=1091) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:17,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:46:17,572] {logging_mixin.py:115} INFO - [2022-06-26 13:46:17,571] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:17,581] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:17,600] {logging_mixin.py:115} INFO - [2022-06-26 13:46:17,600] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:17,612] {logging_mixin.py:115} INFO - [2022-06-26 13:46:17,612] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:46:17.612550+00:00, run_after=2022-06-26T13:46:17.612550+00:00
+[2022-06-26 13:46:17,620] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.053 seconds
+[2022-06-26 13:46:48,404] {processor.py:153} INFO - Started process (PID=1152) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:48,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:46:48,406] {logging_mixin.py:115} INFO - [2022-06-26 13:46:48,406] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:48,421] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:46:48,439] {logging_mixin.py:115} INFO - [2022-06-26 13:46:48,439] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:48,452] {logging_mixin.py:115} INFO - [2022-06-26 13:46:48,451] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:46:48.451792+00:00, run_after=2022-06-26T13:46:48.451792+00:00
+[2022-06-26 13:46:48,460] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.059 seconds
+[2022-06-26 13:47:19,307] {processor.py:153} INFO - Started process (PID=1213) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:19,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:47:19,310] {logging_mixin.py:115} INFO - [2022-06-26 13:47:19,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:19,321] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:19,345] {logging_mixin.py:115} INFO - [2022-06-26 13:47:19,345] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:19,362] {logging_mixin.py:115} INFO - [2022-06-26 13:47:19,362] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:47:19.362075+00:00, run_after=2022-06-26T13:47:19.362075+00:00
+[2022-06-26 13:47:19,378] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.073 seconds
+[2022-06-26 13:47:50,304] {processor.py:153} INFO - Started process (PID=1274) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:50,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:47:50,307] {logging_mixin.py:115} INFO - [2022-06-26 13:47:50,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:50,315] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:47:50,334] {logging_mixin.py:115} INFO - [2022-06-26 13:47:50,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:50,347] {logging_mixin.py:115} INFO - [2022-06-26 13:47:50,346] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:47:50.346787+00:00, run_after=2022-06-26T13:47:50.346787+00:00
+[2022-06-26 13:47:50,354] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.052 seconds
+[2022-06-26 13:48:21,133] {processor.py:153} INFO - Started process (PID=1334) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:21,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:48:21,136] {logging_mixin.py:115} INFO - [2022-06-26 13:48:21,136] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:21,146] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:21,165] {logging_mixin.py:115} INFO - [2022-06-26 13:48:21,165] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:21,177] {logging_mixin.py:115} INFO - [2022-06-26 13:48:21,177] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:48:21.177645+00:00, run_after=2022-06-26T13:48:21.177645+00:00
+[2022-06-26 13:48:21,185] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.054 seconds
+[2022-06-26 13:48:51,915] {processor.py:153} INFO - Started process (PID=1395) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:51,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:48:51,919] {logging_mixin.py:115} INFO - [2022-06-26 13:48:51,919] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:51,932] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:48:51,949] {logging_mixin.py:115} INFO - [2022-06-26 13:48:51,949] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:51,962] {logging_mixin.py:115} INFO - [2022-06-26 13:48:51,962] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:48:51.962558+00:00, run_after=2022-06-26T13:48:51.962558+00:00
+[2022-06-26 13:48:51,970] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.058 seconds
+[2022-06-26 13:49:22,658] {processor.py:153} INFO - Started process (PID=1455) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:22,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:49:22,660] {logging_mixin.py:115} INFO - [2022-06-26 13:49:22,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:22,670] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:22,688] {logging_mixin.py:115} INFO - [2022-06-26 13:49:22,688] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:22,701] {logging_mixin.py:115} INFO - [2022-06-26 13:49:22,701] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:49:22.701165+00:00, run_after=2022-06-26T13:49:22.701165+00:00
+[2022-06-26 13:49:22,714] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.058 seconds
+[2022-06-26 13:49:53,284] {processor.py:153} INFO - Started process (PID=1517) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:53,287] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:49:53,289] {logging_mixin.py:115} INFO - [2022-06-26 13:49:53,289] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:53,307] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:49:53,334] {logging_mixin.py:115} INFO - [2022-06-26 13:49:53,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:53,348] {logging_mixin.py:115} INFO - [2022-06-26 13:49:53,348] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:49:53.348517+00:00, run_after=2022-06-26T13:49:53.348517+00:00
+[2022-06-26 13:49:53,358] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.075 seconds
+[2022-06-26 13:50:24,154] {processor.py:153} INFO - Started process (PID=1568) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:24,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:50:24,157] {logging_mixin.py:115} INFO - [2022-06-26 13:50:24,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:24,168] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:24,186] {logging_mixin.py:115} INFO - [2022-06-26 13:50:24,186] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:24,199] {logging_mixin.py:115} INFO - [2022-06-26 13:50:24,199] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:50:24.199535+00:00, run_after=2022-06-26T13:50:24.199535+00:00
+[2022-06-26 13:50:24,208] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:50:54,885] {processor.py:153} INFO - Started process (PID=1629) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:54,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:50:54,888] {logging_mixin.py:115} INFO - [2022-06-26 13:50:54,888] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:54,900] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:50:54,920] {logging_mixin.py:115} INFO - [2022-06-26 13:50:54,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:54,933] {logging_mixin.py:115} INFO - [2022-06-26 13:50:54,933] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:50:54.933580+00:00, run_after=2022-06-26T13:50:54.933580+00:00
+[2022-06-26 13:50:54,941] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.059 seconds
+[2022-06-26 13:51:25,612] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:25,614] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:51:25,615] {logging_mixin.py:115} INFO - [2022-06-26 13:51:25,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:25,629] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:25,648] {logging_mixin.py:115} INFO - [2022-06-26 13:51:25,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:25,662] {logging_mixin.py:115} INFO - [2022-06-26 13:51:25,662] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:51:25.662350+00:00, run_after=2022-06-26T13:51:25.662350+00:00
+[2022-06-26 13:51:25,673] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.063 seconds
+[2022-06-26 13:51:56,376] {processor.py:153} INFO - Started process (PID=1749) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:56,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:51:56,380] {logging_mixin.py:115} INFO - [2022-06-26 13:51:56,380] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:56,392] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:51:56,415] {logging_mixin.py:115} INFO - [2022-06-26 13:51:56,415] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:56,432] {logging_mixin.py:115} INFO - [2022-06-26 13:51:56,432] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:51:56.431998+00:00, run_after=2022-06-26T13:51:56.431998+00:00
+[2022-06-26 13:51:56,443] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.069 seconds
+[2022-06-26 13:52:27,347] {processor.py:153} INFO - Started process (PID=1810) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:27,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:52:27,349] {logging_mixin.py:115} INFO - [2022-06-26 13:52:27,349] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:27,359] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:27,377] {logging_mixin.py:115} INFO - [2022-06-26 13:52:27,377] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:27,390] {logging_mixin.py:115} INFO - [2022-06-26 13:52:27,390] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:52:27.390371+00:00, run_after=2022-06-26T13:52:27.390371+00:00
+[2022-06-26 13:52:27,398] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:52:58,265] {processor.py:153} INFO - Started process (PID=1870) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:58,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:52:58,268] {logging_mixin.py:115} INFO - [2022-06-26 13:52:58,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:58,279] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:52:58,296] {logging_mixin.py:115} INFO - [2022-06-26 13:52:58,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:58,307] {logging_mixin.py:115} INFO - [2022-06-26 13:52:58,307] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:52:58.307303+00:00, run_after=2022-06-26T13:52:58.307303+00:00
+[2022-06-26 13:52:58,315] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.052 seconds
+[2022-06-26 13:53:29,124] {processor.py:153} INFO - Started process (PID=1931) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:29,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:53:29,128] {logging_mixin.py:115} INFO - [2022-06-26 13:53:29,128] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:29,145] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:29,168] {logging_mixin.py:115} INFO - [2022-06-26 13:53:29,168] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:29,186] {logging_mixin.py:115} INFO - [2022-06-26 13:53:29,186] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:53:29.185932+00:00, run_after=2022-06-26T13:53:29.185932+00:00
+[2022-06-26 13:53:29,199] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.077 seconds
+[2022-06-26 13:53:59,277] {processor.py:153} INFO - Started process (PID=1982) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:59,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:53:59,280] {logging_mixin.py:115} INFO - [2022-06-26 13:53:59,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:59,290] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:53:59,309] {logging_mixin.py:115} INFO - [2022-06-26 13:53:59,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:59,322] {logging_mixin.py:115} INFO - [2022-06-26 13:53:59,322] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:53:59.322293+00:00, run_after=2022-06-26T13:53:59.322293+00:00
+[2022-06-26 13:53:59,330] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:54:30,078] {processor.py:153} INFO - Started process (PID=2042) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:54:30,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:54:30,081] {logging_mixin.py:115} INFO - [2022-06-26 13:54:30,081] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:54:30,094] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:54:30,114] {logging_mixin.py:115} INFO - [2022-06-26 13:54:30,114] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:30,128] {logging_mixin.py:115} INFO - [2022-06-26 13:54:30,128] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:54:30.128126+00:00, run_after=2022-06-26T13:54:30.128126+00:00
+[2022-06-26 13:54:30,137] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.061 seconds
+[2022-06-26 13:55:00,971] {processor.py:153} INFO - Started process (PID=2103) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:00,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:55:00,974] {logging_mixin.py:115} INFO - [2022-06-26 13:55:00,973] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:00,988] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:01,008] {logging_mixin.py:115} INFO - [2022-06-26 13:55:01,008] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:01,021] {logging_mixin.py:115} INFO - [2022-06-26 13:55:01,021] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:55:01.021019+00:00, run_after=2022-06-26T13:55:01.021019+00:00
+[2022-06-26 13:55:01,029] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.060 seconds
+[2022-06-26 13:55:31,103] {processor.py:153} INFO - Started process (PID=2163) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:31,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:55:31,107] {logging_mixin.py:115} INFO - [2022-06-26 13:55:31,107] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:31,126] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:55:31,147] {logging_mixin.py:115} INFO - [2022-06-26 13:55:31,146] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:31,160] {logging_mixin.py:115} INFO - [2022-06-26 13:55:31,160] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:55:31.159971+00:00, run_after=2022-06-26T13:55:31.159971+00:00
+[2022-06-26 13:55:31,169] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.068 seconds
+[2022-06-26 13:56:02,094] {processor.py:153} INFO - Started process (PID=2224) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:02,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:56:02,097] {logging_mixin.py:115} INFO - [2022-06-26 13:56:02,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:02,108] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:02,125] {logging_mixin.py:115} INFO - [2022-06-26 13:56:02,125] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:02,139] {logging_mixin.py:115} INFO - [2022-06-26 13:56:02,139] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:56:02.138773+00:00, run_after=2022-06-26T13:56:02.138773+00:00
+[2022-06-26 13:56:02,147] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:56:32,992] {processor.py:153} INFO - Started process (PID=2286) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:32,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:56:32,996] {logging_mixin.py:115} INFO - [2022-06-26 13:56:32,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:33,006] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:56:33,026] {logging_mixin.py:115} INFO - [2022-06-26 13:56:33,026] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:33,044] {logging_mixin.py:115} INFO - [2022-06-26 13:56:33,044] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:56:33.044181+00:00, run_after=2022-06-26T13:56:33.044181+00:00
+[2022-06-26 13:56:33,053] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.063 seconds
+[2022-06-26 13:57:03,260] {processor.py:153} INFO - Started process (PID=2346) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:03,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:57:03,266] {logging_mixin.py:115} INFO - [2022-06-26 13:57:03,266] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:03,284] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:03,309] {logging_mixin.py:115} INFO - [2022-06-26 13:57:03,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:03,328] {logging_mixin.py:115} INFO - [2022-06-26 13:57:03,328] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:57:03.327989+00:00, run_after=2022-06-26T13:57:03.327989+00:00
+[2022-06-26 13:57:03,343] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.087 seconds
+[2022-06-26 13:57:34,265] {processor.py:153} INFO - Started process (PID=2398) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:34,267] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:57:34,268] {logging_mixin.py:115} INFO - [2022-06-26 13:57:34,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:34,278] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:57:34,296] {logging_mixin.py:115} INFO - [2022-06-26 13:57:34,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:34,309] {logging_mixin.py:115} INFO - [2022-06-26 13:57:34,309] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:57:34.309634+00:00, run_after=2022-06-26T13:57:34.309634+00:00
+[2022-06-26 13:57:34,318] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.055 seconds
+[2022-06-26 13:58:05,158] {processor.py:153} INFO - Started process (PID=2459) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:05,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:58:05,160] {logging_mixin.py:115} INFO - [2022-06-26 13:58:05,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:05,171] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:05,191] {logging_mixin.py:115} INFO - [2022-06-26 13:58:05,191] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:05,204] {logging_mixin.py:115} INFO - [2022-06-26 13:58:05,204] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:58:05.204242+00:00, run_after=2022-06-26T13:58:05.204242+00:00
+[2022-06-26 13:58:05,212] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.056 seconds
+[2022-06-26 13:58:35,524] {processor.py:153} INFO - Started process (PID=2520) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:35,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:58:35,529] {logging_mixin.py:115} INFO - [2022-06-26 13:58:35,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:35,548] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:58:35,574] {logging_mixin.py:115} INFO - [2022-06-26 13:58:35,574] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:35,588] {logging_mixin.py:115} INFO - [2022-06-26 13:58:35,588] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:58:35.588573+00:00, run_after=2022-06-26T13:58:35.588573+00:00
+[2022-06-26 13:58:35,599] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.077 seconds
+[2022-06-26 13:59:06,122] {processor.py:153} INFO - Started process (PID=2580) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:06,124] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:59:06,125] {logging_mixin.py:115} INFO - [2022-06-26 13:59:06,125] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:06,135] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:06,152] {logging_mixin.py:115} INFO - [2022-06-26 13:59:06,152] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:06,165] {logging_mixin.py:115} INFO - [2022-06-26 13:59:06,165] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:59:06.165337+00:00, run_after=2022-06-26T13:59:06.165337+00:00
+[2022-06-26 13:59:06,174] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.053 seconds
+[2022-06-26 13:59:36,862] {processor.py:153} INFO - Started process (PID=2641) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:36,864] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 13:59:36,866] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:36,878] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 13:59:36,899] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,899] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:36,913] {logging_mixin.py:115} INFO - [2022-06-26 13:59:36,913] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T13:59:36.913671+00:00, run_after=2022-06-26T13:59:36.913671+00:00
+[2022-06-26 13:59:36,923] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.063 seconds
+[2022-06-26 14:00:07,576] {processor.py:153} INFO - Started process (PID=2704) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:07,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:00:07,578] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:07,588] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:07,625] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,625] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:07,646] {logging_mixin.py:115} INFO - [2022-06-26 14:00:07,646] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:00:07.646429+00:00, run_after=2022-06-26T14:00:07.646429+00:00
+[2022-06-26 14:00:07,658] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.085 seconds
+[2022-06-26 14:00:38,218] {processor.py:153} INFO - Started process (PID=2755) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:38,219] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:00:38,220] {logging_mixin.py:115} INFO - [2022-06-26 14:00:38,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:38,234] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:00:38,254] {logging_mixin.py:115} INFO - [2022-06-26 14:00:38,254] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:38,267] {logging_mixin.py:115} INFO - [2022-06-26 14:00:38,267] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:00:38.267728+00:00, run_after=2022-06-26T14:00:38.267728+00:00
+[2022-06-26 14:00:38,278] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.062 seconds
+[2022-06-26 14:01:08,917] {processor.py:153} INFO - Started process (PID=2816) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:08,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:01:08,920] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,920] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:08,931] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:08,952] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,952] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:08,966] {logging_mixin.py:115} INFO - [2022-06-26 14:01:08,965] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:01:08.965806+00:00, run_after=2022-06-26T14:01:08.965806+00:00
+[2022-06-26 14:01:08,975] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.060 seconds
+[2022-06-26 14:01:39,709] {processor.py:153} INFO - Started process (PID=2877) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:39,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:01:39,712] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,712] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:39,722] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:01:39,748] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,748] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:39,765] {logging_mixin.py:115} INFO - [2022-06-26 14:01:39,765] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:01:39.765389+00:00, run_after=2022-06-26T14:01:39.765389+00:00
+[2022-06-26 14:01:39,774] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.067 seconds
+[2022-06-26 14:02:10,869] {processor.py:153} INFO - Started process (PID=2938) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:10,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:02:10,873] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:10,885] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:10,914] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,914] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:10,930] {logging_mixin.py:115} INFO - [2022-06-26 14:02:10,930] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:02:10.929988+00:00, run_after=2022-06-26T14:02:10.929988+00:00
+[2022-06-26 14:02:10,940] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.073 seconds
+[2022-06-26 14:02:41,739] {processor.py:153} INFO - Started process (PID=2999) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:41,740] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:02:41,742] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:41,754] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:02:41,776] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,776] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:41,803] {logging_mixin.py:115} INFO - [2022-06-26 14:02:41,803] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:02:41.803441+00:00, run_after=2022-06-26T14:02:41.803441+00:00
+[2022-06-26 14:02:41,812] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.076 seconds
+[2022-06-26 14:03:12,733] {processor.py:153} INFO - Started process (PID=3060) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:12,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:03:12,743] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,742] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:12,754] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:12,772] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,771] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:12,784] {logging_mixin.py:115} INFO - [2022-06-26 14:03:12,784] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:03:12.784609+00:00, run_after=2022-06-26T14:03:12.784609+00:00
+[2022-06-26 14:03:12,792] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.064 seconds
+[2022-06-26 14:03:43,581] {processor.py:153} INFO - Started process (PID=3121) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:43,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:03:43,585] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:43,608] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:03:43,632] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,632] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:43,646] {logging_mixin.py:115} INFO - [2022-06-26 14:03:43,646] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:03:43.645841+00:00, run_after=2022-06-26T14:03:43.645841+00:00
+[2022-06-26 14:03:43,654] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.075 seconds
+[2022-06-26 14:04:14,565] {processor.py:153} INFO - Started process (PID=3181) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:14,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:04:14,570] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,570] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:14,582] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:14,604] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,604] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:14,619] {logging_mixin.py:115} INFO - [2022-06-26 14:04:14,619] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:04:14.618992+00:00, run_after=2022-06-26T14:04:14.618992+00:00
+[2022-06-26 14:04:14,628] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.065 seconds
+[2022-06-26 14:04:45,334] {processor.py:153} INFO - Started process (PID=3234) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:45,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:04:45,341] {logging_mixin.py:115} INFO - [2022-06-26 14:04:45,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:45,353] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:04:45,380] {logging_mixin.py:115} INFO - [2022-06-26 14:04:45,380] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:45,414] {logging_mixin.py:115} INFO - [2022-06-26 14:04:45,414] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:04:45.414381+00:00, run_after=2022-06-26T14:04:45.414381+00:00
+[2022-06-26 14:04:45,427] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.095 seconds
+[2022-06-26 14:05:16,233] {processor.py:153} INFO - Started process (PID=3295) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:16,234] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:05:16,235] {logging_mixin.py:115} INFO - [2022-06-26 14:05:16,235] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:16,245] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:16,263] {logging_mixin.py:115} INFO - [2022-06-26 14:05:16,263] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:16,280] {logging_mixin.py:115} INFO - [2022-06-26 14:05:16,280] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:05:16.279947+00:00, run_after=2022-06-26T14:05:16.279947+00:00
+[2022-06-26 14:05:16,290] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.060 seconds
+[2022-06-26 14:05:46,636] {processor.py:153} INFO - Started process (PID=3356) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:46,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:05:46,642] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,642] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:46,656] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:05:46,679] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,679] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:46,699] {logging_mixin.py:115} INFO - [2022-06-26 14:05:46,699] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:05:46.698977+00:00, run_after=2022-06-26T14:05:46.698977+00:00
+[2022-06-26 14:05:46,709] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.077 seconds
+[2022-06-26 14:09:53,880] {processor.py:153} INFO - Started process (PID=3407) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:09:53,882] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:09:53,883] {logging_mixin.py:115} INFO - [2022-06-26 14:09:53,883] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:09:53,898] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:09:53,927] {logging_mixin.py:115} INFO - [2022-06-26 14:09:53,927] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:09:53,942] {logging_mixin.py:115} INFO - [2022-06-26 14:09:53,942] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:09:53.942426+00:00, run_after=2022-06-26T14:09:53.942426+00:00
+[2022-06-26 14:09:54,065] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.188 seconds
+[2022-06-26 14:10:24,325] {processor.py:153} INFO - Started process (PID=3468) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:24,327] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:10:24,328] {logging_mixin.py:115} INFO - [2022-06-26 14:10:24,328] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:24,340] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:24,365] {logging_mixin.py:115} INFO - [2022-06-26 14:10:24,365] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:24,384] {logging_mixin.py:115} INFO - [2022-06-26 14:10:24,384] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:10:24.384345+00:00, run_after=2022-06-26T14:10:24.384345+00:00
+[2022-06-26 14:10:24,500] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.178 seconds
+[2022-06-26 14:10:54,663] {processor.py:153} INFO - Started process (PID=3519) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:54,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:10:54,666] {logging_mixin.py:115} INFO - [2022-06-26 14:10:54,666] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:54,677] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:10:54,698] {logging_mixin.py:115} INFO - [2022-06-26 14:10:54,698] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:54,712] {logging_mixin.py:115} INFO - [2022-06-26 14:10:54,712] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:10:54.711962+00:00, run_after=2022-06-26T14:10:54.711962+00:00
+[2022-06-26 14:10:54,798] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.138 seconds
+[2022-06-26 14:11:25,140] {processor.py:153} INFO - Started process (PID=3580) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:25,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:11:25,144] {logging_mixin.py:115} INFO - [2022-06-26 14:11:25,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:25,156] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:25,177] {logging_mixin.py:115} INFO - [2022-06-26 14:11:25,177] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:25,196] {logging_mixin.py:115} INFO - [2022-06-26 14:11:25,196] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:11:25.195859+00:00, run_after=2022-06-26T14:11:25.195859+00:00
+[2022-06-26 14:11:25,289] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.151 seconds
+[2022-06-26 14:11:55,446] {processor.py:153} INFO - Started process (PID=3641) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:55,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:11:55,449] {logging_mixin.py:115} INFO - [2022-06-26 14:11:55,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:55,458] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:11:55,479] {logging_mixin.py:115} INFO - [2022-06-26 14:11:55,479] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:55,493] {logging_mixin.py:115} INFO - [2022-06-26 14:11:55,493] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:11:55.493210+00:00, run_after=2022-06-26T14:11:55.493210+00:00
+[2022-06-26 14:11:55,577] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.133 seconds
+[2022-06-26 14:12:26,532] {processor.py:153} INFO - Started process (PID=3702) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:26,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:12:26,534] {logging_mixin.py:115} INFO - [2022-06-26 14:12:26,534] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:26,543] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:26,560] {logging_mixin.py:115} INFO - [2022-06-26 14:12:26,560] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:26,572] {logging_mixin.py:115} INFO - [2022-06-26 14:12:26,572] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:12:26.572011+00:00, run_after=2022-06-26T14:12:26.572011+00:00
+[2022-06-26 14:12:26,644] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.114 seconds
+[2022-06-26 14:12:57,590] {processor.py:153} INFO - Started process (PID=4287) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:57,593] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:12:57,595] {logging_mixin.py:115} INFO - [2022-06-26 14:12:57,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:57,618] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:12:57,647] {logging_mixin.py:115} INFO - [2022-06-26 14:12:57,647] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:57,667] {logging_mixin.py:115} INFO - [2022-06-26 14:12:57,667] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:12:57.666866+00:00, run_after=2022-06-26T14:12:57.666866+00:00
+[2022-06-26 14:12:57,776] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.188 seconds
+[2022-06-26 14:13:28,074] {processor.py:153} INFO - Started process (PID=4778) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:28,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:13:28,079] {logging_mixin.py:115} INFO - [2022-06-26 14:13:28,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:28,096] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:28,120] {logging_mixin.py:115} INFO - [2022-06-26 14:13:28,120] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:28,137] {logging_mixin.py:115} INFO - [2022-06-26 14:13:28,137] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:13:28.136830+00:00, run_after=2022-06-26T14:13:28.136830+00:00
+[2022-06-26 14:13:28,325] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.255 seconds
+[2022-06-26 14:13:58,522] {processor.py:153} INFO - Started process (PID=5760) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:58,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:13:58,526] {logging_mixin.py:115} INFO - [2022-06-26 14:13:58,525] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:58,535] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:13:58,554] {logging_mixin.py:115} INFO - [2022-06-26 14:13:58,554] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:58,569] {logging_mixin.py:115} INFO - [2022-06-26 14:13:58,569] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:13:58.569043+00:00, run_after=2022-06-26T14:13:58.569043+00:00
+[2022-06-26 14:13:58,653] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.133 seconds
+[2022-06-26 14:14:28,711] {processor.py:153} INFO - Started process (PID=6119) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:28,713] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:14:28,714] {logging_mixin.py:115} INFO - [2022-06-26 14:14:28,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:28,723] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:28,740] {logging_mixin.py:115} INFO - [2022-06-26 14:14:28,740] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:28,751] {logging_mixin.py:115} INFO - [2022-06-26 14:14:28,751] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:14:28.751655+00:00, run_after=2022-06-26T14:14:28.751655+00:00
+[2022-06-26 14:14:28,824] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.116 seconds
+[2022-06-26 14:14:59,583] {processor.py:153} INFO - Started process (PID=6494) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:59,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:14:59,586] {logging_mixin.py:115} INFO - [2022-06-26 14:14:59,586] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:59,596] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:14:59,614] {logging_mixin.py:115} INFO - [2022-06-26 14:14:59,614] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:59,697] {logging_mixin.py:115} INFO - [2022-06-26 14:14:59,697] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:14:59.697067+00:00, run_after=2022-06-26T14:14:59.697067+00:00
+[2022-06-26 14:14:59,704] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.123 seconds
+[2022-06-26 14:15:30,185] {processor.py:153} INFO - Started process (PID=6868) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:15:30,187] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:15:30,189] {logging_mixin.py:115} INFO - [2022-06-26 14:15:30,189] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:15:30,203] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:15:30,232] {logging_mixin.py:115} INFO - [2022-06-26 14:15:30,232] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:30,351] {logging_mixin.py:115} INFO - [2022-06-26 14:15:30,351] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:15:30.351293+00:00, run_after=2022-06-26T14:15:30.351293+00:00
+[2022-06-26 14:15:30,364] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.182 seconds
+[2022-06-26 14:16:01,149] {processor.py:153} INFO - Started process (PID=7486) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:01,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:16:01,152] {logging_mixin.py:115} INFO - [2022-06-26 14:16:01,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:01,162] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:01,181] {logging_mixin.py:115} INFO - [2022-06-26 14:16:01,181] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:01,268] {logging_mixin.py:115} INFO - [2022-06-26 14:16:01,268] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:16:01.268679+00:00, run_after=2022-06-26T14:16:01.268679+00:00
+[2022-06-26 14:16:01,284] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.137 seconds
+[2022-06-26 14:16:32,208] {processor.py:153} INFO - Started process (PID=9174) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:32,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:16:32,211] {logging_mixin.py:115} INFO - [2022-06-26 14:16:32,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:32,221] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:16:32,239] {logging_mixin.py:115} INFO - [2022-06-26 14:16:32,239] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:32,324] {logging_mixin.py:115} INFO - [2022-06-26 14:16:32,324] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:16:32.324173+00:00, run_after=2022-06-26T14:16:32.324173+00:00
+[2022-06-26 14:16:32,333] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.127 seconds
+[2022-06-26 14:17:03,202] {processor.py:153} INFO - Started process (PID=10116) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:03,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:17:03,208] {logging_mixin.py:115} INFO - [2022-06-26 14:17:03,208] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:03,225] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:03,245] {logging_mixin.py:115} INFO - [2022-06-26 14:17:03,245] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:03,341] {logging_mixin.py:115} INFO - [2022-06-26 14:17:03,341] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:17:03.340966+00:00, run_after=2022-06-26T14:17:03.340966+00:00
+[2022-06-26 14:17:03,350] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.150 seconds
+[2022-06-26 14:17:33,766] {processor.py:153} INFO - Started process (PID=11061) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:33,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:17:33,770] {logging_mixin.py:115} INFO - [2022-06-26 14:17:33,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:33,780] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:17:33,799] {logging_mixin.py:115} INFO - [2022-06-26 14:17:33,799] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:33,890] {logging_mixin.py:115} INFO - [2022-06-26 14:17:33,890] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:17:33.890011+00:00, run_after=2022-06-26T14:17:33.890011+00:00
+[2022-06-26 14:17:33,897] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.133 seconds
+[2022-06-26 14:18:04,406] {processor.py:153} INFO - Started process (PID=11438) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:04,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:18:04,409] {logging_mixin.py:115} INFO - [2022-06-26 14:18:04,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:04,419] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:04,440] {logging_mixin.py:115} INFO - [2022-06-26 14:18:04,440] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:04,526] {logging_mixin.py:115} INFO - [2022-06-26 14:18:04,526] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:18:04.526189+00:00, run_after=2022-06-26T14:18:04.526189+00:00
+[2022-06-26 14:18:04,534] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.130 seconds
+[2022-06-26 14:18:35,488] {processor.py:153} INFO - Started process (PID=12261) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:35,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:18:35,492] {logging_mixin.py:115} INFO - [2022-06-26 14:18:35,491] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:35,506] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:18:35,523] {logging_mixin.py:115} INFO - [2022-06-26 14:18:35,523] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:35,613] {logging_mixin.py:115} INFO - [2022-06-26 14:18:35,612] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:18:35.612830+00:00, run_after=2022-06-26T14:18:35.612830+00:00
+[2022-06-26 14:18:35,621] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.136 seconds
+[2022-06-26 14:19:06,316] {processor.py:153} INFO - Started process (PID=12825) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:06,318] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:19:06,319] {logging_mixin.py:115} INFO - [2022-06-26 14:19:06,319] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:06,330] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:06,348] {logging_mixin.py:115} INFO - [2022-06-26 14:19:06,348] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:06,434] {logging_mixin.py:115} INFO - [2022-06-26 14:19:06,434] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:19:06.434557+00:00, run_after=2022-06-26T14:19:06.434557+00:00
+[2022-06-26 14:19:06,443] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.129 seconds
+[2022-06-26 14:19:37,212] {processor.py:153} INFO - Started process (PID=13637) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:37,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:19:37,216] {logging_mixin.py:115} INFO - [2022-06-26 14:19:37,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:37,230] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:19:37,252] {logging_mixin.py:115} INFO - [2022-06-26 14:19:37,252] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:37,347] {logging_mixin.py:115} INFO - [2022-06-26 14:19:37,347] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:19:37.346995+00:00, run_after=2022-06-26T14:19:37.346995+00:00
+[2022-06-26 14:19:37,354] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.145 seconds
+[2022-06-26 14:20:08,010] {processor.py:153} INFO - Started process (PID=14636) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:20:08,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:20:08,015] {logging_mixin.py:115} INFO - [2022-06-26 14:20:08,015] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:20:08,032] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:20:08,065] {logging_mixin.py:115} INFO - [2022-06-26 14:20:08,065] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:20:08,208] {logging_mixin.py:115} INFO - [2022-06-26 14:20:08,208] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:20:08.208437+00:00, run_after=2022-06-26T14:20:08.208437+00:00
+[2022-06-26 14:20:08,229] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.222 seconds
+[2022-06-26 14:53:11,630] {processor.py:153} INFO - Started process (PID=14855) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:53:11,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 14:53:11,636] {logging_mixin.py:115} INFO - [2022-06-26 14:53:11,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:53:11,661] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 14:53:11,693] {logging_mixin.py:115} INFO - [2022-06-26 14:53:11,693] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:53:11,829] {logging_mixin.py:115} INFO - [2022-06-26 14:53:11,829] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T14:53:11.829649+00:00, run_after=2022-06-26T14:53:11.829649+00:00
+[2022-06-26 14:53:11,843] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.217 seconds
+[2022-06-26 16:16:02,389] {processor.py:153} INFO - Started process (PID=15233) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 16:16:02,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 16:16:02,416] {logging_mixin.py:115} INFO - [2022-06-26 16:16:02,416] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 16:16:02,431] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 16:16:02,668] {logging_mixin.py:115} INFO - [2022-06-26 16:16:02,668] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 16:16:02,691] {logging_mixin.py:115} INFO - [2022-06-26 16:16:02,691] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T16:16:02.691179+00:00, run_after=2022-06-26T16:16:02.691179+00:00
+[2022-06-26 16:16:02,715] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.330 seconds
+[2022-06-26 17:21:23,460] {processor.py:153} INFO - Started process (PID=15578) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 17:21:23,461] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 17:21:23,462] {logging_mixin.py:115} INFO - [2022-06-26 17:21:23,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 17:21:23,473] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 17:21:23,565] {logging_mixin.py:115} INFO - [2022-06-26 17:21:23,565] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 17:21:23,576] {logging_mixin.py:115} INFO - [2022-06-26 17:21:23,576] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T17:21:23.576018+00:00, run_after=2022-06-26T17:21:23.576018+00:00
+[2022-06-26 17:21:23,585] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.127 seconds
+[2022-06-26 18:41:39,496] {processor.py:153} INFO - Started process (PID=15938) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 18:41:39,498] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 18:41:39,499] {logging_mixin.py:115} INFO - [2022-06-26 18:41:39,499] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 18:41:39,612] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 18:41:39,629] {logging_mixin.py:115} INFO - [2022-06-26 18:41:39,629] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 18:41:39,642] {logging_mixin.py:115} INFO - [2022-06-26 18:41:39,642] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T18:41:39.642188+00:00, run_after=2022-06-26T18:41:39.642188+00:00
+[2022-06-26 18:41:39,650] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.157 seconds
+[2022-06-26 20:03:40,580] {processor.py:153} INFO - Started process (PID=16216) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 20:03:40,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 20:03:40,584] {logging_mixin.py:115} INFO - [2022-06-26 20:03:40,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 20:03:40,601] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 20:03:40,637] {logging_mixin.py:115} INFO - [2022-06-26 20:03:40,637] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 20:03:40,671] {logging_mixin.py:115} INFO - [2022-06-26 20:03:40,670] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T20:03:40.670345+00:00, run_after=2022-06-26T20:03:40.670345+00:00
+[2022-06-26 20:03:40,691] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.113 seconds
+[2022-06-26 21:23:34,007] {processor.py:153} INFO - Started process (PID=16496) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 21:23:34,011] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 21:23:34,014] {logging_mixin.py:115} INFO - [2022-06-26 21:23:34,013] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 21:23:34,041] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 21:23:34,077] {logging_mixin.py:115} INFO - [2022-06-26 21:23:34,076] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 21:23:34,100] {logging_mixin.py:115} INFO - [2022-06-26 21:23:34,100] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T21:23:34.099710+00:00, run_after=2022-06-26T21:23:34.099710+00:00
+[2022-06-26 21:23:34,118] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.114 seconds
+[2022-06-26 22:29:33,084] {processor.py:153} INFO - Started process (PID=16776) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 22:29:33,086] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 22:29:33,088] {logging_mixin.py:115} INFO - [2022-06-26 22:29:33,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 22:29:33,099] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 22:29:33,118] {logging_mixin.py:115} INFO - [2022-06-26 22:29:33,118] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 22:29:33,132] {logging_mixin.py:115} INFO - [2022-06-26 22:29:33,132] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T22:29:33.132032+00:00, run_after=2022-06-26T22:29:33.132032+00:00
+[2022-06-26 22:29:33,140] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.058 seconds
+[2022-06-26 23:11:58,401] {processor.py:153} INFO - Started process (PID=17088) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:11:58,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 23:11:58,408] {logging_mixin.py:115} INFO - [2022-06-26 23:11:58,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:11:58,441] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:11:58,479] {logging_mixin.py:115} INFO - [2022-06-26 23:11:58,479] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:11:58,515] {logging_mixin.py:115} INFO - [2022-06-26 23:11:58,515] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T23:11:58.514647+00:00, run_after=2022-06-26T23:11:58.514647+00:00
+[2022-06-26 23:11:58,536] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.138 seconds
+[2022-06-26 23:12:29,206] {processor.py:153} INFO - Started process (PID=17375) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:29,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 23:12:29,210] {logging_mixin.py:115} INFO - [2022-06-26 23:12:29,210] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:29,221] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:29,242] {logging_mixin.py:115} INFO - [2022-06-26 23:12:29,242] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:29,256] {logging_mixin.py:115} INFO - [2022-06-26 23:12:29,256] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T23:12:29.255934+00:00, run_after=2022-06-26T23:12:29.255934+00:00
+[2022-06-26 23:12:29,265] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.061 seconds
+[2022-06-26 23:12:59,924] {processor.py:153} INFO - Started process (PID=17648) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:59,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 23:12:59,929] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,929] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:59,943] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:12:59,961] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,961] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:59,975] {logging_mixin.py:115} INFO - [2022-06-26 23:12:59,975] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T23:12:59.975558+00:00, run_after=2022-06-26T23:12:59.975558+00:00
+[2022-06-26 23:12:59,984] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.062 seconds
+[2022-06-26 23:31:51,226] {processor.py:153} INFO - Started process (PID=17923) to work on /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:31:51,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/running_time_con_timeout.py for tasks to queue
+[2022-06-26 23:31:51,231] {logging_mixin.py:115} INFO - [2022-06-26 23:31:51,231] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:31:51,255] {processor.py:651} INFO - DAG(s) dict_keys(['running_controller_timeout']) retrieved from /opt/airflow/dags/running_time_con_timeout.py
+[2022-06-26 23:31:51,358] {logging_mixin.py:115} INFO - [2022-06-26 23:31:51,358] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:31:51,380] {logging_mixin.py:115} INFO - [2022-06-26 23:31:51,380] {dag.py:2919} INFO - Setting next_dagrun for running_controller_timeout to 2022-06-25T23:31:51.380212+00:00, run_after=2022-06-26T23:31:51.380212+00:00
+[2022-06-26 23:31:51,400] {processor.py:161} INFO - Processing /opt/airflow/dags/running_time_con_timeout.py took 0.180 seconds

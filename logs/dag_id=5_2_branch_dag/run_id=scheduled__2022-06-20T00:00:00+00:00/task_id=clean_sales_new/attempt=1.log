@@ -1,0 +1,24 @@
+[2022-06-21 00:00:03,329] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.clean_sales_new scheduled__2022-06-20T00:00:00+00:00 [queued]>
+[2022-06-21 00:00:03,336] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_2_branch_dag.clean_sales_new scheduled__2022-06-20T00:00:00+00:00 [queued]>
+[2022-06-21 00:00:03,338] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 00:00:03,339] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-06-21 00:00:03,340] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-21 00:00:03,350] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): clean_sales_new> on 2022-06-20 00:00:00+00:00
+[2022-06-21 00:00:03,356] {standard_task_runner.py:52} INFO - Started process 19272 to run task
+[2022-06-21 00:00:03,358] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '5_2_branch_dag', 'clean_sales_new', 'scheduled__2022-06-20T00:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/chapter05/5_2_branch_dag.py', '--cfg-path', '/tmp/tmpj8ea91qt', '--error-file', '/tmp/tmp5_3qwbns']
+[2022-06-21 00:00:03,360] {standard_task_runner.py:80} INFO - Job 61: Subtask clean_sales_new
+[2022-06-21 00:00:03,402] {task_command.py:369} INFO - Running <TaskInstance: 5_2_branch_dag.clean_sales_new scheduled__2022-06-20T00:00:00+00:00 [running]> on host 69ff35f06aa7
+[2022-06-21 00:00:03,448] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_2_branch_dag
+AIRFLOW_CTX_TASK_ID=clean_sales_new
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-20T00:00:00+00:00
+[2022-06-21 00:00:03,449] {logging_mixin.py:115} INFO - Preprocessing sales data (NEW)...
+[2022-06-21 00:00:03,451] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-21 00:00:03,461] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=5_2_branch_dag, task_id=clean_sales_new, execution_date=20220620T000000, start_date=20220621T000003, end_date=20220621T000003
+[2022-06-21 00:00:03,494] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-21 00:00:03,523] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

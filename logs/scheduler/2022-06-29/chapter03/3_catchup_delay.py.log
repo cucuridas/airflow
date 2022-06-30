@@ -1,0 +1,7 @@
+[2022-06-29 07:10:17,929] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/chapter03/3_catchup_delay.py
+[2022-06-29 07:10:17,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_catchup_delay.py for tasks to queue
+[2022-06-29 07:10:17,945] {logging_mixin.py:115} INFO - [2022-06-29 07:10:17,945] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_catchup_delay.py
+[2022-06-29 07:10:17,969] {processor.py:651} INFO - DAG(s) dict_keys(['3_catchup_delay']) retrieved from /opt/airflow/dags/chapter03/3_catchup_delay.py
+[2022-06-29 07:10:18,006] {logging_mixin.py:115} INFO - [2022-06-29 07:10:18,006] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-29 07:10:18,034] {logging_mixin.py:115} INFO - [2022-06-29 07:10:18,034] {dag.py:2919} INFO - Setting next_dagrun for 3_catchup_delay to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-29 07:10:18,051] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_catchup_delay.py took 0.126 seconds

@@ -1,0 +1,620 @@
+[2022-06-26 13:37:27,505] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:37:27,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:37:27,521] {logging_mixin.py:115} INFO - [2022-06-26 13:37:27,521] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:37:28,908] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:37:29,044] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,044] {manager.py:508} INFO - Created Permission View: can read on DAG:3_1_dummy_scheduled
+[2022-06-26 13:37:29,061] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,061] {manager.py:508} INFO - Created Permission View: can edit on DAG:3_1_dummy_scheduled
+[2022-06-26 13:37:29,080] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,080] {manager.py:508} INFO - Created Permission View: can delete on DAG:3_1_dummy_scheduled
+[2022-06-26 13:37:29,083] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,082] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:37:29,093] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,092] {dag.py:2390} INFO - Creating ORM DAG for 3_1_dummy_scheduled
+[2022-06-26 13:37:29,113] {logging_mixin.py:115} INFO - [2022-06-26 13:37:29,113] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:37:29,159] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 1.661 seconds
+[2022-06-26 13:38:00,053] {processor.py:153} INFO - Started process (PID=100) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:00,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:38:00,056] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:00,398] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:00,425] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,425] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:00,441] {logging_mixin.py:115} INFO - [2022-06-26 13:38:00,441] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:38:00,448] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.398 seconds
+[2022-06-26 13:38:30,956] {processor.py:153} INFO - Started process (PID=161) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:30,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:38:30,963] {logging_mixin.py:115} INFO - [2022-06-26 13:38:30,963] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:31,185] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:38:31,200] {logging_mixin.py:115} INFO - [2022-06-26 13:38:31,200] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:38:31,215] {logging_mixin.py:115} INFO - [2022-06-26 13:38:31,214] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:38:31,225] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.272 seconds
+[2022-06-26 13:39:01,600] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:01,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:39:01,607] {logging_mixin.py:115} INFO - [2022-06-26 13:39:01,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:01,816] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:01,832] {logging_mixin.py:115} INFO - [2022-06-26 13:39:01,832] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:01,844] {logging_mixin.py:115} INFO - [2022-06-26 13:39:01,844] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:39:01,851] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.253 seconds
+[2022-06-26 13:39:32,366] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:32,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:39:32,372] {logging_mixin.py:115} INFO - [2022-06-26 13:39:32,372] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:32,595] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:39:32,616] {logging_mixin.py:115} INFO - [2022-06-26 13:39:32,615] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:39:32,631] {logging_mixin.py:115} INFO - [2022-06-26 13:39:32,630] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:39:32,639] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.275 seconds
+[2022-06-26 13:40:03,394] {processor.py:153} INFO - Started process (PID=344) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:03,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:40:03,400] {logging_mixin.py:115} INFO - [2022-06-26 13:40:03,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:03,628] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:03,644] {logging_mixin.py:115} INFO - [2022-06-26 13:40:03,643] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:03,657] {logging_mixin.py:115} INFO - [2022-06-26 13:40:03,657] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:40:03,665] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.273 seconds
+[2022-06-26 13:40:33,783] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:33,785] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:40:33,789] {logging_mixin.py:115} INFO - [2022-06-26 13:40:33,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:34,025] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:40:34,042] {logging_mixin.py:115} INFO - [2022-06-26 13:40:34,042] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:40:34,056] {logging_mixin.py:115} INFO - [2022-06-26 13:40:34,056] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:40:34,065] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.285 seconds
+[2022-06-26 13:41:04,726] {processor.py:153} INFO - Started process (PID=457) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:04,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:41:04,733] {logging_mixin.py:115} INFO - [2022-06-26 13:41:04,733] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:04,943] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:04,960] {logging_mixin.py:115} INFO - [2022-06-26 13:41:04,960] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:04,974] {logging_mixin.py:115} INFO - [2022-06-26 13:41:04,973] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:41:04,982] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.260 seconds
+[2022-06-26 13:41:35,551] {processor.py:153} INFO - Started process (PID=521) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:35,554] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:41:35,558] {logging_mixin.py:115} INFO - [2022-06-26 13:41:35,558] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:35,775] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:41:35,791] {logging_mixin.py:115} INFO - [2022-06-26 13:41:35,790] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:41:35,803] {logging_mixin.py:115} INFO - [2022-06-26 13:41:35,803] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:41:35,811] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.263 seconds
+[2022-06-26 13:42:06,284] {processor.py:153} INFO - Started process (PID=587) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:06,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:42:06,289] {logging_mixin.py:115} INFO - [2022-06-26 13:42:06,289] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:06,493] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:06,507] {logging_mixin.py:115} INFO - [2022-06-26 13:42:06,507] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:06,519] {logging_mixin.py:115} INFO - [2022-06-26 13:42:06,519] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:42:06,527] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.247 seconds
+[2022-06-26 13:42:37,121] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:37,122] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:42:37,123] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,123] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:37,336] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:42:37,352] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,352] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:42:37,365] {logging_mixin.py:115} INFO - [2022-06-26 13:42:37,365] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:42:37,374] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.256 seconds
+[2022-06-26 13:43:07,845] {processor.py:153} INFO - Started process (PID=709) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:07,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:43:07,849] {logging_mixin.py:115} INFO - [2022-06-26 13:43:07,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:08,039] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:08,053] {logging_mixin.py:115} INFO - [2022-06-26 13:43:08,053] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:08,065] {logging_mixin.py:115} INFO - [2022-06-26 13:43:08,065] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:43:08,073] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.232 seconds
+[2022-06-26 13:43:38,578] {processor.py:153} INFO - Started process (PID=770) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:38,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:43:38,581] {logging_mixin.py:115} INFO - [2022-06-26 13:43:38,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:38,779] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:43:38,792] {logging_mixin.py:115} INFO - [2022-06-26 13:43:38,792] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:43:38,804] {logging_mixin.py:115} INFO - [2022-06-26 13:43:38,804] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:43:38,812] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.236 seconds
+[2022-06-26 13:44:09,449] {processor.py:153} INFO - Started process (PID=831) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:09,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:44:09,454] {logging_mixin.py:115} INFO - [2022-06-26 13:44:09,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:09,850] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:09,872] {logging_mixin.py:115} INFO - [2022-06-26 13:44:09,872] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:09,890] {logging_mixin.py:115} INFO - [2022-06-26 13:44:09,890] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:44:09,902] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.458 seconds
+[2022-06-26 13:44:40,590] {processor.py:153} INFO - Started process (PID=882) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:40,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:44:40,598] {logging_mixin.py:115} INFO - [2022-06-26 13:44:40,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:40,862] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:44:40,879] {logging_mixin.py:115} INFO - [2022-06-26 13:44:40,879] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:44:40,893] {logging_mixin.py:115} INFO - [2022-06-26 13:44:40,893] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:44:40,905] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.318 seconds
+[2022-06-26 13:45:11,686] {processor.py:153} INFO - Started process (PID=942) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:11,688] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:45:11,690] {logging_mixin.py:115} INFO - [2022-06-26 13:45:11,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:11,893] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:11,911] {logging_mixin.py:115} INFO - [2022-06-26 13:45:11,910] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:11,922] {logging_mixin.py:115} INFO - [2022-06-26 13:45:11,922] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:45:11,930] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.246 seconds
+[2022-06-26 13:45:42,403] {processor.py:153} INFO - Started process (PID=1002) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:42,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:45:42,405] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,405] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:42,676] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:45:42,696] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,696] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:45:42,709] {logging_mixin.py:115} INFO - [2022-06-26 13:45:42,709] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:45:42,716] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.316 seconds
+[2022-06-26 13:46:13,136] {processor.py:153} INFO - Started process (PID=1064) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:13,137] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:46:13,138] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,138] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:13,336] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:13,351] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,351] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:13,363] {logging_mixin.py:115} INFO - [2022-06-26 13:46:13,363] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:46:13,371] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.237 seconds
+[2022-06-26 13:46:43,864] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:43,866] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:46:43,867] {logging_mixin.py:115} INFO - [2022-06-26 13:46:43,867] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:44,059] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:46:44,074] {logging_mixin.py:115} INFO - [2022-06-26 13:46:44,074] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:46:44,085] {logging_mixin.py:115} INFO - [2022-06-26 13:46:44,085] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:46:44,093] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.231 seconds
+[2022-06-26 13:47:14,740] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:14,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:47:14,744] {logging_mixin.py:115} INFO - [2022-06-26 13:47:14,744] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:14,948] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:14,965] {logging_mixin.py:115} INFO - [2022-06-26 13:47:14,965] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:14,980] {logging_mixin.py:115} INFO - [2022-06-26 13:47:14,980] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:47:14,989] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.252 seconds
+[2022-06-26 13:47:45,834] {processor.py:153} INFO - Started process (PID=1247) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:45,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:47:45,838] {logging_mixin.py:115} INFO - [2022-06-26 13:47:45,838] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:46,029] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:47:46,047] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,047] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:47:46,060] {logging_mixin.py:115} INFO - [2022-06-26 13:47:46,060] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:47:46,070] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.238 seconds
+[2022-06-26 13:48:16,617] {processor.py:153} INFO - Started process (PID=1307) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:16,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:48:16,623] {logging_mixin.py:115} INFO - [2022-06-26 13:48:16,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:16,846] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:16,863] {logging_mixin.py:115} INFO - [2022-06-26 13:48:16,863] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:16,877] {logging_mixin.py:115} INFO - [2022-06-26 13:48:16,876] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:48:16,886] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.272 seconds
+[2022-06-26 13:48:47,418] {processor.py:153} INFO - Started process (PID=1358) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:47,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:48:47,421] {logging_mixin.py:115} INFO - [2022-06-26 13:48:47,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:47,622] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:48:47,636] {logging_mixin.py:115} INFO - [2022-06-26 13:48:47,636] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:48:47,649] {logging_mixin.py:115} INFO - [2022-06-26 13:48:47,649] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:48:47,655] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.240 seconds
+[2022-06-26 13:49:18,244] {processor.py:153} INFO - Started process (PID=1418) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:18,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:49:18,247] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,247] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:18,451] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:18,465] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,464] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:18,477] {logging_mixin.py:115} INFO - [2022-06-26 13:49:18,477] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:49:18,484] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.242 seconds
+[2022-06-26 13:49:48,926] {processor.py:153} INFO - Started process (PID=1479) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:48,928] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:49:48,929] {logging_mixin.py:115} INFO - [2022-06-26 13:49:48,929] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:49,125] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:49:49,140] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:49:49,152] {logging_mixin.py:115} INFO - [2022-06-26 13:49:49,152] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:49:49,159] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.235 seconds
+[2022-06-26 13:50:19,665] {processor.py:153} INFO - Started process (PID=1541) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:19,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:50:19,669] {logging_mixin.py:115} INFO - [2022-06-26 13:50:19,668] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:19,889] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:19,907] {logging_mixin.py:115} INFO - [2022-06-26 13:50:19,906] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:19,924] {logging_mixin.py:115} INFO - [2022-06-26 13:50:19,924] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:50:19,937] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.275 seconds
+[2022-06-26 13:50:50,489] {processor.py:153} INFO - Started process (PID=1602) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:50,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:50:50,493] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,493] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:50,702] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:50:50,718] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,717] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:50:50,730] {logging_mixin.py:115} INFO - [2022-06-26 13:50:50,730] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:50:50,737] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.250 seconds
+[2022-06-26 13:51:21,166] {processor.py:153} INFO - Started process (PID=1662) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:21,169] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:51:21,170] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,170] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:21,360] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:21,374] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,374] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:21,386] {logging_mixin.py:115} INFO - [2022-06-26 13:51:21,386] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:51:21,394] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.229 seconds
+[2022-06-26 13:51:51,937] {processor.py:153} INFO - Started process (PID=1722) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:51,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:51:51,939] {logging_mixin.py:115} INFO - [2022-06-26 13:51:51,939] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:52,128] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:51:52,142] {logging_mixin.py:115} INFO - [2022-06-26 13:51:52,142] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:51:52,154] {logging_mixin.py:115} INFO - [2022-06-26 13:51:52,154] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:51:52,161] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.227 seconds
+[2022-06-26 13:52:22,773] {processor.py:153} INFO - Started process (PID=1773) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:22,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:52:22,777] {logging_mixin.py:115} INFO - [2022-06-26 13:52:22,777] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:22,968] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:22,983] {logging_mixin.py:115} INFO - [2022-06-26 13:52:22,983] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:22,996] {logging_mixin.py:115} INFO - [2022-06-26 13:52:22,996] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:52:23,003] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.232 seconds
+[2022-06-26 13:52:53,841] {processor.py:153} INFO - Started process (PID=1833) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:53,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:52:53,844] {logging_mixin.py:115} INFO - [2022-06-26 13:52:53,844] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:54,042] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:52:54,058] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,057] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:52:54,071] {logging_mixin.py:115} INFO - [2022-06-26 13:52:54,071] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:52:54,077] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.239 seconds
+[2022-06-26 13:53:24,525] {processor.py:153} INFO - Started process (PID=1894) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:24,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:53:24,528] {logging_mixin.py:115} INFO - [2022-06-26 13:53:24,528] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:24,787] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:24,809] {logging_mixin.py:115} INFO - [2022-06-26 13:53:24,808] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:24,824] {logging_mixin.py:115} INFO - [2022-06-26 13:53:24,824] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:53:24,834] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.311 seconds
+[2022-06-26 13:53:55,392] {processor.py:153} INFO - Started process (PID=1955) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:55,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:53:55,397] {logging_mixin.py:115} INFO - [2022-06-26 13:53:55,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:55,693] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:53:55,714] {logging_mixin.py:115} INFO - [2022-06-26 13:53:55,713] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:53:55,731] {logging_mixin.py:115} INFO - [2022-06-26 13:53:55,731] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:53:55,740] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.351 seconds
+[2022-06-26 13:54:26,527] {processor.py:153} INFO - Started process (PID=2015) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:26,530] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:54:26,531] {logging_mixin.py:115} INFO - [2022-06-26 13:54:26,531] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:26,746] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:26,762] {logging_mixin.py:115} INFO - [2022-06-26 13:54:26,762] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:26,775] {logging_mixin.py:115} INFO - [2022-06-26 13:54:26,775] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:54:26,783] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.259 seconds
+[2022-06-26 13:54:57,361] {processor.py:153} INFO - Started process (PID=2076) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:57,363] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:54:57,364] {logging_mixin.py:115} INFO - [2022-06-26 13:54:57,364] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:57,594] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:54:57,611] {logging_mixin.py:115} INFO - [2022-06-26 13:54:57,611] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:54:57,625] {logging_mixin.py:115} INFO - [2022-06-26 13:54:57,625] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:54:57,633] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.275 seconds
+[2022-06-26 13:55:28,281] {processor.py:153} INFO - Started process (PID=2136) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:28,283] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:55:28,285] {logging_mixin.py:115} INFO - [2022-06-26 13:55:28,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:28,487] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:28,504] {logging_mixin.py:115} INFO - [2022-06-26 13:55:28,503] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:28,517] {logging_mixin.py:115} INFO - [2022-06-26 13:55:28,517] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:55:28,524] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.246 seconds
+[2022-06-26 13:55:59,379] {processor.py:153} INFO - Started process (PID=2197) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:59,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:55:59,383] {logging_mixin.py:115} INFO - [2022-06-26 13:55:59,383] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:59,683] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:55:59,700] {logging_mixin.py:115} INFO - [2022-06-26 13:55:59,700] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:55:59,714] {logging_mixin.py:115} INFO - [2022-06-26 13:55:59,713] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:55:59,721] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.345 seconds
+[2022-06-26 13:56:30,246] {processor.py:153} INFO - Started process (PID=2247) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:56:30,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:56:30,252] {logging_mixin.py:115} INFO - [2022-06-26 13:56:30,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:56:30,490] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:56:30,512] {logging_mixin.py:115} INFO - [2022-06-26 13:56:30,511] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:56:30,531] {logging_mixin.py:115} INFO - [2022-06-26 13:56:30,531] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:56:30,547] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.303 seconds
+[2022-06-26 13:57:01,271] {processor.py:153} INFO - Started process (PID=2310) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:01,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:57:01,276] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,276] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:01,495] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:01,513] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,513] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:01,529] {logging_mixin.py:115} INFO - [2022-06-26 13:57:01,529] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:57:01,538] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.270 seconds
+[2022-06-26 13:57:31,684] {processor.py:153} INFO - Started process (PID=2371) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:31,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:57:31,689] {logging_mixin.py:115} INFO - [2022-06-26 13:57:31,689] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:31,884] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:57:31,897] {logging_mixin.py:115} INFO - [2022-06-26 13:57:31,897] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:57:31,910] {logging_mixin.py:115} INFO - [2022-06-26 13:57:31,910] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:57:31,919] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.238 seconds
+[2022-06-26 13:58:02,507] {processor.py:153} INFO - Started process (PID=2432) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:02,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:58:02,510] {logging_mixin.py:115} INFO - [2022-06-26 13:58:02,510] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:02,707] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:02,721] {logging_mixin.py:115} INFO - [2022-06-26 13:58:02,721] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:02,737] {logging_mixin.py:115} INFO - [2022-06-26 13:58:02,737] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:58:02,746] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.242 seconds
+[2022-06-26 13:58:33,430] {processor.py:153} INFO - Started process (PID=2493) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:33,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:58:33,434] {logging_mixin.py:115} INFO - [2022-06-26 13:58:33,434] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:33,664] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:58:33,682] {logging_mixin.py:115} INFO - [2022-06-26 13:58:33,682] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:58:33,697] {logging_mixin.py:115} INFO - [2022-06-26 13:58:33,697] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:58:33,704] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.277 seconds
+[2022-06-26 13:59:03,768] {processor.py:153} INFO - Started process (PID=2553) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:03,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:59:03,772] {logging_mixin.py:115} INFO - [2022-06-26 13:59:03,772] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:03,961] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:03,975] {logging_mixin.py:115} INFO - [2022-06-26 13:59:03,975] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:03,987] {logging_mixin.py:115} INFO - [2022-06-26 13:59:03,987] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:59:03,995] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.230 seconds
+[2022-06-26 13:59:34,364] {processor.py:153} INFO - Started process (PID=2614) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:34,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 13:59:34,370] {logging_mixin.py:115} INFO - [2022-06-26 13:59:34,370] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:34,735] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 13:59:34,754] {logging_mixin.py:115} INFO - [2022-06-26 13:59:34,754] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 13:59:34,776] {logging_mixin.py:115} INFO - [2022-06-26 13:59:34,776] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 13:59:34,785] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.424 seconds
+[2022-06-26 14:00:05,169] {processor.py:153} INFO - Started process (PID=2664) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:05,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:00:05,173] {logging_mixin.py:115} INFO - [2022-06-26 14:00:05,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:05,374] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:05,390] {logging_mixin.py:115} INFO - [2022-06-26 14:00:05,389] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:05,403] {logging_mixin.py:115} INFO - [2022-06-26 14:00:05,403] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:00:05,409] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.243 seconds
+[2022-06-26 14:00:35,901] {processor.py:153} INFO - Started process (PID=2728) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:35,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:00:35,905] {logging_mixin.py:115} INFO - [2022-06-26 14:00:35,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:36,135] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:00:36,152] {logging_mixin.py:115} INFO - [2022-06-26 14:00:36,151] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:00:36,166] {logging_mixin.py:115} INFO - [2022-06-26 14:00:36,165] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:00:36,173] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.275 seconds
+[2022-06-26 14:01:06,469] {processor.py:153} INFO - Started process (PID=2789) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:06,472] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:01:06,473] {logging_mixin.py:115} INFO - [2022-06-26 14:01:06,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:06,679] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:06,694] {logging_mixin.py:115} INFO - [2022-06-26 14:01:06,694] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:06,712] {logging_mixin.py:115} INFO - [2022-06-26 14:01:06,712] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:01:06,720] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.253 seconds
+[2022-06-26 14:01:37,147] {processor.py:153} INFO - Started process (PID=2850) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:37,149] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:01:37,151] {logging_mixin.py:115} INFO - [2022-06-26 14:01:37,151] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:37,363] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:01:37,378] {logging_mixin.py:115} INFO - [2022-06-26 14:01:37,378] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:01:37,390] {logging_mixin.py:115} INFO - [2022-06-26 14:01:37,390] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:01:37,397] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.252 seconds
+[2022-06-26 14:02:07,965] {processor.py:153} INFO - Started process (PID=2911) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:07,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:02:07,969] {logging_mixin.py:115} INFO - [2022-06-26 14:02:07,969] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:08,212] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:08,228] {logging_mixin.py:115} INFO - [2022-06-26 14:02:08,228] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:08,247] {logging_mixin.py:115} INFO - [2022-06-26 14:02:08,247] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:02:08,260] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.297 seconds
+[2022-06-26 14:02:39,203] {processor.py:153} INFO - Started process (PID=2972) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:39,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:02:39,206] {logging_mixin.py:115} INFO - [2022-06-26 14:02:39,206] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:39,437] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:02:39,454] {logging_mixin.py:115} INFO - [2022-06-26 14:02:39,454] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:02:39,469] {logging_mixin.py:115} INFO - [2022-06-26 14:02:39,469] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:02:39,479] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.279 seconds
+[2022-06-26 14:03:10,003] {processor.py:153} INFO - Started process (PID=3033) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:10,007] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:03:10,009] {logging_mixin.py:115} INFO - [2022-06-26 14:03:10,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:10,260] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:10,280] {logging_mixin.py:115} INFO - [2022-06-26 14:03:10,280] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:10,296] {logging_mixin.py:115} INFO - [2022-06-26 14:03:10,296] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:03:10,311] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.311 seconds
+[2022-06-26 14:03:41,040] {processor.py:153} INFO - Started process (PID=3084) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:41,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:03:41,044] {logging_mixin.py:115} INFO - [2022-06-26 14:03:41,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:41,271] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:03:41,286] {logging_mixin.py:115} INFO - [2022-06-26 14:03:41,285] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:03:41,299] {logging_mixin.py:115} INFO - [2022-06-26 14:03:41,299] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:03:41,306] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.268 seconds
+[2022-06-26 14:04:11,834] {processor.py:153} INFO - Started process (PID=3145) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:11,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:04:11,841] {logging_mixin.py:115} INFO - [2022-06-26 14:04:11,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:12,069] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:12,089] {logging_mixin.py:115} INFO - [2022-06-26 14:04:12,089] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:12,105] {logging_mixin.py:115} INFO - [2022-06-26 14:04:12,105] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:04:12,116] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.285 seconds
+[2022-06-26 14:04:42,844] {processor.py:153} INFO - Started process (PID=3207) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:42,847] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:04:42,848] {logging_mixin.py:115} INFO - [2022-06-26 14:04:42,848] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:43,054] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:04:43,070] {logging_mixin.py:115} INFO - [2022-06-26 14:04:43,070] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:04:43,083] {logging_mixin.py:115} INFO - [2022-06-26 14:04:43,083] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:04:43,091] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.250 seconds
+[2022-06-26 14:05:13,651] {processor.py:153} INFO - Started process (PID=3268) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:13,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:05:13,655] {logging_mixin.py:115} INFO - [2022-06-26 14:05:13,655] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:13,909] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:13,930] {logging_mixin.py:115} INFO - [2022-06-26 14:05:13,930] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:13,953] {logging_mixin.py:115} INFO - [2022-06-26 14:05:13,953] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:05:13,967] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.320 seconds
+[2022-06-26 14:05:44,128] {processor.py:153} INFO - Started process (PID=3329) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:44,129] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:05:44,131] {logging_mixin.py:115} INFO - [2022-06-26 14:05:44,130] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:44,397] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:05:44,413] {logging_mixin.py:115} INFO - [2022-06-26 14:05:44,412] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:05:44,427] {logging_mixin.py:115} INFO - [2022-06-26 14:05:44,427] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:05:44,434] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.309 seconds
+[2022-06-26 14:09:50,227] {processor.py:153} INFO - Started process (PID=3371) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:09:50,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:09:50,244] {logging_mixin.py:115} INFO - [2022-06-26 14:09:50,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:09:50,907] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:09:50,985] {logging_mixin.py:115} INFO - [2022-06-26 14:09:50,984] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:09:51,018] {logging_mixin.py:115} INFO - [2022-06-26 14:09:51,018] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:09:51,042] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.824 seconds
+[2022-06-26 14:10:21,307] {processor.py:153} INFO - Started process (PID=3431) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:21,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:10:21,309] {logging_mixin.py:115} INFO - [2022-06-26 14:10:21,309] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:21,518] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:21,535] {logging_mixin.py:115} INFO - [2022-06-26 14:10:21,535] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:21,550] {logging_mixin.py:115} INFO - [2022-06-26 14:10:21,550] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:10:21,558] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.253 seconds
+[2022-06-26 14:10:51,725] {processor.py:153} INFO - Started process (PID=3492) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:51,726] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:10:51,728] {logging_mixin.py:115} INFO - [2022-06-26 14:10:51,728] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:52,032] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:10:52,054] {logging_mixin.py:115} INFO - [2022-06-26 14:10:52,054] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:10:52,071] {logging_mixin.py:115} INFO - [2022-06-26 14:10:52,070] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:10:52,080] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.357 seconds
+[2022-06-26 14:11:22,137] {processor.py:153} INFO - Started process (PID=3553) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:22,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:11:22,139] {logging_mixin.py:115} INFO - [2022-06-26 14:11:22,139] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:22,355] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:22,372] {logging_mixin.py:115} INFO - [2022-06-26 14:11:22,371] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:22,386] {logging_mixin.py:115} INFO - [2022-06-26 14:11:22,386] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:11:22,395] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.260 seconds
+[2022-06-26 14:11:52,511] {processor.py:153} INFO - Started process (PID=3614) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:52,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:11:52,514] {logging_mixin.py:115} INFO - [2022-06-26 14:11:52,514] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:52,731] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:11:52,744] {logging_mixin.py:115} INFO - [2022-06-26 14:11:52,744] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:11:52,755] {logging_mixin.py:115} INFO - [2022-06-26 14:11:52,755] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:11:52,761] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.253 seconds
+[2022-06-26 14:12:22,842] {processor.py:153} INFO - Started process (PID=3675) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:22,844] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:12:22,845] {logging_mixin.py:115} INFO - [2022-06-26 14:12:22,845] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:23,045] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:23,058] {logging_mixin.py:115} INFO - [2022-06-26 14:12:23,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:23,069] {logging_mixin.py:115} INFO - [2022-06-26 14:12:23,069] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:12:23,074] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.235 seconds
+[2022-06-26 14:12:53,122] {processor.py:153} INFO - Started process (PID=4167) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:53,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:12:53,125] {logging_mixin.py:115} INFO - [2022-06-26 14:12:53,124] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:53,384] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:12:53,398] {logging_mixin.py:115} INFO - [2022-06-26 14:12:53,398] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:12:53,410] {logging_mixin.py:115} INFO - [2022-06-26 14:12:53,410] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:12:53,416] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.296 seconds
+[2022-06-26 14:13:23,938] {processor.py:153} INFO - Started process (PID=4701) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:23,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:13:23,940] {logging_mixin.py:115} INFO - [2022-06-26 14:13:23,940] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:24,195] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:24,219] {logging_mixin.py:115} INFO - [2022-06-26 14:13:24,218] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:24,242] {logging_mixin.py:115} INFO - [2022-06-26 14:13:24,242] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:13:24,251] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.315 seconds
+[2022-06-26 14:13:54,463] {processor.py:153} INFO - Started process (PID=5691) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:54,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:13:54,467] {logging_mixin.py:115} INFO - [2022-06-26 14:13:54,467] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:54,716] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:13:54,735] {logging_mixin.py:115} INFO - [2022-06-26 14:13:54,734] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:13:54,748] {logging_mixin.py:115} INFO - [2022-06-26 14:13:54,747] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:13:54,755] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.293 seconds
+[2022-06-26 14:14:24,811] {processor.py:153} INFO - Started process (PID=6052) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:24,813] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:14:24,815] {logging_mixin.py:115} INFO - [2022-06-26 14:14:24,815] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:25,092] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:25,108] {logging_mixin.py:115} INFO - [2022-06-26 14:14:25,108] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:25,127] {logging_mixin.py:115} INFO - [2022-06-26 14:14:25,127] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:14:25,139] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.329 seconds
+[2022-06-26 14:14:55,299] {processor.py:153} INFO - Started process (PID=6427) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:55,301] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:14:55,302] {logging_mixin.py:115} INFO - [2022-06-26 14:14:55,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:55,511] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:14:55,527] {logging_mixin.py:115} INFO - [2022-06-26 14:14:55,527] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:14:55,539] {logging_mixin.py:115} INFO - [2022-06-26 14:14:55,539] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:14:55,546] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.249 seconds
+[2022-06-26 14:15:25,978] {processor.py:153} INFO - Started process (PID=6790) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:25,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:15:25,981] {logging_mixin.py:115} INFO - [2022-06-26 14:15:25,981] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:26,221] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:26,244] {logging_mixin.py:115} INFO - [2022-06-26 14:15:26,243] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:26,258] {logging_mixin.py:115} INFO - [2022-06-26 14:15:26,258] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:15:26,266] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.290 seconds
+[2022-06-26 14:15:56,582] {processor.py:153} INFO - Started process (PID=7166) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:56,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:15:56,585] {logging_mixin.py:115} INFO - [2022-06-26 14:15:56,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:56,921] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:15:56,947] {logging_mixin.py:115} INFO - [2022-06-26 14:15:56,947] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:15:56,968] {logging_mixin.py:115} INFO - [2022-06-26 14:15:56,968] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:15:56,988] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.408 seconds
+[2022-06-26 14:16:27,373] {processor.py:153} INFO - Started process (PID=9078) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:27,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:16:27,375] {logging_mixin.py:115} INFO - [2022-06-26 14:16:27,375] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:27,655] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:27,676] {logging_mixin.py:115} INFO - [2022-06-26 14:16:27,676] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:27,691] {logging_mixin.py:115} INFO - [2022-06-26 14:16:27,691] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:16:27,699] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.329 seconds
+[2022-06-26 14:16:57,834] {processor.py:153} INFO - Started process (PID=9860) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:57,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:16:57,837] {logging_mixin.py:115} INFO - [2022-06-26 14:16:57,837] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:58,027] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:16:58,040] {logging_mixin.py:115} INFO - [2022-06-26 14:16:58,040] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:16:58,052] {logging_mixin.py:115} INFO - [2022-06-26 14:16:58,052] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:16:58,058] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.226 seconds
+[2022-06-26 14:17:28,478] {processor.py:153} INFO - Started process (PID=10589) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:28,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:17:28,482] {logging_mixin.py:115} INFO - [2022-06-26 14:17:28,482] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:28,739] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:28,757] {logging_mixin.py:115} INFO - [2022-06-26 14:17:28,756] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:28,775] {logging_mixin.py:115} INFO - [2022-06-26 14:17:28,775] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:17:28,787] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.312 seconds
+[2022-06-26 14:17:59,007] {processor.py:153} INFO - Started process (PID=11354) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:59,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:17:59,009] {logging_mixin.py:115} INFO - [2022-06-26 14:17:59,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:59,248] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:17:59,266] {logging_mixin.py:115} INFO - [2022-06-26 14:17:59,265] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:17:59,279] {logging_mixin.py:115} INFO - [2022-06-26 14:17:59,279] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:17:59,286] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.281 seconds
+[2022-06-26 14:18:29,620] {processor.py:153} INFO - Started process (PID=12164) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:18:29,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:18:29,625] {logging_mixin.py:115} INFO - [2022-06-26 14:18:29,625] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:18:29,899] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:18:29,942] {logging_mixin.py:115} INFO - [2022-06-26 14:18:29,941] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:18:29,965] {logging_mixin.py:115} INFO - [2022-06-26 14:18:29,964] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:18:29,979] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.361 seconds
+[2022-06-26 14:19:00,725] {processor.py:153} INFO - Started process (PID=12546) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:00,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:19:00,728] {logging_mixin.py:115} INFO - [2022-06-26 14:19:00,728] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:00,953] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:00,971] {logging_mixin.py:115} INFO - [2022-06-26 14:19:00,971] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:00,985] {logging_mixin.py:115} INFO - [2022-06-26 14:19:00,985] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:19:00,993] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.270 seconds
+[2022-06-26 14:19:31,684] {processor.py:153} INFO - Started process (PID=13544) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:31,687] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:19:31,688] {logging_mixin.py:115} INFO - [2022-06-26 14:19:31,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:31,966] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:19:31,986] {logging_mixin.py:115} INFO - [2022-06-26 14:19:31,986] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:19:32,003] {logging_mixin.py:115} INFO - [2022-06-26 14:19:32,003] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:19:32,014] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.332 seconds
+[2022-06-26 14:20:02,671] {processor.py:153} INFO - Started process (PID=14320) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:20:02,673] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:20:02,674] {logging_mixin.py:115} INFO - [2022-06-26 14:20:02,673] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:20:02,932] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:20:02,952] {logging_mixin.py:115} INFO - [2022-06-26 14:20:02,952] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:20:02,968] {logging_mixin.py:115} INFO - [2022-06-26 14:20:02,968] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:20:02,977] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.308 seconds
+[2022-06-26 14:53:06,274] {processor.py:153} INFO - Started process (PID=14779) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:53:06,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 14:53:06,277] {logging_mixin.py:115} INFO - [2022-06-26 14:53:06,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:53:07,018] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 14:53:07,078] {logging_mixin.py:115} INFO - [2022-06-26 14:53:07,077] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 14:53:07,153] {logging_mixin.py:115} INFO - [2022-06-26 14:53:07,144] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 14:53:07,193] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.921 seconds
+[2022-06-26 16:15:57,720] {processor.py:153} INFO - Started process (PID=15143) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 16:15:57,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 16:15:57,732] {logging_mixin.py:115} INFO - [2022-06-26 16:15:57,732] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 16:15:58,118] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 16:15:58,158] {logging_mixin.py:115} INFO - [2022-06-26 16:15:58,156] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 16:15:58,191] {logging_mixin.py:115} INFO - [2022-06-26 16:15:58,190] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 16:15:58,213] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.497 seconds
+[2022-06-26 17:21:19,870] {processor.py:153} INFO - Started process (PID=15517) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 17:21:19,874] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 17:21:19,877] {logging_mixin.py:115} INFO - [2022-06-26 17:21:19,877] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 17:21:20,330] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 17:21:20,352] {logging_mixin.py:115} INFO - [2022-06-26 17:21:20,352] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 17:21:20,368] {logging_mixin.py:115} INFO - [2022-06-26 17:21:20,368] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 17:21:20,385] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.521 seconds
+[2022-06-26 18:41:35,827] {processor.py:153} INFO - Started process (PID=15883) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 18:41:35,831] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 18:41:35,834] {logging_mixin.py:115} INFO - [2022-06-26 18:41:35,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 18:41:36,269] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 18:41:36,308] {logging_mixin.py:115} INFO - [2022-06-26 18:41:36,307] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 18:41:36,357] {logging_mixin.py:115} INFO - [2022-06-26 18:41:36,357] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 18:41:36,400] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.576 seconds
+[2022-06-26 20:03:38,257] {processor.py:153} INFO - Started process (PID=16172) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 20:03:38,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 20:03:38,263] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 20:03:38,542] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 20:03:38,577] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,575] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 20:03:38,599] {logging_mixin.py:115} INFO - [2022-06-26 20:03:38,599] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 20:03:38,618] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.366 seconds
+[2022-06-26 21:23:30,462] {processor.py:153} INFO - Started process (PID=16437) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 21:23:30,463] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 21:23:30,467] {logging_mixin.py:115} INFO - [2022-06-26 21:23:30,467] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 21:23:30,806] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 21:23:30,848] {logging_mixin.py:115} INFO - [2022-06-26 21:23:30,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 21:23:30,879] {logging_mixin.py:115} INFO - [2022-06-26 21:23:30,879] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 21:23:30,900] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.442 seconds
+[2022-06-26 22:29:30,747] {processor.py:153} INFO - Started process (PID=16735) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 22:29:30,749] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 22:29:30,752] {logging_mixin.py:115} INFO - [2022-06-26 22:29:30,751] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 22:29:30,987] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 22:29:31,016] {logging_mixin.py:115} INFO - [2022-06-26 22:29:31,015] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 22:29:31,041] {logging_mixin.py:115} INFO - [2022-06-26 22:29:31,041] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 22:29:31,056] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.312 seconds
+[2022-06-26 23:11:55,167] {processor.py:153} INFO - Started process (PID=17033) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:11:55,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 23:11:55,169] {logging_mixin.py:115} INFO - [2022-06-26 23:11:55,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:11:55,684] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:11:55,750] {logging_mixin.py:115} INFO - [2022-06-26 23:11:55,749] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:11:55,793] {logging_mixin.py:115} INFO - [2022-06-26 23:11:55,793] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:11:55,820] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.656 seconds
+[2022-06-26 23:12:26,777] {processor.py:153} INFO - Started process (PID=17334) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:26,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 23:12:26,781] {logging_mixin.py:115} INFO - [2022-06-26 23:12:26,781] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:26,902] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:26,920] {logging_mixin.py:115} INFO - [2022-06-26 23:12:26,919] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:26,933] {logging_mixin.py:115} INFO - [2022-06-26 23:12:26,933] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:12:26,940] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.167 seconds
+[2022-06-26 23:12:57,550] {processor.py:153} INFO - Started process (PID=17607) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:57,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 23:12:57,554] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:57,702] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:12:57,725] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,725] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:12:57,747] {logging_mixin.py:115} INFO - [2022-06-26 23:12:57,747] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:12:57,758] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.210 seconds
+[2022-06-26 23:31:48,388] {processor.py:153} INFO - Started process (PID=17875) to work on /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:31:48,393] {processor.py:641} INFO - Processing file /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py for tasks to queue
+[2022-06-26 23:31:48,396] {logging_mixin.py:115} INFO - [2022-06-26 23:31:48,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:31:48,689] {processor.py:651} INFO - DAG(s) dict_keys(['3_1_dummy_scheduled']) retrieved from /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py
+[2022-06-26 23:31:48,718] {logging_mixin.py:115} INFO - [2022-06-26 23:31:48,717] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-06-26 23:31:48,747] {logging_mixin.py:115} INFO - [2022-06-26 23:31:48,747] {dag.py:2919} INFO - Setting next_dagrun for 3_1_dummy_scheduled to 2019-01-01T00:00:00+00:00, run_after=2019-01-02T00:00:00+00:00
+[2022-06-26 23:31:48,761] {processor.py:161} INFO - Processing /opt/airflow/dags/chapter03/3_1_dummy_scheduled.py took 0.377 seconds
